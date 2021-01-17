@@ -1,60 +1,70 @@
 package org.pure.algorithm.longestSubstring;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * @author zhangjianhua
  * @date 2021-01-17 02:37
  * @description 无重复字符的最长子串长度
  */
+@SuppressWarnings("unused")
 public class Main {
 
     public static void main(String[] args) {
+        // 获取输入结果
         Scanner scanner = new Scanner(System.in);
         String str = scanner.next();
         scanner.close();
-        int size = lengthOfLongestSubstring(str);
+
+        // 获取输出结果
+//        int size = lengthOfLongestSubstring1(str);
+//        System.out.println(size);
+        int size = lengthOfLongestSubstring2(str);
         System.out.println(size);
     }
 
-//    private static int lengthOfLongestSubstring(String s) {
-//        // 最长字串长度
-//        int size = 0;
-//
-//        if (s != null && !"".equals(s) && s.length() > 0) {
-//            // 最长字串列表
-//            List<Character> charList = new ArrayList<>();
-//
-//            // 遍历i次，获得i次最长字串长度
-//            for (int i = 0; i <= s.length() - 1; ++i) {
-//                // 构造最长字串列表
-//                for (int j = i; j <= s.length() - 1; ++j) {
-//                    char c = s.charAt(j);
-//
-//                    // 判断字符是否在最长字串列表中
-//                    if (charList.contains(c)) {
-//                        break;
-//                    } else {
-//                        charList.add(c);
-//                    }
-//                }
-//
-//                // 更新最长字串长度
-//                if (charList.size() > size) {
-//                    size = charList.size();
-//                }
-//
-//                // 字串列表清空元素
-//                charList.clear();
-//            }
-//        }
-//
-//        return size;
-//    }
+    /**
+     * 方法1：两个for循环完成
+     */
+    private static int lengthOfLongestSubstring1(String s) {
+        // 最长字串长度
+        int size = 0;
 
-    private static int lengthOfLongestSubstring(String s) {
+        if (s != null && !"".equals(s) && s.length() > 0) {
+            // 最长字串列表
+            List<Character> charList = new ArrayList<>();
+
+            // 遍历i次，获得i次最长字串长度
+            for (int i = 0; i <= s.length() - 1; ++i) {
+                // 构造最长字串列表
+                for (int j = i; j <= s.length() - 1; ++j) {
+                    char c = s.charAt(j);
+
+                    // 判断字符是否在最长字串列表中
+                    if (charList.contains(c)) {
+                        break;
+                    } else {
+                        charList.add(c);
+                    }
+                }
+
+                // 更新最长字串长度
+                if (charList.size() > size) {
+                    size = charList.size();
+                }
+
+                // 字串列表清空元素
+                charList.clear();
+            }
+        }
+
+        return size;
+    }
+
+    /**
+     * 方法2：一个for循环完成
+     */
+    private static int lengthOfLongestSubstring2(String s) {
         // 最长字串长度
         int size = 0;
 
