@@ -37,7 +37,7 @@ https://leetcode-cn.com/problems/longest-substring-without-repeating-characters
 
 提示：
 
-0 <= s.length <= 5 * 104
+0 <= s.length <= 5 * 10^4
 s 由英文字母、数字、符号和空格组成
 ```
 

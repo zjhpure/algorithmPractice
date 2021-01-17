@@ -33,9 +33,9 @@ https://leetcode-cn.com/problems/two-sum
 
 提示：
 
-2 <= nums.length <= 103
--109 <= nums[i] <= 109
--109 <= target <= 109
+2 <= nums.length <= 10^3
+-10^9 <= nums[i] <= 10^9
+-10^9 <= target <= 10^9
 只会存在一个有效答案
 ```
 
