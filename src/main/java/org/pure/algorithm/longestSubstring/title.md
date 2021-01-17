@@ -1,32 +1,57 @@
-package org.pure.algorithm.longestSubstring;
+## 题目源码路径
 
-import java.util.*;
+/src/main/java/org/pure/algorithm/longestSubstring/Main.java
 
-/**
- * @author zhangjianhua
- * @date 2021-01-17 02:37
- * @description 无重复字符的最长子串
- */
-@SuppressWarnings("unused")
-public class Main {
+## 题目地址(无重复字符的最长子串)
 
-    public static void main(String[] args) {
-        // 获取输入结果
-        Scanner scanner = new Scanner(System.in);
-        String str = scanner.next();
-        scanner.close();
+https://leetcode-cn.com/problems/longest-substring-without-repeating-characters
 
-        // 获取输出结果
-//        int size = lengthOfLongestSubstring1(str);
-//        System.out.println(size);
-        int size = lengthOfLongestSubstring2(str);
-        System.out.println(size);
-    }
+## 题目描述
+
+```
+给定一个字符串，请你找出其中不含有重复字符的 最长子串的长度。
+
+示例1:
+
+输入: s = "abcabcbb"
+输出: 3 
+解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。
+
+示例2:
+
+输入: s = "bbbbb"
+输出: 1
+解释: 因为无重复字符的最长子串是 "b"，所以其长度为 1。
+
+示例3:
+
+输入: s = "pwwkew"
+输出: 3
+解释: 因为无重复字符的最长子串是 "wke"，所以其长度为 3。
+     请注意，你的答案必须是 子串 的长度，"pwke" 是一个子序列，不是子串。
+
+示例4:
+
+输入: s = ""
+输出: 0
+
+提示：
+
+0 <= s.length <= 5 * 104
+s 由英文字母、数字、符号和空格组成
+```
+
+## 代码
+
+- 语言支持：Java
+
+```
+class Solution {
 
     /**
      * 方法1：两个for循环完成
      */
-    private static int lengthOfLongestSubstring1(String s) {
+    public int lengthOfLongestSubstring(String s) {
         // 最长字串长度
         int size = 0;
 
@@ -61,10 +86,16 @@ public class Main {
         return size;
     }
 
+}
+```
+
+``
+class Solution {
+
     /**
      * 方法2：一个for循环完成
      */
-    private static int lengthOfLongestSubstring2(String s) {
+    public int lengthOfLongestSubstring(String s) {
         // 最长字串长度
         int size = 0;
 
@@ -105,3 +136,4 @@ public class Main {
     }
 
 }
+```
