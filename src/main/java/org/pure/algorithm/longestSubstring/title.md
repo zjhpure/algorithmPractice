@@ -1,4 +1,4 @@
-## 题目源码路径
+## 源码路径
 
 /src/main/java/org/pure/algorithm/longestSubstring/Main.java
 
@@ -43,7 +43,7 @@ s 由英文字母、数字、符号和空格组成
 
 ## 代码
 
-- 语言支持：Java
+- 语言：Java
 
 ```
 class Solution {
