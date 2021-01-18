@@ -12,6 +12,10 @@ GitHub：
 
 * [回文数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/intReverse/title.md)
 
+* [数组中重复的数字](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/repeatNum/title.md)
+
+* [判定字符是否唯一](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/strsUnique/title.md)
+
 
 Gitee：
 
@@ -22,3 +26,7 @@ Gitee：
 * [整数反转](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/palindromeNum/title.md)
 
 * [回文数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/intReverse/title.md)
+
+* [数组中重复的数字](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/repeatNum/title.md)
+
+* [判定字符是否唯一](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/strsUnique/title.md)
