@@ -1,6 +1,6 @@
 ## 源码路径
 
-/src/main/java/org/pure/algorithm/strsUnique/Main.java
+/src/main/java/org/pure/algorithm/strIsUnique/Main.java
 
 ## 题目地址(判定字符是否唯一)
 
