@@ -16,6 +16,7 @@ GitHub：
 
 * [判定字符是否唯一](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/strIsUnique/title.md)
 
+* [最长公共前缀](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/longestCommonPre/title.md)
 
 Gitee：
 
@@ -30,3 +31,5 @@ Gitee：
 * [数组中重复的数字](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/repeatNum/title.md)
 
 * [判定字符是否唯一](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/strIsUnique/title.md)
+
+* [最长公共前缀](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/longestCommonPre/title.md)
