@@ -32,7 +32,7 @@ https://leetcode-cn.com/problems/is-unique-lcci
 - 语言：Java
 
 ```
-class Main {
+class Solution {
 
     public boolean isUnique(String astr) {
         // 第一次从第一个字符遍历到最后第二个字符

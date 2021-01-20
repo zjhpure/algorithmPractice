@@ -29,7 +29,7 @@ https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof
 - 语言：Java
 
 ```
-class Main {
+class Solution {
 
     public int findRepeatNumber(int[] nums) {
         // 构造数组，因为说明了长度为n的数组nums里的所有数字都在0~n-1范围，所以此数组不会越界
