@@ -24,6 +24,8 @@ GitHub：
 
 * [判定是否互为字符重排](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/stringRepeatPermutation/title.md)
 
+* [字符串压缩](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/stringCompress/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -45,3 +47,5 @@ Gitee：
 * [整数转罗马数字](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/intToRoman/title.md)
 
 * [判定是否互为字符重排](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/stringRepeatPermutation/title.md)
+
+* [字符串压缩](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/stringCompress/title.md)
