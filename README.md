@@ -26,6 +26,10 @@ GitHub：
 
 * [字符串压缩](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/stringCompress/title.md)
 
+* [URL化](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/stringToUrl/title.md)
+
+* [回文排列](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/palindromePermutation/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -49,3 +53,7 @@ Gitee：
 * [判定是否互为字符重排](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/stringRepeatPermutation/title.md)
 
 * [字符串压缩](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/stringCompress/title.md)
+
+* [URL化](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/stringToUrl/title.md)
+
+* [回文排列](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/palindromePermutation/title.md)
