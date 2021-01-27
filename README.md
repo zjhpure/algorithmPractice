@@ -30,6 +30,8 @@ GitHub：
 
 * [回文排列](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/palindromePermutation/title.md)
 
+* [有效的括号](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/validParentheses/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -57,3 +59,5 @@ Gitee：
 * [URL化](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/stringToUrl/title.md)
 
 * [回文排列](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/palindromePermutation/title.md)
+
+* [有效的括号](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/validParentheses/title.md)
