@@ -32,6 +32,8 @@ GitHub：
 
 * [有效的括号](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/validParentheses/title.md)
 
+* [寻找数组的中心索引](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/findPivotIndex/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -61,3 +63,5 @@ Gitee：
 * [回文排列](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/palindromePermutation/title.md)
 
 * [有效的括号](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/validParentheses/title.md)
+
+* [寻找数组的中心索引](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/findPivotIndex/title.md)
