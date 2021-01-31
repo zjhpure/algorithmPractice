@@ -36,6 +36,8 @@ GitHub：
 
 * [种花问题](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/canPlaceFlowers/title.md)
 
+* [实现strStr()](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/implementStrstr/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -69,3 +71,5 @@ Gitee：
 * [寻找数组的中心索引](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/findPivotIndex/title.md)
 
 * [种花问题](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/canPlaceFlowers/title.md)
+
+* [实现strStr()](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/implementStrstr/title.md)
