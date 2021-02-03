@@ -42,6 +42,8 @@ GitHub：
 
 * [波那契数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/fibonacciNumber/title.md)
 
+* [x的平方根](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/sqrtx/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -81,3 +83,5 @@ Gitee：
 * [搜索插入位置](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/searchInsertPosition/title.md)
 
 * [波那契数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/fibonacciNumber/title.md)
+
+* [x的平方根](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/sqrtx/title.md)
