@@ -44,6 +44,8 @@ GitHub：
 
 * [x的平方根](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/sqrtx/title.md)
 
+* [爬楼梯](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/climbingStairs/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -85,3 +87,5 @@ Gitee：
 * [波那契数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/fibonacciNumber/title.md)
 
 * [x的平方根](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/sqrtx/title.md)
+
+* [爬楼梯](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/climbingStairs/title.md)
