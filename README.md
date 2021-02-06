@@ -48,7 +48,7 @@ GitHub：
 
 * [最后一个单词的长度](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/lengthOfLastWord/title.md)
 
-* [只出现一次的数字](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/algorithm/title.md)
+* [只出现一次的数字](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/singleNumber/title.md)
 
 Gitee：
 
@@ -96,4 +96,4 @@ Gitee：
 
 * [最后一个单词的长度](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/lengthOfLastWord/title.md)
 
-* [只出现一次的数字](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/algorithm/title.md)
+* [只出现一次的数字](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/singleNumber/title.md)
