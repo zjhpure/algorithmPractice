@@ -52,6 +52,8 @@ GitHub：
 
 * [计数质数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/countPrimes/title.md)
 
+* [丑数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/uglyNumber/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -101,3 +103,5 @@ Gitee：
 * [只出现一次的数字](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/singleNumber/title.md)
 
 * [计数质数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/countPrimes/title.md)
+
+* [丑数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/uglyNumber/title.md)
