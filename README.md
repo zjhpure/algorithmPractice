@@ -56,6 +56,8 @@ GitHub：
 
 * [存在重复元素](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/containsDuplicate/title.md)
 
+* [按奇偶排序数组](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/sortArrayByParity/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -109,3 +111,5 @@ Gitee：
 * [丑数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/uglyNumber/title.md)
 
 * [存在重复元素](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/containsDuplicate/title.md)
+
+* [按奇偶排序数组](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/sortArrayByParity/title.md)
