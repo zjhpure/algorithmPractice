@@ -8,12 +8,10 @@ https://leetcode-cn.com/problems/pascals-triangle-ii
 
 ## 题目描述
 
+![杨辉三角](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
+
 ```
 给定一个非负索引 k，其中 k ≤ 33，返回杨辉三角的第 k 行。
-
-<div align="center"> <img src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/ba078291-791e-4378-b6d1-ece76c2f0b14.png" width="300px"> </div><br>
-
-<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif" width="300px"></div><br>
 
 在杨辉三角中，每个数是它左上方和右上方的数的和。
 
