@@ -58,6 +58,8 @@ GitHub：
 
 * [按奇偶排序数组](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/sortArrayByParity/title.md)
 
+* [杨辉三角II](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/pascalsTriangle2/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -113,3 +115,5 @@ Gitee：
 * [存在重复元素](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/containsDuplicate/title.md)
 
 * [按奇偶排序数组](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/sortArrayByParity/title.md)
+
+* [杨辉三角II](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/pascalsTriangle2/title.md)
