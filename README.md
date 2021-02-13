@@ -62,6 +62,8 @@ GitHub：
 
 * [杨辉三角](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/pascalsTriangle/title.md)
 
+* [找到所有数组中消失的数字](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/findDisappearedNumbers/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -121,3 +123,5 @@ Gitee：
 * [杨辉三角II](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/pascalsTriangle2/title.md)
 
 * [杨辉三角](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/pascalsTriangle/title.md)
+
+* [找到所有数组中消失的数字](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/findDisappearedNumbers/title.md)
