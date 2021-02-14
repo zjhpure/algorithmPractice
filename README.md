@@ -64,6 +64,8 @@ GitHub：
 
 * [找到所有数组中消失的数字](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/findDisappearedNumbers/title.md)
 
+* [字符串的排列](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/permutationInString/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -125,3 +127,5 @@ Gitee：
 * [杨辉三角](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/pascalsTriangle/title.md)
 
 * [找到所有数组中消失的数字](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/findDisappearedNumbers/title.md)
+
+* [字符串的排列](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/permutationInString/title.md)
