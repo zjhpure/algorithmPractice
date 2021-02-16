@@ -36,6 +36,7 @@ https://leetcode-cn.com/problems/permutation-in-string
 
 ```
 class Solution {
+
     // 此方法超出时间限制
     public boolean checkInclusion(String s1, String s2) {
         if (s1.length() <= 0 && s2.length() <= 0) {

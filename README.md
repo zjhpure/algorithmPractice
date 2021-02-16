@@ -68,6 +68,8 @@ GitHub：
 
 * [最大连续1的个数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/maxConsecutiveOnes/title.md)
 
+* [子数组最大平均数I](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/maximumAverageSubarray/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -133,3 +135,5 @@ Gitee：
 * [字符串的排列](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/permutationInString/title.md)
 
 * [最大连续1的个数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/maxConsecutiveOnes/title.md)
+
+* [子数组最大平均数I](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/maximumAverageSubarray/title.md)
