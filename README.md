@@ -74,6 +74,8 @@ GitHub：
 
 * [最大子序和](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/maximumSubarray/title.md)
 
+* [一维数组的动态和](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/runningSumArray/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -145,3 +147,5 @@ Gitee：
 * [全排列](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/permutations/title.md)
 
 * [最大子序和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/maximumSubarray/title.md)
+
+* [一维数组的动态和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/runningSumArray/title.md)
