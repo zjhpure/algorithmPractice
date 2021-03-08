@@ -76,6 +76,8 @@ GitHub：
 
 * [一维数组的动态和](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/runningSumArray/title.md)
 
+* [最富有客户的资产总量](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/richestCustomerWealth/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -149,3 +151,5 @@ Gitee：
 * [最大子序和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/maximumSubarray/title.md)
 
 * [一维数组的动态和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/runningSumArray/title.md)
+
+* [最富有客户的资产总量](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/richestCustomerWealth/title.md)
