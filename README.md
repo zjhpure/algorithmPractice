@@ -80,6 +80,8 @@ GitHub：
 
 * [好数对的数目](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/numOfGoodPairs/title.md)
 
+* [宝石与石头](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/jewelsAndStones/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -157,3 +159,5 @@ Gitee：
 * [最富有客户的资产总量](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/richestCustomerWealth/title.md)
 
 * [好数对的数目](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/numOfGoodPairs/title.md)
+
+* [宝石与石头](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/jewelsAndStones/title.md)
