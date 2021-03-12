@@ -84,6 +84,8 @@ GitHub：
 
 * [重新排列数组](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/shuffleTheArray/title.md)
 
+* [统计一致字符串的数目](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/countConsistentStrings/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -165,3 +167,5 @@ Gitee：
 * [宝石与石头](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/jewelsAndStones/title.md)
 
 * [重新排列数组](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/shuffleTheArray/title.md)
+
+* [统计一致字符串的数目](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/countConsistentStrings/title.md)

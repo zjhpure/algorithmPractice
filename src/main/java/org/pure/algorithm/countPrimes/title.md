@@ -22,7 +22,7 @@ https://leetcode-cn.com/problems/count-primes
 输入：n = 0
 输出：0
 
-示例2:
+示例3:
 
 输入：n = 1
 输出：0
