@@ -36,7 +36,6 @@ public class Main {
 
         // 遍历数组nums
         for (int num : nums) {
-            // 获取数组元素
             if (map.containsKey(num)) {
                 // 若map集合中已有数组元素，数目加1
                 int count = map.get(num);

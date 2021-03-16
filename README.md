@@ -92,6 +92,8 @@ GitHub：
 
 * [唯一元素的和](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/sumOfUniquElements/title.md)
 
+* [独一无二的出现次数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/uniqueNumberOfOccurrences/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -181,3 +183,5 @@ Gitee：
 * [所有奇数长度子数组的和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/sumOfAllOddLengthSubarrays/title.md)
 
 * [唯一元素的和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/sumOfUniquElements/title.md)
+
+* [独一无二的出现次数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/uniqueNumberOfOccurrences/title.md)
