@@ -94,6 +94,8 @@ GitHub：
 
 * [独一无二的出现次数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/uniqueNumberOfOccurrences/title.md)
 
+* [统计位数为偶数的数字](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/findNumsWithEvenNumOfDigits/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -185,3 +187,5 @@ Gitee：
 * [唯一元素的和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/sumOfUniquElements/title.md)
 
 * [独一无二的出现次数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/uniqueNumberOfOccurrences/title.md)
+
+* [统计位数为偶数的数字](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/findNumsWithEvenNumOfDigits/title.md)
