@@ -108,6 +108,8 @@ GitHub：
 
 * [转换成小写字母](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/toLowerCase/title.md)
 
+* [两个数组的交集](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/intersectionOfTwoArrays/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -213,3 +215,5 @@ Gitee：
 * [字符串中的第一个唯一字符](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/firstUniqueCharInString/title.md)
 
 * [转换成小写字母](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/toLowerCase/title.md)
+
+* [两个数组的交集](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/intersectionOfTwoArrays/title.md)
