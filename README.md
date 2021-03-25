@@ -110,6 +110,8 @@ GitHub：
 
 * [两个数组的交集](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/intersectionOfTwoArrays/title.md)
 
+* [单调数列](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/monotonicArray/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -217,3 +219,5 @@ Gitee：
 * [转换成小写字母](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/toLowerCase/title.md)
 
 * [两个数组的交集](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/intersectionOfTwoArrays/title.md)
+
+* [单调数列](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/monotonicArray/title.md)
