@@ -112,6 +112,8 @@ GitHub：
 
 * [单调数列](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/monotonicArray/title.md)
 
+* [字符串中的单词数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/numOfSegmentsInString/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -221,3 +223,5 @@ Gitee：
 * [两个数组的交集](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/intersectionOfTwoArrays/title.md)
 
 * [单调数列](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/monotonicArray/title.md)
+
+* [字符串中的单词数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/numOfSegmentsInString/title.md)
