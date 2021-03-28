@@ -116,6 +116,8 @@ GitHub：
 
 * [移动零](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/moveZeroes/title.md)
 
+* [重复N次的元素](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/nRepeatedElementIn2nArray/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -229,3 +231,5 @@ Gitee：
 * [字符串中的单词数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/numOfSegmentsInString/title.md)
 
 * [移动零](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/moveZeroes/title.md)
+
+* [重复N次的元素](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/nRepeatedElementIn2nArray/title.md)
