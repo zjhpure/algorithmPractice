@@ -118,6 +118,8 @@ GitHub：
 
 * [重复N次的元素](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/nRepeatedElementIn2nArray/title.md)
 
+* [找不同](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/findTheDifference/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -233,3 +235,5 @@ Gitee：
 * [移动零](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/moveZeroes/title.md)
 
 * [重复N次的元素](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/nRepeatedElementIn2nArray/title.md)
+
+* [找不同](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/findTheDifference/title.md)
