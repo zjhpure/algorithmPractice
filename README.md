@@ -124,6 +124,8 @@ GitHub：
 
 * [快乐数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/happyNumber/title.md)
 
+* [第N个泰波那契数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/nThTribonacciNumber/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -245,3 +247,5 @@ Gitee：
 * [有序数组的平方](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/squaresOfASortedArray/title.md)
 
 * [快乐数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/happyNumber/title.md)
+
+* [第N个泰波那契数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/nThTribonacciNumber/title.md)
