@@ -128,6 +128,8 @@ GitHub：
 
 * [第三大的数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/thirdMaximumNumber/title.md)
 
+* [和为零的N个唯一整数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/findNUniqueIntsSumUpToZero/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -253,3 +255,5 @@ Gitee：
 * [第N个泰波那契数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/nThTribonacciNumber/title.md)
 
 * [第三大的数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/thirdMaximumNumber/title.md)
+
+* [和为零的N个唯一整数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/findNUniqueIntsSumUpToZero/title.md)
