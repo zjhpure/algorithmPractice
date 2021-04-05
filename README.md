@@ -132,6 +132,8 @@ GitHub：
 
 * [存在连续三个奇数的数组](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/threeConsecutiveOdds/title.md)
 
+* [找出数组中的幸运数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/findLuckyIntInArray/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -261,3 +263,5 @@ Gitee：
 * [和为零的N个唯一整数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/findNUniqueIntsSumUpToZero/title.md)
 
 * [存在连续三个奇数的数组](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/threeConsecutiveOdds/title.md)
+
+* [找出数组中的幸运数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/findLuckyIntInArray/title.md)
