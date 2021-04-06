@@ -134,6 +134,8 @@ GitHub：
 
 * [找出数组中的幸运数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/findLuckyIntInArray/title.md)
 
+* [第k个缺失的正整数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/kthMissingPositiveNumber/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -265,3 +267,5 @@ Gitee：
 * [存在连续三个奇数的数组](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/threeConsecutiveOdds/title.md)
 
 * [找出数组中的幸运数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/findLuckyIntInArray/title.md)
+
+* [第k个缺失的正整数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/kthMissingPositiveNumber/title.md)
