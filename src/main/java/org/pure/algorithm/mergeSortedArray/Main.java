@@ -31,11 +31,16 @@ public class Main {
         int m = Integer.parseInt(mStr);
 
         // 处理输入结果
-        String[] strs2 = str2.split("\\[")[1].split("]")[0].split(",");
-        int size2 = strs2.length;
-        int[] nums2 = new int[size2];
-        for (int i = 0; i < size2; ++i) {
-            nums2[i] = Integer.parseInt(strs2[i]);
+        int[] nums2;
+        if ("[]".equals(str2)) {
+            nums2 = new int[0];
+        } else {
+            String[] strs2 = str2.split("\\[")[1].split("]")[0].split(",");
+            int size2 = strs2.length;
+            nums2 = new int[size2];
+            for (int i = 0; i < size2; ++i) {
+                nums2[i] = Integer.parseInt(strs2[i]);
+            }
         }
 
         // 处理输入结果

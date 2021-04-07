@@ -80,11 +80,8 @@ class Solution {
                 ++k;
             }
 
-            // 遍历排序后的数组sorted
-            for (int i = 0; i < sorted.length; ++i) {
-                // 赋值给数组nums1的元素
-                nums1[i] = sorted[i];
-            }
+            // 复制排序后的数组sorted给数组nums1
+            System.arraycopy(sorted, 0, nums1, 0, sorted.length);
         }
     }
 
