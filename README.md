@@ -138,6 +138,8 @@ GitHub：
 
 * [合并两个有序数组](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/mergeSortedArray/title.md)
 
+* [将数字变成0的操作次数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/numOfStepsToReduceANumToZero/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -273,3 +275,5 @@ Gitee：
 * [第k个缺失的正整数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/kthMissingPositiveNumber/title.md)
 
 * [合并两个有序数组](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/mergeSortedArray/title.md)
+
+* [将数字变成0的操作次数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/numOfStepsToReduceANumToZero/title.md)
