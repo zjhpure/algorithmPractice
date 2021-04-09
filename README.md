@@ -140,6 +140,8 @@ GitHub：
 
 * [将数字变成0的操作次数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/numOfStepsToReduceANumToZero/title.md)
 
+* [检查两个字符串数组是否相等](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/checkIfTwoStringArraysAreEquivalent/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -277,3 +279,5 @@ Gitee：
 * [合并两个有序数组](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/mergeSortedArray/title.md)
 
 * [将数字变成0的操作次数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/numOfStepsToReduceANumToZero/title.md)
+
+* [检查两个字符串数组是否相等](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/checkIfTwoStringArraysAreEquivalent/title.md)
