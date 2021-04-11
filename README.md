@@ -144,6 +144,8 @@ GitHub：
 
 * [自除数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/selfDividingNumbers/title.md)
 
+* [判断能否形成等差数列](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/canFormProgressionSequence/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -285,3 +287,5 @@ Gitee：
 * [检查两个字符串数组是否相等](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/checkIfTwoStringArraysAreEquivalent/title.md)
 
 * [自除数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/selfDividingNumbers/title.md)
+
+* [判断能否形成等差数列](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/canFormProgressionSequence/title.md)
