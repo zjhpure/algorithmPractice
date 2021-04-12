@@ -148,6 +148,8 @@ GitHub：
 
 * [6和9组成的最大数字](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/maximum69Number/title.md)
 
+* [各位相加](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/addDigits/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -293,3 +295,5 @@ Gitee：
 * [判断能否形成等差数列](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/canFormProgressionSequence/title.md)
 
 * [6和9组成的最大数字](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/maximum69Number/title.md)
+
+* [各位相加](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/addDigits/title.md)
