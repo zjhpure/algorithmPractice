@@ -152,6 +152,8 @@ GitHub：
 
 * [计算力扣银行的钱](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/calculateMoneyInLeetcodeBank/title.md)
 
+* [去掉最低工资和最高工资后的工资平均值](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/averageSalaryExcludingTheMinAndMaxSalary/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -301,3 +303,5 @@ Gitee：
 * [各位相加](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/addDigits/title.md)
 
 * [计算力扣银行的钱](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/calculateMoneyInLeetcodeBank/title.md)
+
+* [去掉最低工资和最高工资后的工资平均值](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/averageSalaryExcludingTheMinAndMaxSalary/title.md)
