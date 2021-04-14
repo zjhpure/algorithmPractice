@@ -150,6 +150,8 @@ GitHub：
 
 * [各位相加](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/addDigits/title.md)
 
+* [计算力扣银行的钱](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/calculateMoneyInLeetcodeBank/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -297,3 +299,5 @@ Gitee：
 * [6和9组成的最大数字](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/maximum69Number/title.md)
 
 * [各位相加](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/addDigits/title.md)
+
+* [计算力扣银行的钱](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/calculateMoneyInLeetcodeBank/title.md)
