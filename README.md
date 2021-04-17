@@ -156,6 +156,8 @@ GitHub：
 
 * [数组序号转换](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/rankTransformOfAnArray/title.md)
 
+* [二分查找](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/binarySearch/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -309,3 +311,5 @@ Gitee：
 * [去掉最低工资和最高工资后的工资平均值](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/averageSalaryExcludingTheMinAndMaxSalary/title.md)
 
 * [数组序号转换](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/rankTransformOfAnArray/title.md)
+
+* [二分查找](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/binarySearch/title.md)
