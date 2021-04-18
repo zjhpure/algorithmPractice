@@ -158,6 +158,8 @@ GitHub：
 
 * [二分查找](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/binarySearch/title.md)
 
+* [两个数组的交集II](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/intersectionOfTwoArrays2/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -313,3 +315,5 @@ Gitee：
 * [数组序号转换](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/rankTransformOfAnArray/title.md)
 
 * [二分查找](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/binarySearch/title.md)
+
+* [两个数组的交集II](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/intersectionOfTwoArrays2/title.md)
