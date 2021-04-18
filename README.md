@@ -160,6 +160,8 @@ GitHub：
 
 * [两个数组的交集II](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/intersectionOfTwoArrays2/title.md)
 
+* [一年中的第几天](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/dayOfTheYear/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -317,3 +319,5 @@ Gitee：
 * [二分查找](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/binarySearch/title.md)
 
 * [两个数组的交集II](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/intersectionOfTwoArrays2/title.md)
+
+* [一年中的第几天](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/dayOfTheYear/title.md)
