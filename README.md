@@ -162,6 +162,8 @@ GitHub：
 
 * [一年中的第几天](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/dayOfTheYear/title.md)
 
+* [转变日期格式](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/reformatDate/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -321,3 +323,5 @@ Gitee：
 * [两个数组的交集II](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/intersectionOfTwoArrays2/title.md)
 
 * [一年中的第几天](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/dayOfTheYear/title.md)
+
+* [转变日期格式](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/reformatDate/title.md)
