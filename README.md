@@ -164,6 +164,8 @@ GitHub：
 
 * [转变日期格式](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/reformatDate/title.md)
 
+* [数组元素积的符号](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/signOfProductOfArray/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -325,3 +327,5 @@ Gitee：
 * [一年中的第几天](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/dayOfTheYear/title.md)
 
 * [转变日期格式](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/reformatDate/title.md)
+
+* [数组元素积的符号](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/signOfProductOfArray/title.md)
