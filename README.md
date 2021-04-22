@@ -170,6 +170,8 @@ GitHub：
 
 * [找到最高海拔](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/findTheHighestAltitude/title.md)
 
+* [速算机器人](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/simplifiedRobot/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -337,3 +339,5 @@ Gitee：
 * [判断句子是否为全字母句](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/checkIfSentenceIsPangram/title.md)
 
 * [找到最高海拔](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/findTheHighestAltitude/title.md)
+
+* [速算机器人](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/simplifiedRobot/title.md)
