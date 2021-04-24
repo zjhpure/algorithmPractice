@@ -172,6 +172,8 @@ GitHub：
 
 * [速算机器人](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/simplifiedRobot/title.md)
 
+* [数组中两元素的最大乘积](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/maxProductOfTwoElementsInArray/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -341,3 +343,5 @@ Gitee：
 * [找到最高海拔](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/findTheHighestAltitude/title.md)
 
 * [速算机器人](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/simplifiedRobot/title.md)
+
+* [数组中两元素的最大乘积](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/maxProductOfTwoElementsInArray/title.md)
