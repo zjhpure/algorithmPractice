@@ -174,6 +174,8 @@ GitHub：
 
 * [数组中两元素的最大乘积](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/maxProductOfTwoElementsInArray/title.md)
 
+* [将每个元素替换为右侧最大元素](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/replaceElesWithGreatestEleOnRightSide/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -345,3 +347,5 @@ Gitee：
 * [速算机器人](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/simplifiedRobot/title.md)
 
 * [数组中两元素的最大乘积](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/maxProductOfTwoElementsInArray/title.md)
+
+* [将每个元素替换为右侧最大元素](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/replaceElesWithGreatestEleOnRightSide/title.md)
