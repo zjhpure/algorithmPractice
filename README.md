@@ -180,6 +180,8 @@ GitHub：
 
 * [下一个更大元素I](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/nextGreaterElementI/title.md)
 
+* [魔术索引](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/magicIndex/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -357,3 +359,5 @@ Gitee：
 * [最小差值I](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/smallestRangeI/title.md)
 
 * [下一个更大元素I](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/nextGreaterElementI/title.md)
+
+* [魔术索引](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/magicIndex/title.md)
