@@ -184,6 +184,8 @@ GitHub：
 
 * [消失的数字](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/missingNumberIcci/title.md)
 
+* [两个相同字符之间的最长子字符串](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/largestSubstringBetweenTwoEqualCharacters/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -365,3 +367,5 @@ Gitee：
 * [魔术索引](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/magicIndex/title.md)
 
 * [消失的数字](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/missingNumberIcci/title.md)
+
+* [两个相同字符之间的最长子字符串](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/largestSubstringBetweenTwoEqualCharacters/title.md)
