@@ -188,6 +188,8 @@ GitHub：
 
 * [连续数列](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/contiguousSequence/title.md)
 
+* [第一个只出现一次的字符](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/firstOnlyShowOneChar/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -373,3 +375,5 @@ Gitee：
 * [两个相同字符之间的最长子字符串](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/largestSubstringBetweenTwoEqualCharacters/title.md)
 
 * [连续数列](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/contiguousSequence/title.md)
+
+* [第一个只出现一次的字符](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/firstOnlyShowOneChar/title.md)
