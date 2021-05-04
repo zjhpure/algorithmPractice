@@ -192,6 +192,8 @@ GitHub：
 
 * [Bigram分词](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/occurrencesAfterBigram/title.md)
 
+* [左旋转字符串](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/leftRotateString/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -381,3 +383,5 @@ Gitee：
 * [第一个只出现一次的字符](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/firstOnlyShowOneChar/title.md)
 
 * [Bigram分词](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/occurrencesAfterBigram/title.md)
+
+* [左旋转字符串](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/leftRotateString/title.md)
