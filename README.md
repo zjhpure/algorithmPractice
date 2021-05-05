@@ -194,6 +194,8 @@ GitHub：
 
 * [左旋转字符串](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/leftRotateString/title.md)
 
+* [按既定顺序创建目标数组](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/createTargetArrayInTheGivenOrder/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -385,3 +387,5 @@ Gitee：
 * [Bigram分词](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/occurrencesAfterBigram/title.md)
 
 * [左旋转字符串](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/leftRotateString/title.md)
+
+* [按既定顺序创建目标数组](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/createTargetArrayInTheGivenOrder/title.md)
