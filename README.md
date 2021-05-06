@@ -196,6 +196,8 @@ GitHub：
 
 * [按既定顺序创建目标数组](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/createTargetArrayInTheGivenOrder/title.md)
 
+* [将所有数字用字符替换](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/replaceAllDigitsWithCharacters/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -389,3 +391,5 @@ Gitee：
 * [左旋转字符串](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/leftRotateString/title.md)
 
 * [按既定顺序创建目标数组](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/createTargetArrayInTheGivenOrder/title.md)
+
+* [将所有数字用字符替换](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/replaceAllDigitsWithCharacters/title.md)
