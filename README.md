@@ -198,6 +198,8 @@ GitHub：
 
 * [将所有数字用字符替换](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/replaceAllDigitsWithCharacters/title.md)
 
+* [数组拆分I](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/arrayPartition/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -393,3 +395,5 @@ Gitee：
 * [按既定顺序创建目标数组](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/createTargetArrayInTheGivenOrder/title.md)
 
 * [将所有数字用字符替换](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/replaceAllDigitsWithCharacters/title.md)
+
+* [数组拆分I](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/arrayPartition/title.md)
