@@ -202,6 +202,8 @@ GitHub：
 
 * [解码异或后的数组](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/decodeXoredArray/title.md)
 
+* [数组异或操作](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/xorOperationInAnArray/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -401,3 +403,5 @@ Gitee：
 * [数组拆分I](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/arrayPartition/title.md)
 
 * [解码异或后的数组](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/decodeXoredArray/title.md)
+
+* [数组异或操作](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/xorOperationInAnArray/title.md)
