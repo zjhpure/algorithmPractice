@@ -204,6 +204,8 @@ GitHub：
 
 * [数组异或操作](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/xorOperationInAnArray/title.md)
 
+* [拿硬币](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/takeCoins/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -405,3 +407,5 @@ Gitee：
 * [解码异或后的数组](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/decodeXoredArray/title.md)
 
 * [数组异或操作](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/xorOperationInAnArray/title.md)
+
+* [拿硬币](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/takeCoins/title.md)
