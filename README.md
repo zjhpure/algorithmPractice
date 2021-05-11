@@ -206,6 +206,8 @@ GitHub：
 
 * [拿硬币](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/takeCoins/title.md)
 
+* [解压缩编码列表](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/decompressRunLengthEncodedList/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -409,3 +411,5 @@ Gitee：
 * [数组异或操作](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/xorOperationInAnArray/title.md)
 
 * [拿硬币](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/takeCoins/title.md)
+
+* [解压缩编码列表](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/decompressRunLengthEncodedList/title.md)
