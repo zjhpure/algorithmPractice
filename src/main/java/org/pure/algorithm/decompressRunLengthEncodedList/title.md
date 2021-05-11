@@ -42,6 +42,48 @@ nums.length % 2 == 0
 ```
 class Solution {
 
+    /**
+     * 方法1，推荐。先计算出结果数组长度，再直接把元素添加到结果数组中
+     */
+    public int[] decompressRLElist(int[] nums) {
+        // 定义结果数组长度
+        int count = 0;
+
+        // 遍历数组nums，只遍历偶数下标
+        for (int i = 0; i < nums.length; i += 2) {
+            // 累加计算结果数组长度
+            count += nums[i];
+        }
+
+        // 定义结果数组
+        int[] results = new int[count];
+
+        // 定义结果数组下标值
+        int n = 0;
+
+        // 遍历数组nums，只遍历奇数下标
+        for (int i = 1; i < nums.length; i += 2) {
+            // 奇数下标的前一个元素表示数量，遍历数量
+            for (int j = 0; j < nums[i - 1]; ++j) {
+                // 每次添加奇数下标的元素到结果数组中
+                results[n] = nums[i];
+                // 结果数组下标值加1
+                ++n;
+            }
+        }
+
+        return results;
+    }
+
+}
+```
+
+```
+class Solution {
+
+    /**
+     * 方法2，不推荐。先用列表list保存元素，再把元素从列表list中转移到结果数组中
+     */
     public int[] decompressRLElist(int[] nums) {
         // 定义列表list，保存解压后的列表
         List<Integer> list = new ArrayList<>();
