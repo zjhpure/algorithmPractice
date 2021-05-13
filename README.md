@@ -210,6 +210,8 @@ GitHub：
 
 * [统计匹配检索规则的物品数量](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/countItemsMatchingARule/title.md)
 
+* [设计Goal解析器](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/goalParserInterpretation/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -417,3 +419,5 @@ Gitee：
 * [解压缩编码列表](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/decompressRunLengthEncodedList/title.md)
 
 * [统计匹配检索规则的物品数量](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/countItemsMatchingARule/title.md)
+
+* [设计Goal解析器](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/goalParserInterpretation/title.md)
