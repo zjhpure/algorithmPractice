@@ -212,6 +212,8 @@ GitHub：
 
 * [设计Goal解析器](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/goalParserInterpretation/title.md)
 
+* [K进制表示下的各位数字总和](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/sumOfDigitsInBaseK/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -421,3 +423,5 @@ Gitee：
 * [统计匹配检索规则的物品数量](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/countItemsMatchingARule/title.md)
 
 * [设计Goal解析器](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/goalParserInterpretation/title.md)
+
+* [K进制表示下的各位数字总和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/sumOfDigitsInBaseK/title.md)
