@@ -220,6 +220,8 @@ GitHub：
 
 * [拥有最多糖果的孩子](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/kidsWithTheGreatestNumberOfCandies/title.md)
 
+* [括号的最大嵌套深度](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/maxNestingDepthOfTheParentheses/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -437,3 +439,5 @@ Gitee：
 * [统计有序矩阵中的负数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/countNegativeNumbersInASortedMatrix/title.md)
 
 * [拥有最多糖果的孩子](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/kidsWithTheGreatestNumberOfCandies/title.md)
+
+* [括号的最大嵌套深度](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/maxNestingDepthOfTheParentheses/title.md)
