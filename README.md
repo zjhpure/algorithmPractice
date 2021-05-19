@@ -222,6 +222,8 @@ GitHub：
 
 * [括号的最大嵌套深度](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/maxNestingDepthOfTheParentheses/title.md)
 
+* [将句子排序](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/sortingTheSentence/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -441,3 +443,5 @@ Gitee：
 * [拥有最多糖果的孩子](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/kidsWithTheGreatestNumberOfCandies/title.md)
 
 * [括号的最大嵌套深度](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/maxNestingDepthOfTheParentheses/title.md)
+
+* [将句子排序](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/sortingTheSentence/title.md)
