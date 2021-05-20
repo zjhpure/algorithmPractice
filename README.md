@@ -224,6 +224,8 @@ GitHub：
 
 * [将句子排序](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/sortingTheSentence/title.md)
 
+* [翻转图像](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/flippingAnImage/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -445,3 +447,5 @@ Gitee：
 * [括号的最大嵌套深度](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/maxNestingDepthOfTheParentheses/title.md)
 
 * [将句子排序](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/sortingTheSentence/title.md)
+
+* [翻转图像](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/flippingAnImage/title.md)
