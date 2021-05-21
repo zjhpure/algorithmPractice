@@ -226,6 +226,8 @@ GitHub：
 
 * [翻转图像](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/flippingAnImage/title.md)
 
+* [汉明距离](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/hammingDistance/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -449,3 +451,5 @@ Gitee：
 * [将句子排序](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/sortingTheSentence/title.md)
 
 * [翻转图像](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/flippingAnImage/title.md)
+
+* [翻转图像](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/hammingDistance/title.md)
