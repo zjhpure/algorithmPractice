@@ -452,4 +452,4 @@ Gitee：
 
 * [翻转图像](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/flippingAnImage/title.md)
 
-* [翻转图像](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/hammingDistance/title.md)
+* [汉明距离](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/hammingDistance/title.md)
