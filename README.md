@@ -228,6 +228,8 @@ GitHub：
 
 * [汉明距离](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/hammingDistance/title.md)
 
+* [位1的个数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/numberOfOneBits/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -453,3 +455,5 @@ Gitee：
 * [翻转图像](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/flippingAnImage/title.md)
 
 * [汉明距离](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/hammingDistance/title.md)
+
+* [位1的个数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/numberOfOneBits/title.md)
