@@ -230,6 +230,8 @@ GitHub：
 
 * [位1的个数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/numberOfOneBits/title.md)
 
+* [矩阵对角线元素的和](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/matrixDiagonalSum/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -457,3 +459,5 @@ Gitee：
 * [汉明距离](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/hammingDistance/title.md)
 
 * [位1的个数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/numberOfOneBits/title.md)
+
+* [矩阵对角线元素的和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/matrixDiagonalSum/title.md)
