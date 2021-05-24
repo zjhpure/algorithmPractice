@@ -56,6 +56,7 @@ class Solution {
         // 定义正方形矩阵长度
         int length = mat.length;
 
+        // 遍历正方形矩阵的行
         for (int i = 0; i < length; ++i) {
             if (i == 0 || i == length - 1) {
                 // 首行和末行，取首列和末列
