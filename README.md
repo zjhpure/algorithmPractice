@@ -236,6 +236,8 @@ GitHub：
 
 * [比特位计数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/countingBits/title.md)
 
+* [重新排列字符串](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/shuffleString/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -469,3 +471,5 @@ Gitee：
 * [反转字符串中的单词III](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/reverseWordsInAString3/title.md)
 
 * [比特位计数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/countingBits/title.md)
+
+* [重新排列字符串](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/shuffleString/title.md)
