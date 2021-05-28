@@ -240,6 +240,8 @@ GitHub：
 
 * [二进制链表转整数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/convertBinaryNumInALinkedListToInt/title.md)
 
+* [汉明距离总和](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/totalHammingDistance/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -477,3 +479,5 @@ Gitee：
 * [重新排列字符串](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/shuffleString/title.md)
 
 * [二进制链表转整数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/convertBinaryNumInALinkedListToInt/title.md)
+
+* [汉明距离总和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/totalHammingDistance/title.md)
