@@ -242,6 +242,8 @@ GitHub：
 
 * [汉明距离总和](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/totalHammingDistance/title.md)
 
+* [哪种连续子字符串更长](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/longerContiguousSegmentsOfOnesThanZeros/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -481,3 +483,5 @@ Gitee：
 * [二进制链表转整数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/convertBinaryNumInALinkedListToInt/title.md)
 
 * [汉明距离总和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/totalHammingDistance/title.md)
+
+* [哪种连续子字符串更长](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/longerContiguousSegmentsOfOnesThanZeros/title.md)
