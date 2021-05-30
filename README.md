@@ -244,6 +244,8 @@ GitHub：
 
 * [哪种连续子字符串更长](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/longerContiguousSegmentsOfOnesThanZeros/title.md)
 
+* [2的幂](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/powerOfTwo/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -485,3 +487,5 @@ Gitee：
 * [汉明距离总和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/totalHammingDistance/title.md)
 
 * [哪种连续子字符串更长](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/longerContiguousSegmentsOfOnesThanZeros/title.md)
+
+* [2的幂](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/powerOfTwo/title.md)
