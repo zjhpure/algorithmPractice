@@ -248,6 +248,8 @@ GitHub：
 
 * [4的幂](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/powerOfFour/title.md)
 
+* [3的幂](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/powerOfThree/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -493,3 +495,5 @@ Gitee：
 * [2的幂](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/powerOfTwo/title.md)
 
 * [4的幂](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/powerOfFour/title.md)
+
+* [3的幂](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/powerOfThree/title.md)
