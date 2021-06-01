@@ -57,6 +57,7 @@ https://leetcode-cn.com/problems/power-of-two
 class Solution {
 
     public boolean isPowerOfTwo(int n) {
+        // 2的幂肯定大于等于1，然后通过类似计算汉明距离的方法用&运算把n的最右边的1的位变成0，因为除了1其他2的幂都是只有1位是1，所以如果这个1变成了0，结果就会变成0，也就是&运算后等于0就是2的幂
         return n >= 1 && (n & (n - 1)) == 0;
     }
 
