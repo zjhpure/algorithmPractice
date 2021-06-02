@@ -1,55 +1,32 @@
 ## 源码路径
 
-/src/main/java/org/pure/algorithm/findPivotIndex/Main.java
+/src/main/java/org/pure/algorithm/continuousSubarraySum/Main.java
 
-## 题目地址(寻找数组的中心索引)
+## 题目地址(连续的子数组和)
 
-https://leetcode-cn.com/problems/find-pivot-index
+https://leetcode-cn.com/problems/continuous-subarray-sum
 
 ## 题目描述
 
 ```
-给你一个整数数组 nums，请编写一个能够返回数组 “中心索引” 的方法。
-
-数组 中心索引 是数组的一个索引，其左侧所有元素相加的和等于右侧所有元素相加的和。
-
-如果数组不存在中心索引，返回 -1 。如果数组有多个中心索引，应该返回最靠近左边的那一个。
-
-注意：中心索引可能出现在数组的两端。
+给定一个包含 非负数 的数组和一个目标 整数 k ，编写一个函数来判断该数组是否含有连续的子数组，其大小至少为 2，且总和为 k 的倍数，即总和为 n * k ，其中 n 也是一个整数。
 
 示例1:
 
-输入：nums = [1, 7, 3, 6, 5, 6]
-输出：3
-解释：
-索引 3 (nums[3] = 6) 的左侧数之和 (1 + 7 + 3 = 11)，与右侧数之和 (5 + 6 = 11) 相等。
-同时, 3 也是第一个符合要求的中心索引。
+输入：[23,2,4,6,7], k = 6
+输出：True
+解释：[2,4] 是一个大小为 2 的子数组，并且和为 6。
 
 示例2:
 
-输入：nums = [1, 2, 3]
-输出：-1
-解释：
-数组中不存在满足此条件的中心索引。
+输入：[23,2,6,4,7], k = 6
+输出：True
+解释：[23,2,6,4,7]是大小为 5 的子数组，并且和为 42。
 
-示例3:
+说明:
 
-输入：nums = [2, 1, -1]
-输出：0
-解释：
-索引 0 左侧不存在元素，视作和为 0 ；右侧数之和为 1 + (-1) = 0 ，二者相等。
-
-示例4:
-
-输入：nums = [0, 0, 0, 0, 1]
-输出：4
-解释：
-索引 4 左侧数之和为 0 ；右侧不存在元素，视作和为 0 ，二者相等。
-
-提示:
-
-nums 的长度范围为 [0, 10000]。
-任何一个 nums[i] 将会是一个范围在 [-1000, 1000]的整数。
+数组的长度不会超过 10,000 。
+你可以认为所有数字总和在 32 位有符号整数范围内。
 ```
 
 ## 代码
@@ -59,43 +36,29 @@ nums 的长度范围为 [0, 10000]。
 ```
 class Solution {
 
-    public int pivotIndex(int[] nums) {
-        if (nums.length <= 1) {
-            // 若整数数组nums的长度小于2，则没有中心索引，直接返回-1
-            return -1;
-        }
+    public boolean checkSubarraySum(int[] nums, int k) {
+        // 定义连续子数组总和
+        int sum;
 
-        // 中心索引左侧元素相加之和
-        int preSum = 0;
+        // 第一轮遍历数组nums的元素，从0到倒数第2个
+        for (int i = 0; i < nums.length - 1; ++i) {
+            // 初始化连续子数组总和
+            sum = nums[i];
 
-        // 中心索引右侧元素相加之和
-        int lastSum = 0;
-
-        // 从nums的第2个元素开始遍历，构建初始的lastSum
-        for (int i = 1; i < nums.length; ++i) {
-            lastSum += nums[i];
-        }
-
-        // 遍历整数数组nums，preSum通过累加获取，lastSum通过累减获取
-        for (int i = 0; i < nums.length; ++i) {
-            if (i - 1 >= 0) {
-                // 当索引i大于0时，开始累加获取preSum
-                preSum += nums[i - 1];
-            }
-
-            if (i + 1 >= 2) {
-                // 当索引i大于0时，开始累减获取lastSum
-                lastSum -= nums[i];
-            }
-
-            if (preSum == lastSum) {
-                // 若preSum等于lastSum，则找到了中心索引
-                return i;
+            // 第二轮遍历数组nums的元素，从上一轮的下一个到倒数第1个
+            for (int j = i + 1; j < nums.length; ++j) {
+                // 累加计算连续子数组的总和
+                sum += nums[j];
+                
+                if (sum % k == 0) {
+                    // 若连续子数组总和对k求余等于0，那么总和就是k的倍数，那么就是找到了符合条件的连续子数组
+                    return true;
+                }
             }
         }
 
-        // 遍历整数数组nums结束后还没有返回中心索引，则证明没有中心索引，返回-1
-        return -1;
+        // 若两轮遍历完都没有找到符合条件的连续子数组，那么就是不存在这样的连续子数组
+        return false;
     }
 
 }
