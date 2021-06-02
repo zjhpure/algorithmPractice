@@ -250,6 +250,10 @@ GitHub：
 
 * [3的幂](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/powerOfThree/title.md)
 
+* [连续的子数组和](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/continuousSubarraySum/title.md)
+
+* [分割平衡字符串](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/splitAStringInBalancedStrings/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -497,3 +501,7 @@ Gitee：
 * [4的幂](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/powerOfFour/title.md)
 
 * [3的幂](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/powerOfThree/title.md)
+
+* [连续的子数组和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/continuousSubarraySum/title.md)
+
+* [分割平衡字符串](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/splitAStringInBalancedStrings/title.md)
