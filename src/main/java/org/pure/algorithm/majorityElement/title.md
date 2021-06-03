@@ -35,9 +35,10 @@ https://leetcode-cn.com/problems/majority-element
 ```
 class Solution {
 
+    // 此方法接近超时，不建议使用，因为用了两轮遍历才找出答案
     public int majorityElement(int[] nums) {
         if (nums.length <= 1) {
-            // 若数组nums长度不大于1，那么多数元素就是数目nums的第一个元素
+            // 若数组nums长度不大于1，那么多数元素就是数组nums的第一个元素
             return nums[0];
         }
 
@@ -64,6 +65,42 @@ class Solution {
         }
 
         return count;
+    }
+
+}
+
+class Solution {
+
+    // 此方法不超时，用集合map保存数组元素的个数，一轮遍历找到答案
+    public int majorityElement(int[] nums) {
+        if (nums.length <= 1) {
+            // 若数组nums长度不大于1，那么多数元素就是数组nums的第一个元素
+            return nums[0];
+        }
+
+        // 构造集合map，保存不同数组元素的个数
+        Map<Integer, Integer> map = new HashMap<>();
+
+        // 遍历数组nums
+        for (int num : nums) {
+            if (map.containsKey(num)) {
+                // 若集合map中存在元素num，那么元素个数加1
+                int count = map.get(num) + 1;
+                
+                if (count > nums.length / 2) {
+                    // 若元素个数大于数组长度的一半，那么找到了多数元素
+                    return num;
+                } else {
+                    // 若元素个数不大于数组长度的一半，没有找到多数元素，把元素个数的加1后的结果保存到集合map中
+                    map.put(num, count);
+                }
+            } else {
+                // 若集合map中不存在元素num，那么把此元素保存到集合map中，元素个数记为1
+                map.put(num, 1);
+            }
+        }
+
+        return 0;
     }
 
 }
