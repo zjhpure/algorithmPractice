@@ -254,6 +254,10 @@ GitHub：
 
 * [分割平衡字符串](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/splitAStringInBalancedStrings/title.md)
 
+* [连续数组](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/contiguousArray/title.md)
+
+* [多数元素](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/majorityElement/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -505,3 +509,7 @@ Gitee：
 * [连续的子数组和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/continuousSubarraySum/title.md)
 
 * [分割平衡字符串](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/splitAStringInBalancedStrings/title.md)
+
+* [连续数组](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/contiguousArray/title.md)
+
+* [多数元素](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/majorityElement/title.md)
