@@ -260,6 +260,8 @@ GitHub：
 
 * [检查某单词是否等于两单词之和](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/checkIfWordEqualsSummationOfTwoWords/title.md)
 
+* [移除链表元素](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/removeLinkedListElements/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -517,3 +519,5 @@ Gitee：
 * [多数元素](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/majorityElement/title.md)
 
 * [检查某单词是否等于两单词之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/checkIfWordEqualsSummationOfTwoWords/title.md)
+
+* [移除链表元素](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/removeLinkedListElements/title.md)
