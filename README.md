@@ -262,6 +262,8 @@ GitHub：
 
 * [移除链表元素](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/removeLinkedListElements/title.md)
 
+* [删除链表中的节点](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/deleteNodeInALinkedList/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -521,3 +523,5 @@ Gitee：
 * [检查某单词是否等于两单词之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/checkIfWordEqualsSummationOfTwoWords/title.md)
 
 * [移除链表元素](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/removeLinkedListElements/title.md)
+
+* [删除链表中的节点](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/deleteNodeInALinkedList/title.md)
