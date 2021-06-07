@@ -264,6 +264,8 @@ GitHub：
 
 * [删除链表中的节点](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/deleteNodeInALinkedList/title.md)
 
+* [可以形成最大正方形的矩形数目](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/numOfRectsThatCanFormTheLargestSquare/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -525,3 +527,5 @@ Gitee：
 * [移除链表元素](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/removeLinkedListElements/title.md)
 
 * [删除链表中的节点](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/deleteNodeInALinkedList/title.md)
+
+* [可以形成最大正方形的矩形数目](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/numOfRectsThatCanFormTheLargestSquare/title.md)
