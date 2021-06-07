@@ -7,6 +7,7 @@ import java.util.Scanner;
  * @date 2021-05-30 10:35
  * @description 2的幂
  */
+@SuppressWarnings("unused")
 public class Main {
 
     public static void main(String[] args) {
