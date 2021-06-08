@@ -266,6 +266,8 @@ GitHub：
 
 * [可以形成最大正方形的矩形数目](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/numOfRectsThatCanFormTheLargestSquare/title.md)
 
+* [判断字符串的两半是否相似](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/determineIfStringHalvesAreAlike/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -529,3 +531,5 @@ Gitee：
 * [删除链表中的节点](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/deleteNodeInALinkedList/title.md)
 
 * [可以形成最大正方形的矩形数目](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/numOfRectsThatCanFormTheLargestSquare/title.md)
+
+* [判断字符串的两半是否相似](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/determineIfStringHalvesAreAlike/title.md)
