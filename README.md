@@ -268,6 +268,8 @@ GitHub：
 
 * [判断字符串的两半是否相似](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/determineIfStringHalvesAreAlike/title.md)
 
+* [唯一摩尔斯密码词](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/uniqueMorseCodeWords/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -533,3 +535,5 @@ Gitee：
 * [可以形成最大正方形的矩形数目](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/numOfRectsThatCanFormTheLargestSquare/title.md)
 
 * [判断字符串的两半是否相似](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/determineIfStringHalvesAreAlike/title.md)
+
+* [唯一摩尔斯密码词](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/uniqueMorseCodeWords/title.md)
