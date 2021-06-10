@@ -270,6 +270,8 @@ GitHub：
 
 * [唯一摩尔斯密码词](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/uniqueMorseCodeWords/title.md)
 
+* [生成每种字符都是奇数个的字符串](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/generateAStringWithCharsThatHaveOddCounts/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -537,3 +539,5 @@ Gitee：
 * [判断字符串的两半是否相似](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/determineIfStringHalvesAreAlike/title.md)
 
 * [唯一摩尔斯密码词](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/uniqueMorseCodeWords/title.md)
+
+* [生成每种字符都是奇数个的字符串](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/generateAStringWithCharsThatHaveOddCounts/title.md)

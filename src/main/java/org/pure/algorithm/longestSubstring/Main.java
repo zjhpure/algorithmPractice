@@ -17,10 +17,10 @@ public class Main {
         scanner.close();
 
         // 获取输出结果
-//        int size = lengthOfLongestSubstring1(str);
-//        System.out.println(size);
-        int size = lengthOfLongestSubstring2(str);
-        System.out.println(size);
+//        int result = lengthOfLongestSubstring1(str);
+//        System.out.println(result);
+        int result = lengthOfLongestSubstring2(str);
+        System.out.println(result);
     }
 
     /**
