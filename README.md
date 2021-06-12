@@ -274,6 +274,8 @@ GitHub：
 
 * [解码字母到整数映射](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/decryptStringFromAlphabetToIntegerMapping/title.md)
 
+* [长度为三且各字符不同的子字符串](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/substringsOfSizeThreeWithDistinctChars/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -545,3 +547,5 @@ Gitee：
 * [生成每种字符都是奇数个的字符串](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/generateAStringWithCharsThatHaveOddCounts/title.md)
 
 * [解码字母到整数映射](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/decryptStringFromAlphabetToIntegerMapping/title.md)
+
+* [长度为三且各字符不同的子字符串](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/substringsOfSizeThreeWithDistinctChars/title.md)
