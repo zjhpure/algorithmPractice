@@ -276,6 +276,8 @@ GitHub：
 
 * [长度为三且各字符不同的子字符串](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/substringsOfSizeThreeWithDistinctChars/title.md)
 
+* [删除字符串中的所有相邻重复项](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/removeAllAdjacentDuplicatesInString/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -549,3 +551,5 @@ Gitee：
 * [解码字母到整数映射](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/decryptStringFromAlphabetToIntegerMapping/title.md)
 
 * [长度为三且各字符不同的子字符串](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/substringsOfSizeThreeWithDistinctChars/title.md)
+
+* [删除字符串中的所有相邻重复项](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/removeAllAdjacentDuplicatesInString/title.md)
