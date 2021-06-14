@@ -22,6 +22,7 @@ public class Main {
         System.out.println(result);
     }
 
+    // 方法1，判断计算猜测结果为0时结束循环
     private static int guessNumber(int n, int pick) {
         // 定义左右指标，左指标初始为1，右指标初始为n
         int left = 1, right = n;
@@ -53,6 +54,7 @@ public class Main {
         return center;
     }
 
+    // 方法2，判断左右指标相等时结束循环
     private static int guessNumber2(int n, int pick) {
         // 定义左右指标，左指标初始为1，右指标初始为n
         int left = 1, right = n;
