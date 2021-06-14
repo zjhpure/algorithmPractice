@@ -35,10 +35,10 @@ public class Main {
         // 循环直至guess的结果为0
         while (result != 0) {
             if (result > 0) {
-                // 若是小于0，那么pick < num，选出的数字小于猜测的数字，所以选出的数字在区间[left + 1, mid]中
+                // 若是大于0，那么pick > num，选出的数字大于猜测的数字，所以选出的数字在区间[mid + 1, right]中
                 left = center + 1;
             } else {
-                // 若是大于0，那么pick > num，选出的数字大于猜测的数字，所以选出的数字在区间[mid + 1, right]中
+                // 若是小于0，那么pick < num，选出的数字小于猜测的数字，所以选出的数字在区间[left + 1, mid]中
                 right = center - 1;
             }
 
