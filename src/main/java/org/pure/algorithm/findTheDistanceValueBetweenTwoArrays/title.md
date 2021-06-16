@@ -66,19 +66,25 @@ https://leetcode-cn.com/problems/find-the-distance-value-between-two-arrays
 class Solution {
 
     public int findTheDistanceValue(int[] arr1, int[] arr2, int d) {
+        // 定义统计数量
         int count = 0;
 
+        // 遍历数组arr1
         for (int e1 : arr1) {
+            // 定义是否符合距离值的标志
             boolean isFind = false;
 
+            // 遍历数组arr2
             for (int e2 : arr2) {
                 if (Math.abs(e1 - e2) <= d) {
+                    // 如果出现一个两数相减的绝对值小于等于d，那么不符合距离值的定义，标志为false，结束循环
                     isFind = true;
                     break;
                 }
             }
 
             if (!isFind) {
+                // 若是否符合距离值的标志为true，那么统计数量加1
                 ++count;
             }
         }
