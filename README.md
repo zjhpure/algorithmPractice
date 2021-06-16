@@ -282,6 +282,8 @@ GitHub：
 
 * [山脉数组的峰顶索引](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/peakIndexInAMountainArray/title.md)
 
+* [两个数组间的距离值](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/findTheDistanceValueBetweenTwoArrays/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -561,3 +563,5 @@ Gitee：
 * [猜数字大小](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/guessNumberHigherOrLower/title.md)
 
 * [山脉数组的峰顶索引](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/peakIndexInAMountainArray/title.md)
+
+* [两个数组间的距离值](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/findTheDistanceValueBetweenTwoArrays/title.md)
