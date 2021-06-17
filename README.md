@@ -284,6 +284,8 @@ GitHub：
 
 * [两个数组间的距离值](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/findTheDistanceValueBetweenTwoArrays/title.md)
 
+* [交替合并字符串](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/mergeStringsAlternately/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -565,3 +567,5 @@ Gitee：
 * [山脉数组的峰顶索引](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/peakIndexInAMountainArray/title.md)
 
 * [两个数组间的距离值](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/findTheDistanceValueBetweenTwoArrays/title.md)
+
+* [交替合并字符串](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/mergeStringsAlternately/title.md)
