@@ -288,6 +288,8 @@ GitHub：
 
 * [查找常用字符](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/findCommonCharacters/title.md)
 
+* [七进制数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/baseSeven/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -573,3 +575,5 @@ Gitee：
 * [交替合并字符串](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/mergeStringsAlternately/title.md)
 
 * [查找常用字符](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/findCommonCharacters/title.md)
+
+* [七进制数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/baseSeven/title.md)
