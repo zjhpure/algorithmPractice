@@ -63,7 +63,7 @@ class Solution {
                         ++num;
                     }
                 } else if (i == size - 1) {
-                    // 第2个元素
+                    // 最后1个元素
                     if (flowerbed[i - 1] == 0) {
                         // 若前元素为0，那么这个元素可以种下花，把此元素改为1
                         flowerbed[i] = 1;
