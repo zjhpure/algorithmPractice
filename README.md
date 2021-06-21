@@ -292,6 +292,8 @@ GitHub：
 
 * [拼写单词](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/findWordsThatCanBeFormedByCharacters/title.md)
 
+* [增减字符串匹配](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/diStringMatch/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -581,3 +583,5 @@ Gitee：
 * [七进制数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/baseSeven/title.md)
 
 * [拼写单词](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/findWordsThatCanBeFormedByCharacters/title.md)
+
+* [增减字符串匹配](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/diStringMatch/title.md)
