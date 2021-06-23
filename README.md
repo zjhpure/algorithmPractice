@@ -296,6 +296,8 @@ GitHub：
 
 * [存在重复元素II](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/containsDuplicateII/title.md)
 
+* [公平的糖果棒交换](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/fairCandySwap/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -589,3 +591,5 @@ Gitee：
 * [增减字符串匹配](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/diStringMatch/title.md)
 
 * [存在重复元素II](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/containsDuplicateII/title.md)
+
+* [公平的糖果棒交换](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/fairCandySwap/title.md)
