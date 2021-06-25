@@ -300,6 +300,8 @@ GitHub：
 
 * [检查二进制字符串字段](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/checkIfBinStrHasAtMostOneSegmentOfOnes/title.md)
 
+* [提莫攻击](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/teemoAttacking/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -597,3 +599,5 @@ Gitee：
 * [公平的糖果棒交换](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/fairCandySwap/title.md)
 
 * [检查二进制字符串字段](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/checkIfBinStrHasAtMostOneSegmentOfOnes/title.md)
+
+* [提莫攻击](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/teemoAttacking/title.md)
