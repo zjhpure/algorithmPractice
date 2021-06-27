@@ -304,6 +304,8 @@ GitHub：
 
 * [连续字符](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/consecutiveCharacters/title.md)
 
+* [数组中的第K个最大元素](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/kthLargestElementInAnArray/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -605,3 +607,5 @@ Gitee：
 * [提莫攻击](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/teemoAttacking/title.md)
 
 * [连续字符](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/consecutiveCharacters/title.md)
+
+* [数组中的第K个最大元素](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/kthLargestElementInAnArray/title.md)
