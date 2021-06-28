@@ -306,6 +306,8 @@ GitHub：
 
 * [数组中的第K个最大元素](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/kthLargestElementInAnArray/title.md)
 
+* [有效的正方形](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/validSquare/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -609,3 +611,5 @@ Gitee：
 * [连续字符](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/consecutiveCharacters/title.md)
 
 * [数组中的第K个最大元素](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/kthLargestElementInAnArray/title.md)
+
+* [有效的正方形](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/validSquare/title.md)
