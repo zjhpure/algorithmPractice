@@ -308,6 +308,8 @@ GitHub：
 
 * [有效的正方形](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/validSquare/title.md)
 
+* [Excel表列名称](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/excelSheetColumnTitle/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -613,3 +615,5 @@ Gitee：
 * [数组中的第K个最大元素](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/kthLargestElementInAnArray/title.md)
 
 * [有效的正方形](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/validSquare/title.md)
+
+* [Excel表列名称](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/excelSheetColumnTitle/title.md)
