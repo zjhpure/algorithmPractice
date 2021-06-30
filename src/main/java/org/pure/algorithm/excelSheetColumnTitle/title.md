@@ -46,6 +46,8 @@ https://leetcode-cn.com/problems/excel-sheet-column-title
 class Solution {
 
     public String convertToTitle(int columnNumber) {
+        // 10进制转26进制
+
         // 定义字符串集合sb
         StringBuilder sb = new StringBuilder();
 

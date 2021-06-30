@@ -310,6 +310,8 @@ GitHub：
 
 * [Excel表列名称](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/excelSheetColumnTitle/title.md)
 
+* [Excel表列序号](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/excelSheetColumnNumber/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -617,3 +619,5 @@ Gitee：
 * [有效的正方形](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/validSquare/title.md)
 
 * [Excel表列名称](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/excelSheetColumnTitle/title.md)
+
+* [Excel表列序号](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/excelSheetColumnNumber/title.md)
