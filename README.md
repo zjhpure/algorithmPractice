@@ -312,6 +312,8 @@ GitHub：
 
 * [Excel表列序号](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/excelSheetColumnNumber/title.md)
 
+* [最长连续递增序列](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/longestContinuousIncreasingSubsequence/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -621,3 +623,5 @@ Gitee：
 * [Excel表列名称](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/excelSheetColumnTitle/title.md)
 
 * [Excel表列序号](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/excelSheetColumnNumber/title.md)
+
+* [最长连续递增序列](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/longestContinuousIncreasingSubsequence/title.md)
