@@ -318,6 +318,8 @@ GitHub：
 
 * [错误的集合](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/setMismatch/title.md)
 
+* [同构字符串](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/isomorphicStrings/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -633,3 +635,5 @@ Gitee：
 * [分糖果II](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/distributeCandiesToPeople/title.md)
 
 * [错误的集合](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/setMismatch/title.md)
+
+* [同构字符串](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/isomorphicStrings/title.md)
