@@ -46,7 +46,7 @@ class Solution {
         } else {
             int n = x;
             int sum = 0;
-            // 得到翻转后的数
+            // 得到反转后的数
             while (x > 0) {
                 int m = x % 10;
                 sum = sum * 10 + m;

@@ -57,4 +57,5 @@ public class Main {
         // 取两种情况中的最大值
         return Math.max(product1, product2);
     }
+
 }
