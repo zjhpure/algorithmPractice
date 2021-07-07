@@ -322,6 +322,8 @@ GitHub：
 
 * [三个数的最大乘积](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/maximumProductOfThreeNumbers/title.md)
 
+* [跳水板](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/divingBoard/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -641,3 +643,5 @@ Gitee：
 * [同构字符串](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/isomorphicStrings/title.md)
 
 * [三个数的最大乘积](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/maximumProductOfThreeNumbers/title.md)
+
+* [跳水板](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/divingBoard/title.md)
