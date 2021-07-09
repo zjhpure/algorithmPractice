@@ -326,6 +326,8 @@ GitHub：
 
 * [和相同的二元子数组](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/binarySubarraysWithSum/title.md)
 
+* [主要元素](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/findMajorityElement/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -649,3 +651,5 @@ Gitee：
 * [跳水板](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/divingBoard/title.md)
 
 * [和相同的二元子数组](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/binarySubarraysWithSum/title.md)
+
+* [主要元素](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/findMajorityElement/title.md)
