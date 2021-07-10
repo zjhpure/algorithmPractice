@@ -328,6 +328,8 @@ GitHub：
 
 * [主要元素](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/findMajorityElement/title.md)
 
+* [最大数值](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/maximum/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -653,3 +655,5 @@ Gitee：
 * [和相同的二元子数组](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/binarySubarraysWithSum/title.md)
 
 * [主要元素](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/findMajorityElement/title.md)
+
+* [最大数值](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/maximum/title.md)
