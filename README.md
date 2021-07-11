@@ -330,6 +330,8 @@ GitHub：
 
 * [最大数值](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/maximum/title.md)
 
+* [仅执行一次字符串交换能否使两个字符串相等](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/checkIfOneStringSwapCanMakeStringsEqual/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -657,3 +659,5 @@ Gitee：
 * [主要元素](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/findMajorityElement/title.md)
 
 * [最大数值](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/maximum/title.md)
+
+* [仅执行一次字符串交换能否使两个字符串相等](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/checkIfOneStringSwapCanMakeStringsEqual/title.md)
