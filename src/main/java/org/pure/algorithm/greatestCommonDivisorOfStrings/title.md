@@ -50,7 +50,7 @@ class Solution {
         // 获取字符串str2的长度
         int length2 = str2.length();
         
-        // 求出字符串str1和字符串str2的较小长度，从1遍历到较小长度
+        // 求出字符串str1和字符串str2的较小长度，从较小长度遍历到1，从大到小遍历
         for (int i = Math.min(length1, length2); i >= 1; --i) {
             // 判断前缀的长度是否同时是两个字符串str1和str2的长度的约数
             if (length1 % i == 0 && length2 % i == 0) {
