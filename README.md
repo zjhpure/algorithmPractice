@@ -338,6 +338,8 @@ GitHub：
 
 * [字符串的最大公因子](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/greatestCommonDivisorOfStrings/title.md)
 
+* [阶乘后的零](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/factorialTrailingZeroes/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -673,3 +675,5 @@ Gitee：
 * [有效的字母异位词](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/validAnagram/title.md)
 
 * [字符串的最大公因子](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/greatestCommonDivisorOfStrings/title.md)
+
+* [阶乘后的零](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/factorialTrailingZeroes/title.md)
