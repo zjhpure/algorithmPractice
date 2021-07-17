@@ -342,6 +342,8 @@ GitHub：
 
 * [在排序数组中查找数字I](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/sortArrayFindNum/title.md)
 
+* [二维数组中的查找](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/twoDimensionalArrayFindNum/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -681,3 +683,5 @@ Gitee：
 * [阶乘后的零](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/factorialTrailingZeroes/title.md)
 
 * [在排序数组中查找数字I](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/sortArrayFindNum/title.md)
+
+* [二维数组中的查找](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoDimensionalArrayFindNum/title.md)
