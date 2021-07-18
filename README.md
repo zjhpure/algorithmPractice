@@ -344,6 +344,8 @@ GitHub：
 
 * [二维数组中的查找](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/twoDimensionalArrayFindNum/title.md)
 
+* [四因数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/fourDivisors/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -685,3 +687,5 @@ Gitee：
 * [在排序数组中查找数字I](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/sortArrayFindNum/title.md)
 
 * [二维数组中的查找](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoDimensionalArrayFindNum/title.md)
+
+* [四因数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/fourDivisors/title.md)
