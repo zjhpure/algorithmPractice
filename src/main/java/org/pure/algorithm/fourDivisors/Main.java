@@ -34,7 +34,7 @@ public class Main {
         // 定义所有符合条件的整数的各因数之和
         int sumTotal = 0;
 
-        // 定义数组nums
+        // 遍历数组nums
         for (int num : nums) {
             // 定义单个整数的各因数之和
             int sumNum = 0;
