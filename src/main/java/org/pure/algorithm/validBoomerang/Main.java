@@ -44,7 +44,7 @@ public class Main {
     }
 
     private static boolean isBoomerang(int[][] points) {
-        // 通过判断斜率来判断三点是否是同一直线
+        // 通过判断斜率来判断三点是否在同一直线
         // 假设为点a，点b，点c，分别为a(x1, y1), b(x2, y2), c(x3,y3)，a点和b点之间的距离为m1，a点和c点之间的距离为m2
         // a点和b点之间的斜率k1 = (y2 - y1) / (x2 - x1)
         // a点和c点之间的斜率k2 = (y3 - y1) / (x3 - x1)
