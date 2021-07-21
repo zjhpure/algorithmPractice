@@ -350,6 +350,8 @@ GitHub：
 
 * [统计好三元组](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/countGoodTriplets/title.md)
 
+* [螺旋矩阵](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/spiralMatrix/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -697,3 +699,5 @@ Gitee：
 * [有效的回旋镖](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/validBoomerang/title.md)
 
 * [统计好三元组](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/countGoodTriplets/title.md)
+
+* [螺旋矩阵](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/spiralMatrix/title.md)
