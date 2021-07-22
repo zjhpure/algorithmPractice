@@ -9,7 +9,7 @@ https://leetcode-cn.com/problems/spiral-matrix-ii
 ## 题目描述
 
 ```
-给你一个正整数n，生成一个包含1到n2所有元素，且元素按顺时针顺序螺旋排列的n x n正方形矩阵matrix。
+给你一个正整数n，生成一个包含1到n^2所有元素，且元素按顺时针顺序螺旋排列的n x n正方形矩阵matrix。
 
 示例1:
 
