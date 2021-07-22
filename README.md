@@ -352,6 +352,8 @@ GitHub：
 
 * [螺旋矩阵](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/spiralMatrix/title.md)
 
+* [螺旋矩阵II](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/spiralMatrix2/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -701,3 +703,5 @@ Gitee：
 * [统计好三元组](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/countGoodTriplets/title.md)
 
 * [螺旋矩阵](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/spiralMatrix/title.md)
+
+* [螺旋矩阵II](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/spiralMatrix2/title.md)
