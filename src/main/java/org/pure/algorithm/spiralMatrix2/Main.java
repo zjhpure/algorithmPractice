@@ -25,7 +25,7 @@ public class Main {
         // 定义结果数组
         int[][] results = new int[n][n];
 
-        // 定义要遍历的数字，初始为1
+        // 定义要累加的数字，初始为1
         int num = 1;
         // 定义螺旋层数索引，初始为0
         int index = 0;
