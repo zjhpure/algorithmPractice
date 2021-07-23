@@ -76,7 +76,7 @@ class Solution {
         // 因为是从字符串的末尾开始计算的，所以得到的字符串集合sb是反转过来的，这里把sb再反转一次，得到原来的结果
         sb.reverse();
 
-        // 字符串sb转为字符串返回
+        // 字符串集合sb转为字符串返回
         return sb.toString();
     }
 
