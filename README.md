@@ -358,6 +358,8 @@ GitHub：
 
 * [圆圈中最后剩下的数字](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/circleRemainingNum/title.md)
 
+* [替换隐藏数字得到的最晚时间](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/latestTimeByReplacingHiddenDigits/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -713,3 +715,5 @@ Gitee：
 * [二进制求和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/addBinary/title.md)
 
 * [圆圈中最后剩下的数字](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/circleRemainingNum/title.md)
+
+* [替换隐藏数字得到的最晚时间](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/latestTimeByReplacingHiddenDigits/title.md)
