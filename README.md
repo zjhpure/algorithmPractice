@@ -362,6 +362,8 @@ GitHub：
 
 * [得到子序列的最少操作次数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/minimumOperationsToMakeASubsequence/title.md)
 
+* [最长递增子序列](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/longestIncreasingSubsequence/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -721,3 +723,5 @@ Gitee：
 * [替换隐藏数字得到的最晚时间](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/latestTimeByReplacingHiddenDigits/title.md)
 
 * [得到子序列的最少操作次数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/minimumOperationsToMakeASubsequence/title.md)
+
+* [最长递增子序列](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/longestIncreasingSubsequence/title.md)
