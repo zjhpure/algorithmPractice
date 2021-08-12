@@ -366,6 +366,8 @@ GitHub：
 
 * [丑数II](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/uglyNumber2/title.md)
 
+* [二进制矩阵中的特殊位置](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/specialPositionsInABinaryMatrix/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -729,3 +731,5 @@ Gitee：
 * [最长递增子序列](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/longestIncreasingSubsequence/title.md)
 
 * [丑数II](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/uglyNumber2/title.md)
+
+* [二进制矩阵中的特殊位置](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/specialPositionsInABinaryMatrix/title.md)
