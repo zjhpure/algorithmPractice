@@ -370,6 +370,8 @@ GitHub：
 
 * [数组的度](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/degreeOfAnArray/title.md)
 
+* [学生出勤记录I](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/studentAttendanceRecord/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -737,3 +739,5 @@ Gitee：
 * [二进制矩阵中的特殊位置](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/specialPositionsInABinaryMatrix/title.md)
 
 * [数组的度](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/degreeOfAnArray/title.md)
+
+* [学生出勤记录I](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/studentAttendanceRecord/title.md)
