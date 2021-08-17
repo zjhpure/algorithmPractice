@@ -46,46 +46,45 @@ s[i]为'A'、'L'或'P'
 class Solution {
 
     public boolean checkRecord(String s) {
-        // 定义统计天数，先用作统计缺勤总天数
-        int count = 0;
+        // 定义缺勤总天数
+        int absentCount = 0;
 
-        // 第一次遍历字符串s的字符，判断缺勤总天数是否小于2
+        // 定义连续迟到天数
+        int lateCount = 0;
+
+        // 遍历字符串s的字符
         for (int i = 0; i < s.length(); ++i) {
+            // 判断缺勤总天数是否小于2
             if ('A' == s.charAt(i)) {
                 // 若出现缺勤，那么缺勤总天数加1
-                ++count;
+                ++absentCount;
 
                 // 若缺勤总天数大于等于2，那么不符合条件，马上返回false
-                if (count >= 2) {
+                if (absentCount >= 2) {
                     return false;
                 }
             }
-        }
 
-        // count用作统计连续迟到天数，重新置为0
-        count = 0;
-
-        // 第二次遍历字符串s的字符，
-        for (int i = 0; i < s.length(); ++i) {
+            // 判断连续迟到总天数是否小于3
             if ('L' == s.charAt(i)) {
                 if (i == 0) {
                     // 若迟到出现在第一个字符，那么连续迟到天数直接加1
-                    ++count;
+                    ++lateCount;
                 } else if ('L' == s.charAt(i - 1)){
                     // 若迟到出现在第二个字符之后并且前一个字符也是迟到，那么连续迟到天数加1
-                    ++count;
+                    ++lateCount;
 
                     // 若连续迟到天数大于等于3，那么不符合条件，马上返回false
-                    if (count >= 3) {
+                    if (lateCount >= 3) {
                         return false;
                     }
                 } else {
                     // 若前一个字符不是迟到，那么连续迟到天数设置为1
-                    count = 1;
+                    lateCount = 1;
                 }
             } else {
                 // 若不出现迟到，那么连续迟到天数归零
-                count = 0;
+                lateCount = 0;
             }
         }
 
