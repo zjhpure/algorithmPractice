@@ -372,6 +372,8 @@ GitHub：
 
 * [学生出勤记录I](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/studentAttendanceRecord/title.md)
 
+* [反转字符串中的元音字母](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/reverseVowelsOfAString/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -741,3 +743,5 @@ Gitee：
 * [数组的度](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/degreeOfAnArray/title.md)
 
 * [学生出勤记录I](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/studentAttendanceRecord/title.md)
+
+* [反转字符串中的元音字母](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/reverseVowelsOfAString/title.md)
