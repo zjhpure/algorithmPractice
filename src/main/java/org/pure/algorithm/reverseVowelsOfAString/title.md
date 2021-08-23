@@ -137,7 +137,7 @@ class Solution {
         // 先把字符串转为字符数组
         char[] arr = s.toCharArray();
 
-        // 定义左指针，从字符数组左侧开始，初始0
+        // 定义左指针，从字符数组左侧开始，初始为0
         int left = 0;
         // 定义右指针，从字符数组右侧开始，初始为字符数组最后的下标
         int right = s.length() - 1;
