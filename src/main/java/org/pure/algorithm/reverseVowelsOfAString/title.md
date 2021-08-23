@@ -36,6 +36,7 @@ s由可打印的ASCII字符组成
 ```
 class Solution {
 
+    // 方法1，虽然正确，但是繁杂混乱、理解困难，不推荐
     public String reverseVowels(String s) {
         // 使用双指针法，从字符串两侧往里遍历字符，如果两边对应出现元音字母，那么反转赋值到字符数组中，否则直接赋值到字符数组中
 
@@ -121,6 +122,64 @@ class Solution {
     // 判断当前字符是否为元音字母
     private boolean isVowels(char c) {
         return 'a' == c || 'e' == c || 'i' == c || 'o' == c || 'u' == c || 'A' == c || 'E' == c || 'I' == c || 'O' == c || 'U' == c;
+    }
+
+}
+```
+
+```
+class Solution {
+
+    // 方法2，逻辑清晰，推荐
+    public String reverseVowels(String s) {
+        // 双指针法，从字符数组两侧往里遍历字符，直到出现元音字母或者超出字符数组边界，若在左指针小于右指针时出现l两个元音字母，那么交换字符数组中的两个元音字母
+
+        // 先把字符串转为字符数组
+        char[] arr = s.toCharArray();
+
+        // 定义左指针，从字符数组左侧开始，初始0
+        int left = 0;
+        // 定义右指针，从字符数组右侧开始，初始为字符数组最后的下标
+        int right = s.length() - 1;
+
+        // 双指针往里遍历字符数组，循环直到左指针大于等于右指针
+        while (left < right) {
+            while (left < s.length() && isNotVowel(arr[left])) {
+                // 若左指针还没超出字符数组边界并且指针位置的字符不是元音字母，那么左指针移动加1，直到左指针超出字符数组边界或指针位置的字符是元音字母，结束循环
+                ++left;
+            }
+
+            while (right > 0 && isNotVowel(arr[right])) {
+                // 若右指针还没超出字符数组边界并且指针位置的字符不是元音字母，那么右指针移动减1，直到右指针超出字符数组边界或指针位置的字符是元音字母，结束循环
+                --right;
+            }
+
+            // 经过上面的两次while循环，要么出现左指针大于等于右指针，要么左右指针位置的字符都是元音字母
+
+            if (left < right) {
+                // 若左指针小于右指针，那么这时左右指针位置的字符都是元音字母，交换这两个元音字母
+                swap(arr, left, right);
+                // 左指针加1
+                ++left;
+                // 右指针减1
+                --right;
+            }
+        }
+
+        // 最后把字符数组转为字符串，返回结果
+        return new String(arr);
+    }
+
+    // 判断当前字符是否不是元音字母
+    private boolean isNotVowel(char c) {
+        return 'a' != c && 'e' != c && 'i' != c && 'o' != c && 'u' != c && 'A' != c && 'E' != c && 'I' != c && 'O' != c && 'U' != c;
+    }
+
+    // 交换字符数组中的两个字符
+    private void swap(char[] arr, int left, int right) {
+        char temp = arr[left];
+        arr[left] = arr[right];
+        arr[right] = temp;
     }
 
 }
