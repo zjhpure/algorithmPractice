@@ -374,6 +374,8 @@ GitHub：
 
 * [反转字符串中的元音字母](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/reverseVowelsOfAString/title.md)
 
+* [反转字符串II](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/reverseString2/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -745,3 +747,5 @@ Gitee：
 * [学生出勤记录I](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/studentAttendanceRecord/title.md)
 
 * [反转字符串中的元音字母](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/reverseVowelsOfAString/title.md)
+
+* [反转字符串II](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/reverseString2/title.md)
