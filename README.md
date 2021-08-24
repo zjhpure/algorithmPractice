@@ -376,6 +376,8 @@ GitHub：
 
 * [反转字符串II](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/reverseString2/title.md)
 
+* [获取生成数组中的最大值](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/getMaximumInGeneratedArray/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -749,3 +751,5 @@ Gitee：
 * [反转字符串中的元音字母](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/reverseVowelsOfAString/title.md)
 
 * [反转字符串II](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/reverseString2/title.md)
+
+* [获取生成数组中的最大值](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/getMaximumInGeneratedArray/title.md)
