@@ -380,6 +380,8 @@ GitHub：
 
 * [矩阵中战斗力最弱的K行](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/theKWeakestRowsInAMatrix/title.md)
 
+* [排序数组](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/sortAnArray/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -757,3 +759,5 @@ Gitee：
 * [获取生成数组中的最大值](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/getMaximumInGeneratedArray/title.md)
 
 * [矩阵中战斗力最弱的K行](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/theKWeakestRowsInAMatrix/title.md)
+
+* [排序数组](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/sortAnArray/title.md)
