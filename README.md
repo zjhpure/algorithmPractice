@@ -384,6 +384,8 @@ GitHub：
 
 * [在区间范围内统计奇数数目](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/countOddNumbersInAnIntervalRange/title.md)
 
+* [一月有多少天](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/numberOfDaysInAMonth/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -765,3 +767,5 @@ Gitee：
 * [排序数组](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/sortAnArray/title.md)
 
 * [在区间范围内统计奇数数目](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/countOddNumbersInAnIntervalRange/title.md)
+
+* [一月有多少天](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/numberOfDaysInAMonth/title.md)
