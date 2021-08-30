@@ -38,7 +38,7 @@ public class Main {
         System.out.println(Arrays.toString(treeNodeToArray(result)));
     }
 
-    // 数组转为树，层次遍历，分层按照从上到下，从左到右的顺序
+    // 数组转为树，层序遍历，分层按照从上到下，从左到右的顺序
     private static TreeNode arrayToTreeNode(int[] nums) {
         if (nums == null || nums.length == 0) {
             // 若树节点为空，直接返回空
