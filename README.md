@@ -390,6 +390,8 @@ GitHub：
 
 * [最长有效括号](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/longestValidParentheses/title.md)
 
+* [链表中倒数第k个节点](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/linkedListLastKNode/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -777,3 +779,5 @@ Gitee：
 * [翻转二叉树](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/invertBinaryTree/title.md)
 
 * [最长有效括号](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/longestValidParentheses/title.md)
+
+* [链表中倒数第k个节点](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/linkedListLastKNode/title.md)
