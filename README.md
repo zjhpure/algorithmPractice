@@ -392,6 +392,8 @@ GitHub：
 
 * [链表中倒数第k个节点](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/linkedListLastKNode/title.md)
 
+* [斐波那契数列](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/fibonacci/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -781,3 +783,5 @@ Gitee：
 * [最长有效括号](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/longestValidParentheses/title.md)
 
 * [链表中倒数第k个节点](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/linkedListLastKNode/title.md)
+
+* [斐波那契数列](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/fibonacci/title.md)
