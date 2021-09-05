@@ -394,6 +394,8 @@ GitHub：
 
 * [斐波那契数列](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/fibonacci/title.md)
 
+* [只出现一次的数字II](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/singleNumber2/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -785,3 +787,5 @@ Gitee：
 * [链表中倒数第k个节点](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/linkedListLastKNode/title.md)
 
 * [斐波那契数列](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/fibonacci/title.md)
+
+* [只出现一次的数字II](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/singleNumber2/title.md)
