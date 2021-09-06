@@ -400,6 +400,8 @@ GitHub：
 
 * [二叉树的中序遍历](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/binaryTreeInorderTraversal/title.md)
 
+* [二叉树的后序遍历](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/binaryTreePostorderTraversal/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -797,3 +799,5 @@ Gitee：
 * [二叉树的前序遍历](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/binaryTreePreorderTraversal/title.md)
 
 * [二叉树的中序遍历](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/binaryTreeInorderTraversal/title.md)
+
+* [二叉树的后序遍历](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/binaryTreePostorderTraversal/title.md)

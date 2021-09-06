@@ -1,11 +1,11 @@
-package org.pure.algorithm.binaryTreeInorderTraversal;
+package org.pure.algorithm.binaryTreePostorderTraversal;
 
 import java.util.*;
 
 /**
  * @author zhangjianhua
- * @date 2021-09-06 21:10
- * @description 二叉树的中序遍历
+ * @date 2021-09-06 21:27
+ * @description 二叉树的后序遍历
  */
 public class Main {
 
@@ -38,7 +38,7 @@ public class Main {
         TreeNode root = arrayToTreeNode(nums);
 
         // 获取输出结果
-        List<Integer> result = inorderTraversal(root);
+        List<Integer> result = postorderTraversal(root);
         System.out.println(result);
     }
 
@@ -115,28 +115,28 @@ public class Main {
         return root;
     }
 
-    // 二叉树的中序遍历，方法1，递归法
-    private static List<Integer> inorderTraversal(TreeNode root) {
+    // 二叉树的后序遍历，方法1，递归法
+    private static List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
 
-        // 中序遍历二叉树
-        inTraversal(list, root);
+        // 后序遍历二叉树
+        postTraversal(list, root);
 
         return list;
     }
 
-    // 中序遍历二叉树，递归法
-    private static void inTraversal(List<Integer> list, TreeNode root) {
+    // 后序遍历二叉树，递归法
+    private static void postTraversal(List<Integer> list, TreeNode root) {
         if (root == null) {
             return;
         }
 
         // 处理左节点
-        inTraversal(list, root.left);
+        postTraversal(list, root.left);
+        // 处理右节点
+        postTraversal(list, root.right);
         // 根节点添加到列表中
         list.add(root.val);
-        // 处理右节点
-        inTraversal(list, root.right);
     }
 
 }

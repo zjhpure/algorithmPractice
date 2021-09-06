@@ -66,7 +66,7 @@ https://leetcode-cn.com/problems/binary-tree-inorder-traversal
  * }
  */
 class Solution {
-l
+
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
 
