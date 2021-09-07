@@ -404,6 +404,8 @@ GitHub：
 
 * [两棵二叉搜索树中的所有元素](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/allElementsInTwoBinarySearchTrees/title.md)
 
+* [稀疏数组搜索](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/sparseArraySearch/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -805,3 +807,5 @@ Gitee：
 * [二叉树的后序遍历](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/binaryTreePostorderTraversal/title.md)
 
 * [两棵二叉搜索树中的所有元素](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/allElementsInTwoBinarySearchTrees/title.md)
+
+* [稀疏数组搜索](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/sparseArraySearch/title.md)
