@@ -406,6 +406,8 @@ GitHub：
 
 * [稀疏数组搜索](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/sparseArraySearch/title.md)
 
+* [两数相加](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/addTwoNumbers/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -809,3 +811,5 @@ Gitee：
 * [两棵二叉搜索树中的所有元素](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/allElementsInTwoBinarySearchTrees/title.md)
 
 * [稀疏数组搜索](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/sparseArraySearch/title.md)
+
+* [两数相加](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/addTwoNumbers/title.md)
