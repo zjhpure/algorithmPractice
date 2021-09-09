@@ -408,6 +408,8 @@ GitHub：
 
 * [两数相加](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/addTwoNumbers/title.md)
 
+* [三角形的最大周长](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/largestPerimeterTriangle/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -813,3 +815,5 @@ Gitee：
 * [稀疏数组搜索](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/sparseArraySearch/title.md)
 
 * [两数相加](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/addTwoNumbers/title.md)
+
+* [三角形的最大周长](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/largestPerimeterTriangle/title.md)
