@@ -70,3 +70,86 @@ class Solution {
 
 }
 ```
+
+```
+class Solution {
+
+    public int[] sortArray(int[] nums) {
+        // 快速排序
+
+        // 调用快速排序，对数组进行排序
+        quickSort(nums);
+
+        return nums;
+    }
+
+    // 快速排序
+    private void quickSort(int[] nums) {
+        // 调用快速排序，初始分区从数组开头到结尾
+        quickSort(nums, 0, nums.length - 1);
+    }
+
+    // 快速排序具体处理
+    private void quickSort(int[] nums, int start, int end) {
+        if (start >= end) {
+            // 若区域内的数字少于2个，结束递归
+            return;
+        }
+
+        // 对数组分区，并获得中间值的下标
+        int middle = partition(nums, start, end);
+
+        // 对左区域快速排序
+        quickSort(nums, start, middle - 1);
+
+        // 对右区域快速排序
+        quickSort(nums, middle + 1, end);
+    }
+
+    // 分区，将数组从start到end分区，左边区域比基数小，右边区域比基数大，然后返回中间值的下标
+    private int partition(int[] nums, int start, int end) {
+        // 取第一个数为基数
+        int pivot = nums[start];
+
+        // 定义左边界，从第二个数开始分区
+        int left = start + 1;
+        // 定义右边界
+        int right = end;
+
+        // left、right相遇时退出循环
+        while (left < right) {
+            while (left < right && nums[left] <= pivot) {
+                // 往前找大于基数的下标
+                ++left;
+            }
+
+            // 交换两个数，大的数往数组后面交换，使得左边分区都小于或等于基数，右边分区大于或等于基数
+            if (left != right) {
+                exchange(nums, left, right);
+                --right;
+            }
+        }
+
+        // 如果left和right相等，单独比较nums[right]和pivot
+        if (left == right && nums[right] > pivot) {
+            --right;
+        }
+
+        // 将基数和中间数交换
+        if (right != start) {
+            exchange(nums, start, right);
+        }
+
+        // 返回中间值的下标
+        return right;
+    }
+
+    // 交换数组中的两个数
+    private void exchange(int[] nums, int i, int j) {
+        nums[i] ^= nums[j];
+        nums[j] ^= nums[i];
+        nums[i] ^= nums[j];
+    }
+
+}
+```
