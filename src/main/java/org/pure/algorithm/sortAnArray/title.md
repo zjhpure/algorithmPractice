@@ -74,6 +74,7 @@ class Solution {
 ```
 class Solution {
 
+    // 方法2，快速排序(交换排序)，时间复杂度O(nlogn)，空间复杂度O(logn)，这里运行不超时，但不理想，建议使用优化过的快速排序
     public int[] sortArray(int[] nums) {
         // 快速排序
 
