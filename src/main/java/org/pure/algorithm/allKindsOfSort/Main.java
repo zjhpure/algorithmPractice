@@ -51,19 +51,26 @@ public class Main {
         // 冒泡排序改进(交换排序)后数组
         System.out.println("冒泡排序改进(交换排序)后数组：" + Arrays.toString(bubbleSort2(bubbleSortArr2)));
 
-        // 快速排序(交换排序)前数组
-        System.out.println("快速排序(交换排序，挖坑填数分区法或双指针分区法)前数组：" + Arrays.toString(arr));
-        // 生成快速排序(交换排序)新数组
+        // 快速排序(交换排序，挖坑填数分区法)前数组
+        System.out.println("快速排序(交换排序，挖坑填数分区法)前数组：" + Arrays.toString(arr));
+        // 生成快速排序(交换排序，挖坑填数分区法)新数组
         int[] quickSortArr = getNewArr(arr);
-        // 快速排序(交换排序)后数组
-        System.out.println("快速排序(交换排序，挖坑填数分区法或双指针分区法)后数组：" + Arrays.toString(quickSort(quickSortArr, 0, quickSortArr.length - 1)));
+        // 快速排序(交换排序，挖坑填数分区法)后数组
+        System.out.println("快速排序(交换排序，挖坑填数分区法)后数组：" + Arrays.toString(quickSort(quickSortArr, 0, quickSortArr.length - 1)));
 
-        // 快速排序2(交换排序)前数组
-        System.out.println("快速排序(交换排序，交换分区法)前数组：" + Arrays.toString(arr));
-        // 生成快速排序2(交换排序)新数组
+        // 快速排序(交换排序，交换分区法，最简单的分区算法)前数组
+        System.out.println("快速排序(交换排序，交换分区法，最简单的分区算法)前数组：" + Arrays.toString(arr));
+        // 生成快速排序(交换排序，交换分区法，最简单的分区算法)新数组
         int[] quickSortArr2 = getNewArr(arr);
-        // 快速排序2(交换排序)后数组
-        System.out.println("快速排序(交换排序，交换分区法)后数组：" + Arrays.toString(quickSort2(quickSortArr2)));
+        // 快速排序2(交换排序，交换分区法，最简单的分区算法)后数组
+        System.out.println("快速排序(交换排序，交换分区法，最简单的分区算法)后数组：" + Arrays.toString(quickSort2(quickSortArr2)));
+
+        // 快速排序(交换排序，双指针分区法)前数组
+        System.out.println("快速排序(交换排序，双指针分区法)前数组：" + Arrays.toString(arr));
+        // 生成快速排序(交换排序，双指针分区法)新数组
+        int[] quickSortArr3 = getNewArr(arr);
+        // 快速排序(交换排序，双指针分区法)后数组
+        System.out.println("快速排序(交换排序，双指针分区法)后数组：" + Arrays.toString(quickSort3(quickSortArr3)));
 
         // 直接插入排序(插入排序，交换法)前数组
         System.out.println("直接插入排序(插入排序，交换法)前数组：" + Arrays.toString(arr));
@@ -161,7 +168,7 @@ public class Main {
         return arr;
     }
 
-    // 快速排序(交换排序，挖坑填数分区法或双指针分区法)，平均时间复杂度O(nlogn)，最好时间复杂度O(nlogn)，最坏时间复杂度O(n^2)，空间复杂度O(logn)
+    // 快速排序(交换排序，挖坑填数分区法)，平均时间复杂度O(nlogn)，最好时间复杂度O(nlogn)，最坏时间复杂度O(n^2)，空间复杂度O(logn) ~ O(n)，平均空间复杂度O(logn)
     private static int[] quickSort(int[] arr, int low, int high) {
         if (arr == null || arr.length <= 0) {
             return arr;
@@ -205,7 +212,7 @@ public class Main {
         return arr;
     }
 
-    // 快速排序(交换排序，交换分区法)，平均时间复杂度O(nlogn)，最好时间复杂度O(nlogn)，最坏时间复杂度O(n^2)，空间复杂度O(logn)
+    // 快速排序(交换排序，交换分区法，最简单的分区算法)，平均时间复杂度O(nlogn)，最好时间复杂度O(nlogn)，最坏时间复杂度O(n^2)，空间复杂度O(logn) ~ O(n)，平均空间复杂度O(logn)
     private static int[] quickSort2(int[] arr) {
         quickSort2(arr, 0, arr.length - 1);
         return arr;
@@ -219,7 +226,7 @@ public class Main {
         }
 
         // 对数组分区，并获得中间值的下标
-        int middle = partition(arr, start, end);
+        int middle = partition2(arr, start, end);
 
         System.out.println("quickSort2:" + Arrays.toString(arr));
 
@@ -231,7 +238,7 @@ public class Main {
     }
 
     // 将arr从start到end分区，左边区域比基数小，右边区域比基数大，然后返回中间值的下标
-    private static int partition(int[] arr, int start, int end) {
+    private static int partition2(int[] arr, int start, int end) {
         // 取第一个数为基数
         int pivot = arr[start];
 
@@ -250,7 +257,7 @@ public class Main {
 
             // 交换这两个数，使得左边分区都小于或等于基数，右边分区大于或等于基数
             if (left != right) {
-                exchange(arr, left, right);
+                exchange2(arr, left, right);
                 --right;
             }
         }
@@ -262,7 +269,7 @@ public class Main {
 
         // 将基数和中间数交换
         if (right != start) {
-            exchange(arr, start, right);
+            exchange2(arr, start, right);
         }
 
         // 返回中间值的下标
@@ -270,7 +277,84 @@ public class Main {
     }
 
     // 交换两个数
-    private static void exchange(int[] arr, int i, int j) {
+    private static void exchange2(int[] arr, int i, int j) {
+        arr[i] ^= arr[j];
+        arr[j] ^= arr[i];
+        arr[i] ^= arr[j];
+    }
+
+    // 快速排序(交换排序，双指针分区法)，平均时间复杂度O(nlogn)，最好时间复杂度O(nlogn)，最坏时间复杂度O(n^2)，空间复杂度O(logn) ~ O(n)，平均空间复杂度O(logn)
+    private static int[] quickSort3(int[] arr) {
+        quickSort3(arr, 0, arr.length - 1);
+        return arr;
+    }
+
+    // 快速排序处理
+    private static void quickSort3(int[] arr, int start, int end) {
+        if (start >= end) {
+            // 如果区域内的数字少于2个，结束递归
+            return;
+        }
+
+        // 对数组分区，并获得中间值的下标
+        int middle = partition3(arr, start, end);
+
+        System.out.println("quickSort3:" + Arrays.toString(arr));
+
+        // 对左边区域快速排序
+        quickSort3(arr, start, middle - 1);
+
+        // 对右边区域快速排序
+        quickSort3(arr, middle + 1, end);
+    }
+
+    // 将arr从start到end分区，左边区域比基数小，右边区域比基数大，然后返回中间值的下标
+    private static int partition3(int[] arr, int start, int end) {
+        // 取第一个数为基数
+        int pivot = arr[start];
+
+        // 从第二个数开始分区
+        int left = start + 1;
+
+        // 右边界
+        int right = end;
+
+        // left、right相遇时退出循环
+        while (left < right) {
+            // 找到第一个大于基数的位置
+            while (left < right && arr[left] <= pivot) {
+                ++left;
+            }
+
+            // 找到第一个小于基数的位置
+            while (left < right && arr[right] >= pivot) {
+                --right;
+            }
+
+            if (left < right) {
+                // 交换这两个数，使得左边分区都小于或等于基数，右边分区大于或等于基数
+                exchange3(arr, left, right);
+                ++left;
+                --right;
+            }
+        }
+
+        // 如果left和right相等，单独比较arr[right]和pivot
+        if (left == right && arr[right] > pivot) {
+            --right;
+        }
+
+        // 将基数和中间数交换
+        if (right != start) {
+            exchange3(arr, start, right);
+        }
+
+        // 返回中间值的下标
+        return right;
+    }
+
+    // 交换两个数
+    private static void exchange3(int[] arr, int i, int j) {
         arr[i] ^= arr[j];
         arr[j] ^= arr[i];
         arr[i] ^= arr[j];
