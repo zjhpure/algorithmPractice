@@ -414,6 +414,8 @@ GitHub：
 
 * [寻找峰值](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/findPeakElement/title.md)
 
+* [三除数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/threeDivisors/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -825,3 +827,5 @@ Gitee：
 * [最少操作使数组递增](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/minOperationsToMakeTheArrayIncreasing/title.md)
 
 * [寻找峰值](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/findPeakElement/title.md)
+
+* [三除数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/threeDivisors/title.md)
