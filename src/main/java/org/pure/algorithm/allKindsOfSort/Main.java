@@ -108,11 +108,18 @@ public class Main {
         System.out.println("堆排序(选择排序)后数组：" + Arrays.toString(heapSort(heapSortArr)));
 
         // 归并排序前数组
-        System.out.println("归并排序前数组：" + Arrays.toString(arr));
+        System.out.println("归并排序(写法1，在递归过程中，开辟了很多临时空间，不推荐)前数组：" + Arrays.toString(arr));
         // 生成归并排序新数组
         int[] mergeSortArr = getNewArr(arr);
         // 归并排序后数组
-        System.out.println("归并排序后数组：" + Arrays.toString(mergeSort(mergeSortArr)));
+        System.out.println("归并排序(写法1，在递归过程中，开辟了很多临时空间，不推荐)后数组：" + Arrays.toString(mergeSort(mergeSortArr)));
+
+        // 归并排序(写法2，减少临时空间的开辟，在归并排序之前，先开辟出一个临时空间，推荐)前数组
+        System.out.println("归并排序(写法2，减少临时空间的开辟，在归并排序之前，先开辟出一个临时空间，推荐)前数组：" + Arrays.toString(arr));
+        // 生成归并排序(写法2，减少临时空间的开辟，在归并排序之前，先开辟出一个临时空间，推荐)新数组
+        int[] mergeSortArr2 = getNewArr(arr);
+        // 归并排序(写法2，减少临时空间的开辟，在归并排序之前，先开辟出一个临时空间，推荐)后数组
+        System.out.println("归并排序(写法2，减少临时空间的开辟，在归并排序之前，先开辟出一个临时空间，推荐)后数组：" + Arrays.toString(mergeSort2(mergeSortArr2)));
 
         // 基数排序前数组
         System.out.println("基数排序前数组：" + Arrays.toString(arr));
@@ -122,7 +129,7 @@ public class Main {
         System.out.println("基数排序后数组：" + Arrays.toString(radixSort(radixSortArr)));
     }
 
-    // 冒泡排序(交换排序)，时间复杂度O(n^2)，空间复杂度O(1)
+    // 冒泡排序(交换排序)，稳定算法，时间复杂度O(n^2)，空间复杂度O(1)
     private static int[] bubbleSort(int[] arr) {
         // 需要进行排序的趟数刚好为数组arr的长度减1，每一趟排序找出当前的最大数，挪到对应的位置
         for (int i = 0; i < arr.length - 1; ++i) {
@@ -140,7 +147,7 @@ public class Main {
         return arr;
     }
 
-    // 冒泡排序改进(交换排序)，平均时间复杂度O(n^2)，最好时间复杂度O(n)，最坏时间复杂度O(n^2)，空间复杂度O(1)
+    // 冒泡排序改进(交换排序)，稳定算法，平均时间复杂度O(n^2)，最好时间复杂度O(n)，最坏时间复杂度O(n^2)，空间复杂度O(1)
     private static int[] bubbleSort2(int[] arr) {
         // 需要进行排序的趟数刚好为数组arr的长度减1，每一趟排序找出当前的最大数，挪到对应的位置
         for (int i = 0; i < arr.length - 1; ++i) {
@@ -168,7 +175,7 @@ public class Main {
         return arr;
     }
 
-    // 快速排序(交换排序，挖坑填数分区法)，平均时间复杂度O(nlogn)，最好时间复杂度O(nlogn)，最坏时间复杂度O(n^2)，空间复杂度O(logn) ~ O(n)，平均空间复杂度O(logn)
+    // 快速排序(交换排序，挖坑填数分区法)，不稳定算法，平均时间复杂度O(nlogn)，最好时间复杂度O(nlogn)，最坏时间复杂度O(n^2)，空间复杂度O(logn) ~ O(n)，平均空间复杂度O(logn)
     private static int[] quickSort(int[] arr, int low, int high) {
         if (arr == null || arr.length <= 0) {
             return arr;
@@ -212,7 +219,7 @@ public class Main {
         return arr;
     }
 
-    // 快速排序(交换排序，交换分区法，最简单的分区算法)，平均时间复杂度O(nlogn)，最好时间复杂度O(nlogn)，最坏时间复杂度O(n^2)，空间复杂度O(logn) ~ O(n)，平均空间复杂度O(logn)
+    // 快速排序(交换排序，交换分区法，最简单的分区算法)，不稳定算法，平均时间复杂度O(nlogn)，最好时间复杂度O(nlogn)，最坏时间复杂度O(n^2)，空间复杂度O(logn) ~ O(n)，平均空间复杂度O(logn)
     private static int[] quickSort2(int[] arr) {
         quickSort2(arr, 0, arr.length - 1);
         return arr;
@@ -283,7 +290,7 @@ public class Main {
         arr[i] ^= arr[j];
     }
 
-    // 快速排序(交换排序，双指针分区法)，平均时间复杂度O(nlogn)，最好时间复杂度O(nlogn)，最坏时间复杂度O(n^2)，空间复杂度O(logn) ~ O(n)，平均空间复杂度O(logn)
+    // 快速排序(交换排序，双指针分区法)，不稳定算法，平均时间复杂度O(nlogn)，最好时间复杂度O(nlogn)，最坏时间复杂度O(n^2)，空间复杂度O(logn) ~ O(n)，平均空间复杂度O(logn)
     private static int[] quickSort3(int[] arr) {
         quickSort3(arr, 0, arr.length - 1);
         return arr;
@@ -360,7 +367,7 @@ public class Main {
         arr[i] ^= arr[j];
     }
 
-    // 直接插入排序(插入排序)，交换法，平均时间复杂度O(n^2)，最好时间复杂度O(n)，最坏时间复杂度O(n^2)，空间复杂度O(1)
+    // 直接插入排序(插入排序)，稳定算法，交换法，平均时间复杂度O(n^2)，最好时间复杂度O(n)，最坏时间复杂度O(n^2)，空间复杂度O(1)
     private static int[] directlyInsertSort(int[] arr) {
         // 从第2个数开始，确定要操作的数，对要操作的数找到要插入的位置
         for (int i = 1; i < arr.length; ++i) {
@@ -383,7 +390,7 @@ public class Main {
         return arr;
     }
 
-    // 直接插入排序(插入排序)，移动法，平均时间复杂度O(n^2)，最好时间复杂度O(n)，最坏时间复杂度O(n^2)，空间复杂度O(1)
+    // 直接插入排序(插入排序)，稳定算法，移动法，平均时间复杂度O(n^2)，最好时间复杂度O(n)，最坏时间复杂度O(n^2)，空间复杂度O(1)
     private static int[] directlyInsertSort2(int[] arr) {
         // 从第2个数开始，确定要操作的数，对要操作的数找到要插入的位置
         for (int i = 1; i < arr.length; ++i) {
@@ -410,7 +417,7 @@ public class Main {
         return arr;
     }
 
-    // 希尔排序(插入排序)
+    // 希尔排序(插入排序)，不稳定算法
     private static int[] shellSort(int[] arr) {
         int gap = arr.length / 2;
 
@@ -433,7 +440,7 @@ public class Main {
         return arr;
     }
 
-    // 直接选择排序(选择排序)，平均时间复杂度O(n^2)，最好时间复杂度O(n^2)，最坏时间复杂度O(n^2)，空间复杂度O(1)
+    // 直接选择排序(选择排序)，不稳定算法，平均时间复杂度O(n^2)，最好时间复杂度O(n^2)，最坏时间复杂度O(n^2)，空间复杂度O(1)
     private static int[] directlySelectSort(int[] arr) {
         // 获取数组的长度
         int n = arr.length;
@@ -463,7 +470,7 @@ public class Main {
         return arr;
     }
 
-    // 堆排序(选择排序)
+    // 堆排序(选择排序)，不稳定算法
     private static int[] heapSort(int[] arr) {
         // 1.构建大顶堆
         for (int i = arr.length / 2 - 1; i >= 0; --i) {
@@ -514,7 +521,7 @@ public class Main {
         arr[b] = temp;
     }
 
-    // 归并排序
+    // 归并排序(写法1，在递归过程中，开辟了很多临时空间，不推荐)，稳定算法，平均时间复杂度O(nlogn)，最好时间复杂度O(nlogn)，最坏时间复杂度O(nlogn)，空间复杂度O(n)
     private static int[] mergeSort(int[] arr) {
         if (arr.length <= 1) {
             return arr;
@@ -558,7 +565,73 @@ public class Main {
         return result;
     }
 
-    // 基数排序
+    // 归并排序(写法2，减少临时空间的开辟，在归并排序之前，先开辟出一个临时空间，推荐)，稳定算法，平均时间复杂度O(nlogn)，最好时间复杂度O(nlogn)，最坏时间复杂度O(nlogn)，空间复杂度O(n)
+    private static int[] mergeSort2(int[] arr) {
+        if (arr.length == 0) {
+            return arr;
+        }
+
+        int[] result = new int[arr.length];
+
+        mergeSort2(arr, 0, arr.length - 1, result);
+
+        return arr;
+    }
+
+    // 对arr的[start, end]区间归并排序
+    private static void mergeSort2(int[] arr, int start, int end, int[] result) {
+        // 只剩下一个数字，停止拆分
+        if (start == end) {
+            return;
+        }
+
+        int middle = (start + end) / 2;
+
+        // 拆分左边区域，并将归并排序的结果保存到result的[start, middle]区间
+        mergeSort2(arr, start, middle, result);
+
+        // 拆分右边区域，并将归并排序的结果保存到result的[middle + 1, end]区间
+        mergeSort2(arr, middle + 1, end, result);
+
+        // 合并左右区域到result的[start, end]区间
+        merge2(arr, start, end, result);
+    }
+
+    // 将result的[start, middle]和[middle + 1, end]区间合并
+    private static void merge2(int[] arr, int start, int end, int[] result) {
+        int end1 = (start + end) / 2;
+
+        int start2 = end1 + 1;
+
+        // 用来遍历数组的指针
+        int index1 = start;
+
+        int index2 = start2;
+
+        while (index1 <= end1 && index2 <= end) {
+            if (arr[index1] <= arr[index2]) {
+                result[index1 + index2 - start2] = arr[index1++];
+            } else {
+                result[index1 + index2 - start2] = arr[index2++];
+            }
+        }
+
+        // 将剩余数字补到结果数组之后
+        while (index1 <= end1) {
+            result[index1 + index2 - start2] = arr[index1++];
+        }
+
+        while (index2 <= end) {
+            result[index1 + index2 - start2] = arr[index2++];
+        }
+
+        // 将result操作区间的数字拷贝到arr数组中，以便下次比较
+        while (start <= end) {
+            arr[start] = result[start++];
+        }
+    }
+
+    // 基数排序，稳定算法
     private static int[] radixSort(int[] arr) {
         int max = arr[0];
 
