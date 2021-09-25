@@ -93,6 +93,13 @@ public class Main {
         // 希尔排序(插入排序)后数组
         System.out.println("希尔排序(插入排序)后数组：" + Arrays.toString(shellSort(shellSortArr)));
 
+        // 希尔排序2(插入排序)前数组
+        System.out.println("希尔排序2(插入排序)前数组：" + Arrays.toString(arr));
+        // 生成希尔排序2(插入排序)新数组
+        int[] shellSortArr2 = getNewArr(arr);
+        // 希尔排序2(插入排序)后数组
+        System.out.println("希尔排序2(插入排序)后数组：" + Arrays.toString(shellSort2(shellSortArr2)));
+
         // 直接选择排序(选择排序)前数组
         System.out.println("直接选择排序(选择排序)前数组：" + Arrays.toString(arr));
         // 生成直接选择排序(选择排序)新数组
@@ -106,6 +113,13 @@ public class Main {
         int[] heapSortArr = getNewArr(arr);
         // 堆排序(选择排序)后数组
         System.out.println("堆排序(选择排序)后数组：" + Arrays.toString(heapSort(heapSortArr)));
+
+        // 堆排序2(选择排序)前数组
+        System.out.println("堆排序2(选择排序)前数组：" + Arrays.toString(arr));
+        // 生成堆排序2(选择排序)新数组
+        int[] heapSortArr2 = getNewArr(arr);
+        // 堆排序2(选择排序)后数组
+        System.out.println("堆排序2(选择排序)后数组：" + Arrays.toString(heapSort2(heapSortArr2)));
 
         // 归并排序前数组
         System.out.println("归并排序(写法1，在递归过程中，开辟了很多临时空间，不推荐)前数组：" + Arrays.toString(arr));
@@ -440,6 +454,39 @@ public class Main {
         return arr;
     }
 
+    // 希尔排序2(插入排序)，不稳定算法
+    private static int[] shellSort2(int[] arr) {
+        // 找到当前数组需要用到的Knuth序列中的最大值
+        int maxKnuthNumber = 1;
+
+        while (maxKnuthNumber <= arr.length / 3) {
+            maxKnuthNumber = maxKnuthNumber * 3 + 1;
+        }
+
+        // 增量按照Knuth序列规则依次递减
+        for (int gap = maxKnuthNumber; gap > 0; gap = (gap - 1) / 3) {
+            // 从gap开始，按照顺序将每个元素依次向前插入自己所在的组
+            for (int i = gap; i < arr.length; i++) {
+                // currentNumber站起来，开始找位置
+                int currentNumber = arr[i];
+
+                // 该组前一个数字的索引
+                int preIndex = i - gap;
+
+                while (preIndex >= 0 && currentNumber < arr[preIndex]) {
+                    // 向后挪位置
+                    arr[preIndex + gap] = arr[preIndex];
+                    preIndex -= gap;
+                }
+
+                // currentNumber找到了自己的位置，坐下
+                arr[preIndex + gap] = currentNumber;
+            }
+        }
+
+        return arr;
+    }
+
     // 直接选择排序(选择排序)，不稳定算法，平均时间复杂度O(n^2)，最好时间复杂度O(n^2)，最坏时间复杂度O(n^2)，空间复杂度O(1)
     private static int[] directlySelectSort(int[] arr) {
         // 获取数组的长度
@@ -519,6 +566,66 @@ public class Main {
         int temp = arr[0];
         arr[0] = arr[b];
         arr[b] = temp;
+    }
+
+    // 堆排序2(选择排序)，不稳定算法
+    private static int[] heapSort2(int[] arr) {
+        // 构建初始大顶堆
+        buildMaxHeap2(arr);
+
+        for (int i = arr.length - 1; i > 0; i--) {
+            // 将最大值交换到数组最后
+            swap2(arr, 0, i);
+            // 调整剩余数组，使其满足大顶堆
+            maxHeapify2(arr, 0, i);
+        }
+
+        return arr;
+    }
+
+    // 构建初始大顶堆
+    private static void buildMaxHeap2(int[] arr) {
+        // 从最后一个非叶子结点开始调整大顶堆，最后一个非叶子结点的下标就是arr.length / 2 - 1
+        for (int i = arr.length / 2 - 1; i >= 0; i--) {
+            maxHeapify2(arr, i, arr.length);
+        }
+    }
+
+    // 调整大顶堆，第三个参数表示剩余未排序的数字的数量，也就是剩余堆的大小
+    private static void maxHeapify2(int[] arr, int i, int heapSize) {
+        // 左子结点下标
+        int l = 2 * i + 1;
+
+        // 右子结点下标
+        int r = l + 1;
+
+        // 记录根结点、左子树结点、右子树结点三者中的最大值下标
+        int largest = i;
+
+        // 与左子树结点比较
+        if (l < heapSize && arr[l] > arr[largest]) {
+            largest = l;
+        }
+
+        // 与右子树结点比较
+        if (r < heapSize && arr[r] > arr[largest]) {
+            largest = r;
+        }
+
+        if (largest != i) {
+            // 将最大值交换为根结点
+            swap2(arr, i, largest);
+
+            // 再次调整交换数字后的大顶堆
+            maxHeapify2(arr, largest, heapSize);
+        }
+    }
+
+    // 交换元素
+    private static void swap2(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
     }
 
     // 归并排序(写法1，在递归过程中，开辟了很多临时空间，不推荐)，稳定算法，平均时间复杂度O(nlogn)，最好时间复杂度O(nlogn)，最坏时间复杂度O(nlogn)，空间复杂度O(n)
