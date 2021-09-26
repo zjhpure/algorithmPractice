@@ -141,6 +141,13 @@ public class Main {
         int[] radixSortArr = getNewArr(arr);
         // 基数排序后数组
         System.out.println("基数排序后数组：" + Arrays.toString(radixSort(radixSortArr)));
+
+        // 基数排序2前数组
+        System.out.println("基数排序2前数组：" + Arrays.toString(arr));
+        // 生成基数排序2新数组
+        int[] radixSortArr2 = getNewArr(arr);
+        // 基数排序2后数组
+        System.out.println("基数排序2后数组：" + Arrays.toString(radixSort2(radixSortArr2)));
     }
 
     // 冒泡排序(交换排序)，稳定算法，时间复杂度O(n^2)，空间复杂度O(1)
@@ -786,6 +793,63 @@ public class Main {
             base *= 10;
 
 //            System.out.println("radixSort:" + Arrays.toString(arr));
+        }
+
+        return arr;
+    }
+
+    // 基数排序2，稳定算法
+    private static int[] radixSort2(int[] arr) {
+        if (arr == null) {
+            return null;
+        }
+
+        // 找出最大值
+        int max = 0;
+
+        for (int value : arr) {
+            if (value > max) {
+                max = value;
+            }
+        }
+
+        // 计算最大数字的长度
+        int maxDigitLength = 0;
+
+        while (max != 0) {
+            maxDigitLength++;
+            max /= 10;
+        }
+
+        // 使用计数排序算法对基数进行排序
+        int[] counting = new int[10];
+
+        int[] result = new int[arr.length];
+
+        int dev = 1;
+
+        for (int i = 0; i < maxDigitLength; i++) {
+            for (int value : arr) {
+                int radix = value / dev % 10;
+                counting[radix]++;
+            }
+
+            for (int j = 1; j < counting.length; j++) {
+                counting[j] += counting[j - 1];
+            }
+
+            // 使用倒序遍历的方式完成计数排序
+            for (int j = arr.length - 1; j >= 0; j--) {
+                int radix = arr[j] / dev % 10;
+                result[--counting[radix]] = arr[j];
+            }
+
+            // 计数排序完成后，将结果拷贝回arr数组
+            System.arraycopy(result, 0, arr, 0, arr.length);
+
+            // 将计数数组重置为0
+            Arrays.fill(counting, 0);
+            dev *= 10;
         }
 
         return arr;
