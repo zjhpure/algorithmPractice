@@ -438,7 +438,7 @@ public class Main {
         return arr;
     }
 
-    // 希尔排序(插入排序)，不稳定算法
+    // 希尔排序(插入排序)，不稳定算法，时间复杂度O(n) ~ O(n^2)，平均时间复杂度O(n^1.3)，最好时间复杂度O(n)，最坏时间复杂度O(n^2)，空间复杂度O(1)
     private static int[] shellSort(int[] arr) {
         int gap = arr.length / 2;
 
@@ -461,7 +461,7 @@ public class Main {
         return arr;
     }
 
-    // 希尔排序2(插入排序)，不稳定算法
+    // 希尔排序2(插入排序)，不稳定算法，时间复杂度O(n) ~ O(n^2)，平均时间复杂度O(n^1.3)，最好时间复杂度O(n)，最坏时间复杂度O(n^2)，空间复杂度O(1)
     private static int[] shellSort2(int[] arr) {
         // 找到当前数组需要用到的Knuth序列中的最大值
         int maxKnuthNumber = 1;
@@ -524,7 +524,7 @@ public class Main {
         return arr;
     }
 
-    // 堆排序(选择排序)，不稳定算法
+    // 堆排序(选择排序)，不稳定算法，初始化建堆的时间复杂度为O(n)，重建堆的时间复杂度为O(nlogn)，总时间复杂度O(nlogn)，最好时间复杂度O(nlogn)，最坏时间复杂度O(nlogn)，空间复杂度O(1)
     private static int[] heapSort(int[] arr) {
         // 1.构建大顶堆
         for (int i = arr.length / 2 - 1; i >= 0; --i) {
@@ -575,7 +575,7 @@ public class Main {
         arr[b] = temp;
     }
 
-    // 堆排序2(选择排序)，不稳定算法
+    // 堆排序2(选择排序)，不稳定算法，初始化建堆的时间复杂度为O(n)，重建堆的时间复杂度为O(nlogn)，总时间复杂度O(nlogn)，最好时间复杂度O(nlogn)，最坏时间复杂度O(nlogn)，空间复杂度O(1)
     private static int[] heapSort2(int[] arr) {
         // 构建初始大顶堆
         buildMaxHeap2(arr);
@@ -745,7 +745,7 @@ public class Main {
         }
     }
 
-    // 基数排序，稳定算法
+    // 基数排序，稳定算法，时间复杂度O(d(n+k))(d表示最长数字的位数，k表示每个基数可能的取值范围大小)，空间复杂度O(n+k)(k表示每个基数可能的取值范围大小)
     private static int[] radixSort(int[] arr) {
         int max = arr[0];
 
@@ -798,7 +798,7 @@ public class Main {
         return arr;
     }
 
-    // 基数排序2，稳定算法
+    // 基数排序2，稳定算法，时间复杂度O(d(n+k))(d表示最长数字的位数，k表示每个基数可能的取值范围大小)，空间复杂度O(n+k)(k表示每个基数可能的取值范围大小)
     private static int[] radixSort2(int[] arr) {
         if (arr == null) {
             return null;
