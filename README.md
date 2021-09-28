@@ -418,6 +418,8 @@ GitHub：
 
 * [消失的两个数字](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/missingTwo/title.md)
 
+* [数组中数字出现的次数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/arraysOfNumShowTimes/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -833,3 +835,5 @@ Gitee：
 * [三除数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/threeDivisors/title.md)
 
 * [消失的两个数字](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/missingTwo/title.md)
+
+* [数组中数字出现的次数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/arraysOfNumShowTimes/title.md)
