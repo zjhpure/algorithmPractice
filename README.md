@@ -420,6 +420,8 @@ GitHub：
 
 * [数组中数字出现的次数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/arraysOfNumShowTimes/title.md)
 
+* [统计平方和三元组的数目](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/countSquareSumTriples/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -837,3 +839,5 @@ Gitee：
 * [消失的两个数字](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/missingTwo/title.md)
 
 * [数组中数字出现的次数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/arraysOfNumShowTimes/title.md)
+
+* [统计平方和三元组的数目](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/countSquareSumTriples/title.md)
