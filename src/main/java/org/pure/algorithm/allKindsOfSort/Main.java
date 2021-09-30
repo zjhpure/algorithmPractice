@@ -638,15 +638,20 @@ public class Main {
     // 归并排序(写法1，在递归过程中，开辟了很多临时空间，不推荐)，稳定算法，平均时间复杂度O(nlogn)，最好时间复杂度O(nlogn)，最坏时间复杂度O(nlogn)，空间复杂度O(n)
     private static int[] mergeSort(int[] arr) {
         if (arr.length <= 1) {
+            // 若数组长度小于等于1，直接返回，无需再拆分
             return arr;
         }
 
+        // 除以2取中间值
         int num = arr.length >> 1;
 
+        // 拆分数组，从开头到中间值
         int[] left = Arrays.copyOfRange(arr, 0, num);
 
+        // 拆分数组，从中间值加1到结尾
         int[] right = Arrays.copyOfRange(arr, num, arr.length);
 
+        // 进行归并第二步排序
         return mergeTwoArray(mergeSort(left), mergeSort(right));
     }
 
@@ -682,11 +687,14 @@ public class Main {
     // 归并排序(写法2，减少临时空间的开辟，在归并排序之前，先开辟出一个临时空间，推荐)，稳定算法，平均时间复杂度O(nlogn)，最好时间复杂度O(nlogn)，最坏时间复杂度O(nlogn)，空间复杂度O(n)
     private static int[] mergeSort2(int[] arr) {
         if (arr.length == 0) {
+            // 若数组长度等于0，直接返回
             return arr;
         }
 
+        // 先申请开辟一个临时空间，通过参数传递进去，后面归并排序的方法里就不再需要再申请开辟临时空间
         int[] result = new int[arr.length];
 
+        // 进行归并排序
         mergeSort2(arr, 0, arr.length - 1, result);
 
         return arr;
@@ -699,6 +707,7 @@ public class Main {
             return;
         }
 
+        // 除以2取中间值
         int middle = (start + end) / 2;
 
         // 拆分左边区域，并将归并排序的结果保存到result的[start, middle]区间
@@ -713,15 +722,20 @@ public class Main {
 
     // 将result的[start, middle]和[middle + 1, end]区间合并
     private static void merge2(int[] arr, int start, int end, int[] result) {
+        // 中间位置
         int end1 = (start + end) / 2;
 
+        // 中间位置加1
         int start2 = end1 + 1;
 
-        // 用来遍历数组的指针
+        // 数组1的起始指针，从开始位置开始
         int index1 = start;
 
+        // 数组2的起始指针，从中间位置加1开始
         int index2 = start2;
 
+        // 把数组拆分成数组1和数组2，先构造数组1和数组2位置相同的元素
+        // 这里把原来的两个有序的列表合并成一个有序的列表，改造成在一个数组中的[start, end]区间内进行，但是在[start, end]区间内进行逻辑上的拆分
         while (index1 <= end1 && index2 <= end) {
             if (arr[index1] <= arr[index2]) {
                 result[index1 + index2 - start2] = arr[index1++];
@@ -730,11 +744,12 @@ public class Main {
             }
         }
 
-        // 将剩余数字补到结果数组之后
+        // 若数组1比数组2长，将剩余的元素补充好到result数组
         while (index1 <= end1) {
             result[index1 + index2 - start2] = arr[index1++];
         }
 
+        // 若数组2比数组1长，将剩余的元素补充好到result数组
         while (index2 <= end) {
             result[index1 + index2 - start2] = arr[index2++];
         }
