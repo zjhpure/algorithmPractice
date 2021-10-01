@@ -422,6 +422,8 @@ GitHub：
 
 * [统计平方和三元组的数目](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/countSquareSumTriples/title.md)
 
+* [相同的树](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/sameTree/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -841,3 +843,5 @@ Gitee：
 * [数组中数字出现的次数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/arraysOfNumShowTimes/title.md)
 
 * [统计平方和三元组的数目](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/countSquareSumTriples/title.md)
+
+* [相同的树](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/sameTree/title.md)
