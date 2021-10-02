@@ -107,19 +107,19 @@ public class Main {
         // 直接选择排序(选择排序)后数组
         System.out.println("直接选择排序(选择排序)后数组：" + Arrays.toString(directlySelectSort(directlySelectSortArr)));
 
-        // 堆排序(选择排序)前数组
-        System.out.println("堆排序(选择排序)前数组：" + Arrays.toString(arr));
-        // 生成堆排序(选择排序)新数组
+        // 堆排序(选择排序，写法1)前数组
+        System.out.println("堆排序(选择排序，写法1)前数组：" + Arrays.toString(arr));
+        // 生成堆排序(选择排序，写法1)新数组
         int[] heapSortArr = getNewArr(arr);
-        // 堆排序(选择排序)后数组
-        System.out.println("堆排序(选择排序)后数组：" + Arrays.toString(heapSort(heapSortArr)));
+        // 堆排序(选择排序，写法1)后数组
+        System.out.println("堆排序(选择排序，写法1)后数组：" + Arrays.toString(heapSort(heapSortArr)));
 
-        // 堆排序2(选择排序)前数组
-        System.out.println("堆排序2(选择排序)前数组：" + Arrays.toString(arr));
-        // 生成堆排序2(选择排序)新数组
+        // 堆排序(选择排序，写法2)前数组
+        System.out.println("堆排序(选择排序，写法2)前数组：" + Arrays.toString(arr));
+        // 生成堆排序(选择排序，写法2)新数组
         int[] heapSortArr2 = getNewArr(arr);
-        // 堆排序2(选择排序)后数组
-        System.out.println("堆排序2(选择排序)后数组：" + Arrays.toString(heapSort2(heapSortArr2)));
+        // 堆排序(选择排序，写法2)后数组
+        System.out.println("堆排序(选择排序，写法2)后数组：" + Arrays.toString(heapSort2(heapSortArr2)));
 
         // 归并排序前数组
         System.out.println("归并排序(写法1，在递归过程中，开辟了很多临时空间，不推荐)前数组：" + Arrays.toString(arr));
@@ -524,7 +524,7 @@ public class Main {
         return arr;
     }
 
-    // 堆排序(选择排序)，不稳定算法，初始化建堆的时间复杂度为O(n)，重建堆的时间复杂度为O(nlogn)，总时间复杂度O(nlogn)，最好时间复杂度O(nlogn)，最坏时间复杂度O(nlogn)，空间复杂度O(1)
+    // 堆排序(选择排序，写法1)，不稳定算法，初始化建堆的时间复杂度为O(n)，重建堆的时间复杂度为O(nlogn)，总时间复杂度O(nlogn)，最好时间复杂度O(nlogn)，最坏时间复杂度O(nlogn)，空间复杂度O(1)
     private static int[] heapSort(int[] arr) {
         // 1.构建大顶堆
         for (int i = arr.length / 2 - 1; i >= 0; --i) {
@@ -552,11 +552,11 @@ public class Main {
             // 从i结点的左子结点开始，也就是2i+1处开始
             if (k + 1 < length && arr[k] < arr[k + 1]) {
                 // 如果左子结点小于右子结点，k指向右子结点
-                k++;
+                ++k;
             }
 
             if (arr[k] > temp) {
-                // 如果子节点大于父节点，将子节点值赋给父节点（不用进行交换）
+                // 如果子节点大于父节点，将子节点值赋给父节点(不用进行交换)
                 arr[i] = arr[k];
                 i = k;
             } else {
@@ -575,12 +575,12 @@ public class Main {
         arr[b] = temp;
     }
 
-    // 堆排序2(选择排序)，不稳定算法，初始化建堆的时间复杂度为O(n)，重建堆的时间复杂度为O(nlogn)，总时间复杂度O(nlogn)，最好时间复杂度O(nlogn)，最坏时间复杂度O(nlogn)，空间复杂度O(1)
+    // 堆排序(选择排序，写法2)，不稳定算法，初始化建堆的时间复杂度为O(n)，重建堆的时间复杂度为O(nlogn)，总时间复杂度O(nlogn)，最好时间复杂度O(nlogn)，最坏时间复杂度O(nlogn)，空间复杂度O(1)
     private static int[] heapSort2(int[] arr) {
         // 构建初始大顶堆
         buildMaxHeap2(arr);
 
-        for (int i = arr.length - 1; i > 0; i--) {
+        for (int i = arr.length - 1; i > 0; --i) {
             // 将最大值交换到数组最后
             swap2(arr, 0, i);
             // 调整剩余数组，使其满足大顶堆
@@ -593,7 +593,7 @@ public class Main {
     // 构建初始大顶堆
     private static void buildMaxHeap2(int[] arr) {
         // 从最后一个非叶子结点开始调整大顶堆，最后一个非叶子结点的下标就是arr.length / 2 - 1
-        for (int i = arr.length / 2 - 1; i >= 0; i--) {
+        for (int i = arr.length / 2 - 1; i >= 0; --i) {
             maxHeapify2(arr, i, arr.length);
         }
     }
