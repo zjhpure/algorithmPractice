@@ -583,6 +583,7 @@ public class Main {
         for (int i = arr.length - 1; i > 0; --i) {
             // 将最大值交换到数组最后
             swap2(arr, 0, i);
+
             // 调整剩余数组，使其满足大顶堆
             maxHeapify2(arr, 0, i);
         }
@@ -601,22 +602,22 @@ public class Main {
     // 调整大顶堆，第三个参数表示剩余未排序的数字的数量，也就是剩余堆的大小
     private static void maxHeapify2(int[] arr, int i, int heapSize) {
         // 左子结点下标
-        int l = 2 * i + 1;
+        int left = 2 * i + 1;
 
         // 右子结点下标
-        int r = l + 1;
+        int right = left + 1;
 
         // 记录根结点、左子树结点、右子树结点三者中的最大值下标
         int largest = i;
 
         // 与左子树结点比较
-        if (l < heapSize && arr[l] > arr[largest]) {
-            largest = l;
+        if (left < heapSize && arr[left] > arr[largest]) {
+            largest = left;
         }
 
         // 与右子树结点比较
-        if (r < heapSize && arr[r] > arr[largest]) {
-            largest = r;
+        if (right < heapSize && arr[right] > arr[largest]) {
+            largest = right;
         }
 
         if (largest != i) {

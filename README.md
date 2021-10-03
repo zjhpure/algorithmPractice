@@ -424,6 +424,8 @@ GitHub：
 
 * [相同的树](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/sameTree/title.md)
 
+* [从前序与中序遍历序列构造二叉树](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/constructBinaryTreeFromPreAndInTraversal/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -845,3 +847,5 @@ Gitee：
 * [统计平方和三元组的数目](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/countSquareSumTriples/title.md)
 
 * [相同的树](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/sameTree/title.md)
+
+* [从前序与中序遍历序列构造二叉树](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/constructBinaryTreeFromPreAndInTraversal/title.md)
