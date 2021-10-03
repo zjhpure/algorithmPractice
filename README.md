@@ -426,6 +426,8 @@ GitHub：
 
 * [从前序与中序遍历序列构造二叉树](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/constructBinaryTreeFromPreAndInTraversal/title.md)
 
+* [从中序与后序遍历序列构造二叉树](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/constructBinaryTreeFromInAndPosTraversal/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -849,3 +851,5 @@ Gitee：
 * [相同的树](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/sameTree/title.md)
 
 * [从前序与中序遍历序列构造二叉树](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/constructBinaryTreeFromPreAndInTraversal/title.md)
+
+* [从中序与后序遍历序列构造二叉树](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/constructBinaryTreeFromInAndPosTraversal/title.md)
