@@ -86,19 +86,19 @@ public class Main {
         // 直接插入排序(插入排序，移动法)后数组
         System.out.println("直接插入排序(插入排序，移动法)后数组：" + Arrays.toString(directlyInsertSort2(directlyInsertSortArr2)));
 
-        // 希尔排序(插入排序)前数组
-        System.out.println("希尔排序(插入排序)前数组：" + Arrays.toString(arr));
-        // 生成希尔排序(插入排序)新数组
+        // 希尔排序(插入排序，希尔增量序列法)前数组
+        System.out.println("希尔排序(插入排序，希尔增量序列法)前数组：" + Arrays.toString(arr));
+        // 生成希尔排序(插入排序，希尔增量序列法)新数组
         int[] shellSortArr = getNewArr(arr);
-        // 希尔排序(插入排序)后数组
-        System.out.println("希尔排序(插入排序)后数组：" + Arrays.toString(shellSort(shellSortArr)));
+        // 希尔排序(插入排序，希尔增量序列法)后数组
+        System.out.println("希尔排序(插入排序，希尔增量序列法)后数组：" + Arrays.toString(shellSort(shellSortArr)));
 
-        // 希尔排序2(插入排序)前数组
-        System.out.println("希尔排序2(插入排序)前数组：" + Arrays.toString(arr));
-        // 生成希尔排序2(插入排序)新数组
+        // 希尔排序(插入排序，Knuth增量序列法)前数组
+        System.out.println("希尔排序(插入排序，Knuth增量序列法)前数组：" + Arrays.toString(arr));
+        // 生成希尔排序(插入排序，Knuth增量序列法)新数组
         int[] shellSortArr2 = getNewArr(arr);
-        // 希尔排序2(插入排序)后数组
-        System.out.println("希尔排序2(插入排序)后数组：" + Arrays.toString(shellSort2(shellSortArr2)));
+        // 希尔排序(插入排序，Knuth增量序列法)后数组
+        System.out.println("希尔排序(插入排序，Knuth增量序列法)后数组：" + Arrays.toString(shellSort2(shellSortArr2)));
 
         // 直接选择排序(选择排序)前数组
         System.out.println("直接选择排序(选择排序)前数组：" + Arrays.toString(arr));
@@ -214,14 +214,14 @@ public class Main {
 
         while (left < right) {
             while (left < right && arr[right] >= temp) {
-                right--;
+                --right;
             }
 
             // 坑2：从后向前找到比基准小的元素，插入到基准位置坑1中
             arr[left] = arr[right];
 
             while (left < right && arr[left] <= temp) {
-                left++;
+                ++left;
             }
 
             // 坑3：从前往后找到比基准大的元素，放到刚才挖的坑2中
@@ -438,30 +438,33 @@ public class Main {
         return arr;
     }
 
-    // 希尔排序(插入排序)，不稳定算法，时间复杂度O(n) ~ O(n^2)，平均时间复杂度O(n^1.3)，最好时间复杂度O(n)，最坏时间复杂度O(n^2)，空间复杂度O(1)
+    // 希尔排序(插入排序，希尔增量序列法)，不稳定算法，时间复杂度O(n) ~ O(n^2)，平均时间复杂度O(n^1.3)，最好时间复杂度O(n)，最坏时间复杂度O(n^2)，空间复杂度O(1)
     private static int[] shellSort(int[] arr) {
-        int gap = arr.length / 2;
+        // 间隔序列，在希尔排序中我们称之为增量序列
+        for (int gap = arr.length / 2; gap > 0; gap /= 2) {
+            // 从gap开始，按照顺序将每个元素依次向前插入自己所在的组
+            for (int i = gap; i < arr.length; ++i) {
+                // currentNumber站起来，开始找位置
+                int currentNumber = arr[i];
 
-        for (; gap > 0; gap = gap / 2) {
-            for (int j = 0; (j + gap) < arr.length; ++j) {
-                // 不断缩小gap，直到1为止
-                for (int k = 0; (k + gap) < arr.length; k += gap) {
-                    // 使用当前gap进行组内插入排序
-                    if (arr[k] > arr[k + gap]) {
-                        // 交换操作
-                        arr[k] = arr[k] + arr[k + gap];
-                        arr[k + gap] = arr[k] - arr[k + gap];
-                        arr[k] = arr[k] - arr[k + gap];
-//                        System.out.println("shellSort:" + Arrays.toString(arr));
-                    }
+                // 该组前一个数字的索引
+                int preIndex = i - gap;
+
+                while (preIndex >= 0 && currentNumber < arr[preIndex]) {
+                    // 向后挪位置
+                    arr[preIndex + gap] = arr[preIndex];
+                    preIndex -= gap;
                 }
+
+                // currentNumber找到了自己的位置，坐下
+                arr[preIndex + gap] = currentNumber;
             }
         }
 
         return arr;
     }
 
-    // 希尔排序2(插入排序)，不稳定算法，时间复杂度O(n) ~ O(n^2)，平均时间复杂度O(n^1.3)，最好时间复杂度O(n)，最坏时间复杂度O(n^2)，空间复杂度O(1)
+    // 希尔排序(插入排序，Knuth增量序列法)，不稳定算法，时间复杂度O(n) ~ O(n^2)，平均时间复杂度O(n^1.3)，最好时间复杂度O(n)，最坏时间复杂度O(n^2)，空间复杂度O(1)
     private static int[] shellSort2(int[] arr) {
         // 找到当前数组需要用到的Knuth序列中的最大值
         int maxKnuthNumber = 1;
@@ -473,7 +476,7 @@ public class Main {
         // 增量按照Knuth序列规则依次递减
         for (int gap = maxKnuthNumber; gap > 0; gap = (gap - 1) / 3) {
             // 从gap开始，按照顺序将每个元素依次向前插入自己所在的组
-            for (int i = gap; i < arr.length; i++) {
+            for (int i = gap; i < arr.length; ++i) {
                 // currentNumber站起来，开始找位置
                 int currentNumber = arr[i];
 
