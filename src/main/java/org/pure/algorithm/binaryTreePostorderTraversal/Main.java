@@ -115,28 +115,66 @@ public class Main {
         return root;
     }
 
-    // 二叉树的后序遍历，方法1，递归法
+//    // 二叉树的后序遍历，方法1，递归法
+//    private static List<Integer> postorderTraversal(TreeNode root) {
+//        List<Integer> list = new ArrayList<>();
+//
+//        // 后序遍历二叉树
+//        postTraversal(list, root);
+//
+//        return list;
+//    }
+//
+//    // 后序遍历二叉树，递归法
+//    private static void postTraversal(List<Integer> list, TreeNode root) {
+//        if (root == null) {
+//            return;
+//        }
+//
+//        // 处理左节点
+//        postTraversal(list, root.left);
+//        // 处理右节点
+//        postTraversal(list, root.right);
+//        // 根节点添加到列表中
+//        list.add(root.val);
+//    }
+
+    // 二叉树的后序遍历，方法2，迭代法
     private static List<Integer> postorderTraversal(TreeNode root) {
+        // 迭代法，使用栈辅助
+
+        // 定义列表，保存二叉树的中序遍历的结果
         List<Integer> list = new ArrayList<>();
 
-        // 后序遍历二叉树
-        postTraversal(list, root);
-
-        return list;
-    }
-
-    // 后序遍历二叉树，递归法
-    private static void postTraversal(List<Integer> list, TreeNode root) {
         if (root == null) {
-            return;
+            // 若二叉树为空，直接返回空列表
+            return list;
         }
 
-        // 处理左节点
-        postTraversal(list, root.left);
-        // 处理右节点
-        postTraversal(list, root.right);
-        // 根节点添加到列表中
-        list.add(root.val);
+        // 定义栈
+        Stack<TreeNode> stack = new Stack<>();
+
+        TreeNode prev = null;
+
+        // 当栈为空时，结束循环
+        while (root != null || !stack.isEmpty()) {
+            while (root != null) {
+                stack.push(root);
+                root = root.left;
+            }
+            root = stack.pop();
+            if (root.right == null || root.right == prev) {
+                list.add(root.val);
+                prev = root;
+                root = null;
+            } else {
+                stack.push(root);
+                root = root.right;
+            }
+        }
+
+        // 返回列表
+        return list;
     }
 
 }

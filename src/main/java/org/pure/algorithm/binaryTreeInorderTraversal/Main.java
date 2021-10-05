@@ -115,28 +115,61 @@ public class Main {
         return root;
     }
 
-    // 二叉树的中序遍历，方法1，递归法
+//    // 二叉树的中序遍历，方法1，递归法
+//    private static List<Integer> inorderTraversal(TreeNode root) {
+//        List<Integer> list = new ArrayList<>();
+//
+//        // 中序遍历二叉树
+//        inTraversal(list, root);
+//
+//        return list;
+//    }
+//
+//    // 中序遍历二叉树，递归法
+//    private static void inTraversal(List<Integer> list, TreeNode root) {
+//        if (root == null) {
+//            return;
+//        }
+//
+//        // 处理左节点
+//        inTraversal(list, root.left);
+//        // 根节点添加到列表中
+//        list.add(root.val);
+//        // 处理右节点
+//        inTraversal(list, root.right);
+//    }
+
+    // 二叉树的中序遍历，方法2，迭代法
     private static List<Integer> inorderTraversal(TreeNode root) {
+        // 迭代法，使用栈辅助
+
+        // 定义列表，保存二叉树的中序遍历的结果
         List<Integer> list = new ArrayList<>();
 
-        // 中序遍历二叉树
-        inTraversal(list, root);
-
-        return list;
-    }
-
-    // 中序遍历二叉树，递归法
-    private static void inTraversal(List<Integer> list, TreeNode root) {
         if (root == null) {
-            return;
+            // 若二叉树为空，直接返回空列表
+            return list;
         }
 
-        // 处理左节点
-        inTraversal(list, root.left);
-        // 根节点添加到列表中
-        list.add(root.val);
-        // 处理右节点
-        inTraversal(list, root.right);
+        // 定义栈
+        Stack<TreeNode> stack = new Stack<>();
+
+        // 当栈为空时，结束循环
+        while (root != null || !stack.isEmpty()) {
+            while (root != null) {
+                stack.push(root);
+                root = root.left;
+            }
+
+            if (!stack.isEmpty()) {
+                root = stack.pop();
+                list.add(root.val);
+                root = root.right;
+            }
+        }
+
+        // 返回列表
+        return list;
     }
 
 }
