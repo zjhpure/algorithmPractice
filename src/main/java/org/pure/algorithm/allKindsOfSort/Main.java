@@ -135,19 +135,33 @@ public class Main {
         // 归并排序(写法2，减少临时空间的开辟，在归并排序之前，先开辟出一个临时空间，推荐)后数组
         System.out.println("归并排序(写法2，减少临时空间的开辟，在归并排序之前，先开辟出一个临时空间，推荐)后数组：" + Arrays.toString(mergeSort2(mergeSortArr2)));
 
-        // 基数排序前数组
-        System.out.println("基数排序前数组：" + Arrays.toString(arr));
-        // 生成基数排序新数组
-        int[] radixSortArr = getNewArr(arr);
-        // 基数排序后数组
-        System.out.println("基数排序后数组：" + Arrays.toString(radixSort(radixSortArr)));
+        // 计数排序前数组
+        System.out.println("计数排序前数组：" + Arrays.toString(arr));
+        // 生成计数排序新数组
+        int[] countingSortArr = getNewArr(arr);
+        // 计数排序后数组
+        System.out.println("计数排序后数组：" + Arrays.toString(countingSort(countingSortArr)));
 
-        // 基数排序2前数组
-        System.out.println("基数排序2前数组：" + Arrays.toString(arr));
-        // 生成基数排序2新数组
+        // 基数排序(LSD，即最低位优先法，写法1)前数组
+        System.out.println("基数排序(LSD，即最低位优先法，写法1)前数组：" + Arrays.toString(arr));
+        // 生成基数排序(LSD，即最低位优先法，写法1)新数组
+        int[] radixSortArr = getNewArr(arr);
+        // 基数排序(LSD，即最低位优先法，写法1)后数组
+        System.out.println("基数排序(LSD，即最低位优先法，写法1)后数组：" + Arrays.toString(radixSort(radixSortArr)));
+
+        // 基数排序(LSD，即最低位优先法，写法2)前数组
+        System.out.println("基数排序(LSD，即最低位优先法，写法2)前数组：" + Arrays.toString(arr));
+        // 生成基数排序(LSD，即最低位优先法，写法2)新数组
         int[] radixSortArr2 = getNewArr(arr);
-        // 基数排序2后数组
-        System.out.println("基数排序2后数组：" + Arrays.toString(radixSort2(radixSortArr2)));
+        // 基数排序(LSD，即最低位优先法，写法2)后数组
+        System.out.println("基数排序(LSD，即最低位优先法，写法2)后数组：" + Arrays.toString(radixSort2(radixSortArr2)));
+
+        // 基数排序(MSD，即最高位优先法)前数组
+        System.out.println("基数排序(MSD，即最高位优先法)前数组：" + Arrays.toString(arr));
+        // 生成基数排序(MSD，即最高位优先法)新数组
+        int[] radixSortArr3 = getNewArr(arr);
+        // 基数排序(MSD，即最高位优先法)后数组
+        System.out.println("基数排序(MSD，即最高位优先法)后数组：" + Arrays.toString(radixSort3(radixSortArr3)));
     }
 
     // 冒泡排序(交换排序)，稳定算法，时间复杂度O(n^2)，空间复杂度O(1)
@@ -764,7 +778,64 @@ public class Main {
         }
     }
 
-    // 基数排序，稳定算法，时间复杂度O(d(n+k))(d表示最长数字的位数，k表示每个基数可能的取值范围大小)，空间复杂度O(n+k)(k表示每个基数可能的取值范围大小)
+    // 计数排序，稳定算法，时间复杂度O(n+k)(k表示数据的范围大小)，空间复杂度O(n+k)(k表示数据的范围大小)
+    private static int[] countingSort(int[] arr) {
+        // 判空及防止数组越界
+        if (arr == null || arr.length <= 1) {
+            return arr;
+        }
+
+        // 找到最大值，最小值
+        int max = arr[0];
+
+        int min = arr[0];
+
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            } else if (arr[i] < min) {
+                min = arr[i];
+            }
+        }
+
+        // 确定计数范围
+        int range = max - min + 1;
+
+        // 建立长度为range的数组，下标0~range-1对应数字min~max
+        int[] counting = new int[range];
+
+        // 遍历arr中的每个元素
+        for (int element : arr) {
+            // 将每个整数出现的次数统计到计数数组中对应下标的位置，这里需要将每个元素减去min，才能映射到0～range-1范围内
+            counting[element - min]++;
+        }
+
+        // 记录前面比自己小的数字的总数
+        int preCounts = 0;
+
+        for (int i = 0; i < range; i++) {
+            // 当前的数字比下一个数字小，累计到preCounts中
+            preCounts += counting[i];
+            // 将counting计算成当前数字在结果中的起始下标位置，位置=前面比自己小的数字的总数
+            counting[i] = preCounts - counting[i];
+        }
+
+        int[] result = new int[arr.length];
+
+        for (int element : arr) {
+            // counting[element - min]表示此元素在结果数组中的下标
+            result[counting[element - min]] = element;
+            // 更新counting[element - min]，指向此元素的下一个下标
+            counting[element - min]++;
+        }
+
+        // 将结果赋值回arr
+        System.arraycopy(result, 0, arr, 0, arr.length);
+
+        return arr;
+    }
+
+    // 基数排序(LSD，即最低位优先法，写法1)，稳定算法，时间复杂度O(d(n+k))(d表示最长数字的位数，k表示每个基数可能的取值范围大小)，空间复杂度O(n+k)(k表示每个基数可能的取值范围大小)
     private static int[] radixSort(int[] arr) {
         int max = arr[0];
 
@@ -774,22 +845,22 @@ public class Main {
             }
         }
 
-//        System.out.println("max:" + max);
+        System.out.println("radixSort max:" + max);
 
-        int maxDigit = 0;
+        int maxDigitLength = 0;
 
         while (max != 0) {
             max = max / 10;
-            maxDigit++;
+            maxDigitLength++;
         }
 
-//        System.out.println("maxDigit:" + maxDigit);
+        System.out.println("radixSort maxDigitLength:" + maxDigitLength);
 
         int[][] buckets = new int[10][arr.length];
         int base = 10;
 
         // 从低位到高位，对每一位遍历，将所有元素分配到桶中
-        for (int i = 0; i < maxDigit; ++i) {
+        for (int i = 0; i < maxDigitLength; ++i) {
             // 存储各个桶中存储元素的数量
             int[] bucketLen = new int[10];
 
@@ -811,13 +882,13 @@ public class Main {
 
             base *= 10;
 
-//            System.out.println("radixSort:" + Arrays.toString(arr));
+            System.out.println("radixSort:" + Arrays.toString(arr));
         }
 
         return arr;
     }
 
-    // 基数排序2，稳定算法，时间复杂度O(d(n+k))(d表示最长数字的位数，k表示每个基数可能的取值范围大小)，空间复杂度O(n+k)(k表示每个基数可能的取值范围大小)
+    // 基数排序(LSD，即最低位优先法，写法2)，稳定算法，时间复杂度O(d(n+k))(d表示最长数字的位数，k表示每个基数可能的取值范围大小)，空间复杂度O(n+k)(k表示每个基数可能的取值范围大小)
     private static int[] radixSort2(int[] arr) {
         if (arr == null) {
             return null;
@@ -832,6 +903,8 @@ public class Main {
             }
         }
 
+        System.out.println("radixSort max:" + max);
+
         // 计算最大数字的长度
         int maxDigitLength = 0;
 
@@ -839,6 +912,8 @@ public class Main {
             maxDigitLength++;
             max /= 10;
         }
+
+        System.out.println("radixSort maxDigitLength:" + maxDigitLength);
 
         // 使用计数排序算法对基数进行排序
         int[] counting = new int[10];
@@ -869,9 +944,79 @@ public class Main {
             // 将计数数组重置为0
             Arrays.fill(counting, 0);
             dev *= 10;
+
+            System.out.println("radixSort:" + Arrays.toString(arr));
         }
 
         return arr;
+    }
+
+    // 基数排序(MSD，即最高位优先法)，稳定算法，时间复杂度O(d(n+k))(d表示最长数字的位数，k表示每个基数可能的取值范围大小)，空间复杂度O(n+k)(k表示每个基数可能的取值范围大小)
+    private static int[] radixSort3(int[] arr) {
+        if (arr == null) {
+            return null;
+        }
+
+        // 找到最大值
+        int max = 0;
+        for (int value : arr) {
+            if (Math.abs(value) > max) {
+                max = Math.abs(value);
+            }
+        }
+
+        // 计算最大长度
+        int maxDigitLength = 0;
+        while (max != 0) {
+            maxDigitLength++;
+            max /= 10;
+        }
+
+        radixSort3(arr, 0, arr.length - 1, maxDigitLength);
+
+        return arr;
+    }
+
+    // 对arr数组中的[start, end]区间进行基数排序
+    private static void radixSort3(int[] arr, int start, int end, int position) {
+        if (start == end || position == 0) {
+            return;
+        }
+
+        // 使用计数排序对基数进行排序
+        int[] counting = new int[19];
+
+        int[] result = new int[end - start + 1];
+
+        int dev = (int) Math.pow(10, position - 1);
+
+        for (int i = start; i <= end; i++) {
+            // MSD, 从最高位开始
+            int radix = arr[i] / dev % 10 + 9;
+            counting[radix]++;
+        }
+
+        for (int j = 1; j < counting.length; j++) {
+            counting[j] += counting[j - 1];
+        }
+
+        // 拷贝counting，用于待会的递归
+        int[] countingCopy = new int[counting.length];
+
+        System.arraycopy(counting, 0, countingCopy, 0, counting.length);
+
+        for (int i = end; i >= start; i--) {
+            int radix = arr[i] / dev % 10 + 9;
+            result[--counting[radix]] = arr[i];
+        }
+
+        // 计数排序完成后，将结果拷贝回arr数组
+        System.arraycopy(result, 0, arr, start, result.length);
+
+        // 对[start, end]区间内的每一位基数进行递归排序
+        for (int i = 0; i < counting.length; i++) {
+            radixSort3(arr, i == 0 ? start : start + countingCopy[i - 1], start + countingCopy[i] - 1, position - 1);
+        }
     }
 
 }
