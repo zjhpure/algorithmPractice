@@ -135,12 +135,19 @@ public class Main {
         // 归并排序(写法2，减少临时空间的开辟，在归并排序之前，先开辟出一个临时空间，推荐)后数组
         System.out.println("归并排序(写法2，减少临时空间的开辟，在归并排序之前，先开辟出一个临时空间，推荐)后数组：" + Arrays.toString(mergeSort2(mergeSortArr2)));
 
-        // 计数排序前数组
-        System.out.println("计数排序前数组：" + Arrays.toString(arr));
-        // 生成计数排序新数组
+        // 计数排序(初版)前数组
+        System.out.println("计数排序(初版)前数组：" + Arrays.toString(arr));
+        // 生成计数排序(初版)新数组
         int[] countingSortArr = getNewArr(arr);
-        // 计数排序后数组
-        System.out.println("计数排序后数组：" + Arrays.toString(countingSort(countingSortArr)));
+        // 计数排序(初版)后数组
+        System.out.println("计数排序(初版)后数组：" + Arrays.toString(countingSort(countingSortArr)));
+
+        // 计数排序(完善版)前数组
+        System.out.println("计数排序(完善版)前数组：" + Arrays.toString(arr));
+        // 生成计数排序(完善版)新数组
+        int[] countingSortArr2 = getNewArr(arr);
+        // 计数排序(完善版)后数组
+        System.out.println("计数排序(完善版)后数组：" + Arrays.toString(countingSort2(countingSortArr2)));
 
         // 基数排序(LSD，即最低位优先法，写法1)前数组
         System.out.println("基数排序(LSD，即最低位优先法，写法1)前数组：" + Arrays.toString(arr));
@@ -778,8 +785,54 @@ public class Main {
         }
     }
 
-    // 计数排序，稳定算法，时间复杂度O(n+k)(k表示数据的范围大小)，空间复杂度O(n+k)(k表示数据的范围大小)
+    // 计数排序(初版)，稳定算法，时间复杂度O(n+k)(k表示数据的范围大小)，空间复杂度O(n+k)(k表示数据的范围大小)
     private static int[] countingSort(int[] arr) {
+        // 建立长度为9的数组，下标0~8对应数字1~9
+        int[] counting = new int[9];
+
+        // 遍历arr中的每个元素
+        for (int element : arr) {
+            // 将每个整数出现的次数统计到计数数组中对应下标的位置
+            counting[element - 1]++;
+        }
+
+        // 记录前面比自己小的数字的总数
+        int preCounts = 0;
+
+        // 把原来counting保存每个整数出现的次数变成保存每个整数的起始下标
+        for (int i = 0; i < counting.length; ++i) {
+            // 获取当前整数出现的次数
+            int temp = counting[i];
+
+            // 将counting计算成当前数字在结果中的起始下标位置，位置=前面比自己小的数字的总数
+            counting[i] = preCounts;
+
+            // 当前的数字比下一个数字小，累计到preCounts中
+            preCounts += temp;
+        }
+
+        // 开辟一个数组来保存结果
+        int[] result = new int[arr.length];
+
+        for (int element : arr) {
+            // counting[element - 1]表示此元素在结果数组中的下标
+            int index = counting[element - 1];
+
+            // 赋值给数组
+            result[index] = element;
+
+            // 更新counting[element - 1]，指向此元素的下一个下标
+            counting[element - 1]++;
+        }
+
+        // 将结果赋值回arr
+        System.arraycopy(result, 0, arr, 0, arr.length);
+
+        return arr;
+    }
+
+    // 计数排序(完善版)，稳定算法，时间复杂度O(n+k)(k表示数据的范围大小)，空间复杂度O(n+k)(k表示数据的范围大小)
+    private static int[] countingSort2(int[] arr) {
         // 判空及防止数组越界
         if (arr == null || arr.length <= 1) {
             return arr;
@@ -790,7 +843,8 @@ public class Main {
 
         int min = arr[0];
 
-        for (int i = 1; i < arr.length; i++) {
+        // 寻找最大值和最小值
+        for (int i = 1; i < arr.length; ++i) {
             if (arr[i] > max) {
                 max = arr[i];
             } else if (arr[i] < min) {
@@ -813,9 +867,10 @@ public class Main {
         // 记录前面比自己小的数字的总数
         int preCounts = 0;
 
-        for (int i = 0; i < range; i++) {
+        for (int i = 0; i < range; ++i) {
             // 当前的数字比下一个数字小，累计到preCounts中
             preCounts += counting[i];
+
             // 将counting计算成当前数字在结果中的起始下标位置，位置=前面比自己小的数字的总数
             counting[i] = preCounts - counting[i];
         }
@@ -825,6 +880,7 @@ public class Main {
         for (int element : arr) {
             // counting[element - min]表示此元素在结果数组中的下标
             result[counting[element - min]] = element;
+
             // 更新counting[element - min]，指向此元素的下一个下标
             counting[element - min]++;
         }
@@ -922,18 +978,18 @@ public class Main {
 
         int dev = 1;
 
-        for (int i = 0; i < maxDigitLength; i++) {
+        for (int i = 0; i < maxDigitLength; ++i) {
             for (int value : arr) {
                 int radix = value / dev % 10;
                 counting[radix]++;
             }
 
-            for (int j = 1; j < counting.length; j++) {
+            for (int j = 1; j < counting.length; ++j) {
                 counting[j] += counting[j - 1];
             }
 
             // 使用倒序遍历的方式完成计数排序
-            for (int j = arr.length - 1; j >= 0; j--) {
+            for (int j = arr.length - 1; j >= 0; --j) {
                 int radix = arr[j] / dev % 10;
                 result[--counting[radix]] = arr[j];
             }
@@ -990,13 +1046,13 @@ public class Main {
 
         int dev = (int) Math.pow(10, position - 1);
 
-        for (int i = start; i <= end; i++) {
+        for (int i = start; i <= end; ++i) {
             // MSD, 从最高位开始
             int radix = arr[i] / dev % 10 + 9;
             counting[radix]++;
         }
 
-        for (int j = 1; j < counting.length; j++) {
+        for (int j = 1; j < counting.length; ++j) {
             counting[j] += counting[j - 1];
         }
 
@@ -1005,7 +1061,7 @@ public class Main {
 
         System.arraycopy(counting, 0, countingCopy, 0, counting.length);
 
-        for (int i = end; i >= start; i--) {
+        for (int i = end; i >= start; --i) {
             int radix = arr[i] / dev % 10 + 9;
             result[--counting[radix]] = arr[i];
         }
@@ -1014,7 +1070,7 @@ public class Main {
         System.arraycopy(result, 0, arr, start, result.length);
 
         // 对[start, end]区间内的每一位基数进行递归排序
-        for (int i = 0; i < counting.length; i++) {
+        for (int i = 0; i < counting.length; ++i) {
             radixSort3(arr, i == 0 ? start : start + countingCopy[i - 1], start + countingCopy[i] - 1, position - 1);
         }
     }
