@@ -135,19 +135,26 @@ public class Main {
         // 归并排序(写法2，减少临时空间的开辟，在归并排序之前，先开辟出一个临时空间，推荐)后数组
         System.out.println("归并排序(写法2，减少临时空间的开辟，在归并排序之前，先开辟出一个临时空间，推荐)后数组：" + Arrays.toString(mergeSort2(mergeSortArr2)));
 
-        // 计数排序(初版)前数组
-        System.out.println("计数排序(初版)前数组：" + Arrays.toString(arr));
-        // 生成计数排序(初版)新数组
+        // 计数排序(顺序遍历法，初版)前数组
+        System.out.println("计数排序(顺序遍历法，初版)前数组：" + Arrays.toString(arr));
+        // 生成计数排序(顺序遍历法，初版)新数组
         int[] countingSortArr = getNewArr(arr);
-        // 计数排序(初版)后数组
-        System.out.println("计数排序(初版)后数组：" + Arrays.toString(countingSort(countingSortArr)));
+        // 计数排序(顺序遍历法，初版)后数组
+        System.out.println("计数排序(顺序遍历法，初版)后数组：" + Arrays.toString(countingSort(countingSortArr)));
 
-        // 计数排序(完善版)前数组
-        System.out.println("计数排序(完善版)前数组：" + Arrays.toString(arr));
-        // 生成计数排序(完善版)新数组
+        // 计数排序(顺序遍历法，完善版)前数组
+        System.out.println("计数排序(顺序遍历法，完善版)前数组：" + Arrays.toString(arr));
+        // 生成计数排序(顺序遍历法，完善版)新数组
         int[] countingSortArr2 = getNewArr(arr);
-        // 计数排序(完善版)后数组
-        System.out.println("计数排序(完善版)后数组：" + Arrays.toString(countingSort2(countingSortArr2)));
+        // 计数排序(顺序遍历法，完善版)后数组
+        System.out.println("计数排序(顺序遍历法，完善版)后数组：" + Arrays.toString(countingSort2(countingSortArr2)));
+
+        // 计数排序(倒序遍历法，注意不是倒序排，而是遍历数组时倒序遍历，仍然是顺序排的结果)前数组
+        System.out.println("计数排序(倒序遍历法，注意不是倒序排，而是遍历数组时倒序遍历，仍然是顺序排的结果)前数组：" + Arrays.toString(arr));
+        // 生成计数排序(倒序遍历法，注意不是倒序排，而是遍历数组时倒序遍历，仍然是顺序排的结果)新数组
+        int[] countingSortArr3 = getNewArr(arr);
+        // 计数排序(倒序遍历法，注意不是倒序排，而是遍历数组时倒序遍历，仍然是顺序排的结果)后数组
+        System.out.println("计数排序(倒序遍历法，注意不是倒序排，而是遍历数组时倒序遍历，仍然是顺序排的结果)后数组：" + Arrays.toString(countingSort3(countingSortArr3)));
 
         // 基数排序(LSD，即最低位优先法，写法1)前数组
         System.out.println("基数排序(LSD，即最低位优先法，写法1)前数组：" + Arrays.toString(arr));
@@ -785,7 +792,7 @@ public class Main {
         }
     }
 
-    // 计数排序(初版)，稳定算法，时间复杂度O(n+k)(k表示数据的范围大小)，空间复杂度O(n+k)(k表示数据的范围大小)
+    // 计数排序(顺序遍历法，初版)，稳定算法，时间复杂度O(n+k)(k表示数据的范围大小)，空间复杂度O(n+k)(k表示数据的范围大小)
     private static int[] countingSort(int[] arr) {
         // 建立长度为9的数组，下标0~8对应数字1~9
         int[] counting = new int[9];
@@ -831,7 +838,7 @@ public class Main {
         return arr;
     }
 
-    // 计数排序(完善版)，稳定算法，时间复杂度O(n+k)(k表示数据的范围大小)，空间复杂度O(n+k)(k表示数据的范围大小)
+    // 计数排序(顺序遍历法，完善版)，稳定算法，时间复杂度O(n+k)(k表示数据的范围大小)，空间复杂度O(n+k)(k表示数据的范围大小)
     private static int[] countingSort2(int[] arr) {
         // 判空及防止数组越界
         if (arr == null || arr.length <= 1) {
@@ -883,6 +890,63 @@ public class Main {
 
             // 更新counting[element - min]，指向此元素的下一个下标
             counting[element - min]++;
+        }
+
+        // 将结果赋值回arr
+        System.arraycopy(result, 0, arr, 0, arr.length);
+
+        return arr;
+    }
+
+    // 计数排序(倒序遍历法，注意不是倒序排，而是遍历数组时倒序遍历，仍然是顺序排的结果)，稳定算法，时间复杂度O(n+k)(k表示数据的范围大小)，空间复杂度O(n+k)(k表示数据的范围大小)
+    private static int[] countingSort3(int[] arr) {
+        // 防止数组越界
+        if (arr == null || arr.length <= 1) {
+            return arr;
+        }
+
+        // 找到最大值，最小值
+        int max = arr[0];
+        int min = arr[0];
+
+        // 寻找最大值和最小值
+        for (int i = 1; i < arr.length; ++i) {
+            if (arr[i] > max) {
+                max = arr[i];
+            } else if (arr[i] < min) {
+                min = arr[i];
+            }
+        }
+
+        // 确定计数范围
+        int range = max - min + 1;
+
+        // 建立长度为range的数组，下标0~range-1对应数字min~max
+        int[] counting = new int[range];
+
+        // 遍历arr中的每个元素
+        for (int element : arr) {
+            // 将每个整数出现的次数统计到计数数组中对应下标的位置，这里需要将每个元素减去min，才能映射到0～range-1范围内
+            counting[element - min]++;
+        }
+
+        // 每个元素在结果数组中的最后一个下标位置 = 前面比自己小的数字的总数 + 自己的数量 - 1，我们将counting[0]先减去1，后续counting直接累加即可
+        --counting[0];
+
+        for (int i = 1; i < range; ++i) {
+            // 将counting计算成当前数字在结果中的最后一个下标位置，位置=前面比自己小的数字的总数 + 自己的数量 - 1
+            // 由于counting[0]已经减了1，所以后续的减1可以省略。
+            counting[i] += counting[i - 1];
+        }
+
+        int[] result = new int[arr.length];
+
+        // 从后往前遍历数组，通过counting中记录的下标位置，将arr中的元素放到result数组中
+        for (int i = arr.length - 1; i >= 0; --i) {
+            // counting[arr[i] - min]表示此元素在结果数组中的下标
+            result[counting[arr[i] - min]] = arr[i];
+            // 更新counting[arr[i] - min]，指向此元素的前一个下标
+            counting[arr[i] - min]--;
         }
 
         // 将结果赋值回arr
