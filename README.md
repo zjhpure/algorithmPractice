@@ -432,6 +432,8 @@ GitHub：
 
 * [重复的DNA序列](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/repeatedDnaSequences/title.md)
 
+* [有序数组中的单一元素](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/singleElementInASortedArray/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -861,3 +863,5 @@ Gitee：
 * [最长回文子串](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/longestPalindromicSubstring/title.md)
 
 * [重复的DNA序列](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/repeatedDnaSequences/title.md)
+
+* [有序数组中的单一元素](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/singleElementInASortedArray/title.md)
