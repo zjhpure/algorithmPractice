@@ -434,6 +434,8 @@ GitHub：
 
 * [有序数组中的单一元素](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/singleElementInASortedArray/title.md)
 
+* [排列硬币](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/arrangingCoins/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -865,3 +867,5 @@ Gitee：
 * [重复的DNA序列](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/repeatedDnaSequences/title.md)
 
 * [有序数组中的单一元素](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/singleElementInASortedArray/title.md)
+
+* [排列硬币](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/arrangingCoins/title.md)
