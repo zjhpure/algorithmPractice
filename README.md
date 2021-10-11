@@ -438,6 +438,8 @@ GitHub：
 
 * [最长回文子序列](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/longestPalindromicSubsequence/title.md)
 
+* [整数转换英文表示](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/integerToEnglishWords/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -873,3 +875,5 @@ Gitee：
 * [排列硬币](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/arrangingCoins/title.md)
 
 * [最长回文子序列](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/longestPalindromicSubsequence/title.md)
+
+* [整数转换英文表示](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/integerToEnglishWords/title.md)
