@@ -87,4 +87,5 @@ public class BinarySearch {
             return binarySearch2(arr, target, mid + 1, right);
         }
     }
+
 }
