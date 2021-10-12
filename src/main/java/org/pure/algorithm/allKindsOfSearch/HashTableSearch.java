@@ -9,6 +9,10 @@ public class HashTableSearch {
 
     // 原理尚未搞清，待解决
 
+    // 哈希查找：如果所有的键都是整数，那么就可以使用一个简单的无序数组来实现：将键作为索引，值即为其对应的值，这样就可以快速访问任意键的值
+    // 注意：用给定的哈希函数构造哈希表；根据选择的冲突处理方法解决地址冲突；在哈希表的基础上执行哈希查找
+    // 常见的解决冲突的方法：拉链法和线性探测法
+
     public static void main(String[] args) {
         int[] arr = {1, 3, 5, 65, 6, 34, 67, 343, 56};
         System.out.println(hashSearch(arr, 67)); // true
@@ -26,7 +30,7 @@ public class HashTableSearch {
         int p = 1;
 
         // 寻找小于或等于最接近表长的素数
-        for (int i = data.length; i > 1; i--) {
+        for (int i = data.length; i > 1; --i) {
             if (isPrimes(i)) {
                 p = i;
                 break;
@@ -80,7 +84,7 @@ public class HashTableSearch {
 
     // 除余法构建哈希函数 用链表法解决哈希冲突
     private static boolean isPrimes(int n) {
-        for (int i = 2; i <= Math.sqrt(n); i++) {
+        for (int i = 2; i <= Math.sqrt(n); ++i) {
             if (n % i == 0) {
                 return false;
             }

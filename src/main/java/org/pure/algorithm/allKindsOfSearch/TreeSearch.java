@@ -9,6 +9,9 @@ import java.util.*;
  */
 public class TreeSearch {
 
+    // 树表查找基本思想：二叉查找树是先对待查找的数据进行生成树，确保树的左分支的值小于右分支的值，然后在就先和每个节点的父节点比较大小，查找最适合的范围
+    // 树表查找算法的查找效率很高，但是如果使用这种查找方法要首先创建树
+
     public static void main(String[] args) {
         // 获取输入结果
         Scanner scanner = new Scanner(System.in);

@@ -440,6 +440,8 @@ GitHub：
 
 * [整数转换英文表示](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/integerToEnglishWords/title.md)
 
+* [乘积最大子数组](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/maximumProductSubarray/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -877,3 +879,5 @@ Gitee：
 * [最长回文子序列](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/longestPalindromicSubsequence/title.md)
 
 * [整数转换英文表示](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/integerToEnglishWords/title.md)
+
+* [乘积最大子数组](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/maximumProductSubarray/title.md)

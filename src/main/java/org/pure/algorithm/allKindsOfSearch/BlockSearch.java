@@ -14,6 +14,9 @@ public class BlockSearch {
 
     // 分块查找是顺序查找的一种改进方法，也叫索引顺序查找，性能介于顺序查找和二分查找之间
     // 分块查找将n个数据元素"按块有序"划分为m块(m ≤ n)，每一块中的结点不必有序，但块与块之间必须"按块有序"，第i块中的每个元素一定比第i-1块中的任意元素大(小)
+    // 原理：先将序列分成n个块，记录各个块的最大值和起始地址，先对索引表进行二分查找或者顺序查找，以确定待查记录在哪一块中然后，在已确定的块中用顺序法进行查找
+    // 先选取各块中的最大关键字构成一个索引表
+    // 查找分两个部分：先对索引表进行二分查找或顺序查找，以确定待查记录在哪一块中；然后在已确定的块中用顺序法进行查找
 
     public static void main(String[] args) {
 //        // 获取输入结果
@@ -61,7 +64,7 @@ public class BlockSearch {
 
             list = new ArrayList<>();
 
-            for (int i = 0; i < index.length; i++) {
+            for (int i = 0; i < index.length; ++i) {
                 list.add(new ArrayList<>());
             }
         } else {
@@ -79,7 +82,7 @@ public class BlockSearch {
     private void search(int data) {
         int i = binarySearch(data);
 
-        for (int j = 0; j < list.get(i).size(); j++) {
+        for (int j = 0; j < list.get(i).size(); ++j) {
             if (data == list.get(i).get(j)) {
                 System.out.println(String.format("'%d' Position: [%d,%d]", data, i, j));
                 return;
