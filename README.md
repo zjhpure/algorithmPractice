@@ -442,6 +442,8 @@ GitHub：
 
 * [乘积最大子数组](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/maximumProductSubarray/title.md)
 
+* [Fizz Buzz](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/fizzBuzz/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -881,3 +883,5 @@ Gitee：
 * [整数转换英文表示](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/integerToEnglishWords/title.md)
 
 * [乘积最大子数组](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/maximumProductSubarray/title.md)
+
+* [Fizz Buzz](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/fizzBuzz/title.md)
