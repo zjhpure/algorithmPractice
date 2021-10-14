@@ -77,14 +77,16 @@ public class FibonacciSearch {
             temp[i] = temp[n];
         }
 
+        // 进行二分查找
         while (low <= high) {
+            // 计算中间指针
             mid = low + fib(k - 1) - 1;
 
-            if (target > temp[mid]) {
+            if (target < temp[mid]) {
                 high = mid - 1;
-                // 对应上图中的左段，长度F[k-1]-1
+                // 对应上图中的左端，长度F[k-1]-1
                 k = k - 1;
-            } else if (target < temp[mid]) {
+            } else if (target > temp[mid]) {
                 low = mid + 1;
                 // 对应上图中的右端，长度F[k-2]-1
                 k = k - 2;
