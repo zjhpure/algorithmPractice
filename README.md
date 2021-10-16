@@ -446,6 +446,8 @@ GitHub：
 
 * [外观数列](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/countAndSay/title.md)
 
+* [整理字符串](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/makeTheStringGreat/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -889,3 +891,5 @@ Gitee：
 * [Fizz Buzz](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/fizzBuzz/title.md)
 
 * [外观数列](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/countAndSay/title.md)
+
+* [整理字符串](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/makeTheStringGreat/title.md)
