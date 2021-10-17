@@ -448,6 +448,8 @@ GitHub：
 
 * [整理字符串](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/makeTheStringGreat/title.md)
 
+* [二叉搜索树中第K小的元素](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/kthSmallestElementInABst/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -893,3 +895,5 @@ Gitee：
 * [外观数列](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/countAndSay/title.md)
 
 * [整理字符串](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/makeTheStringGreat/title.md)
+
+* [二叉搜索树中第K小的元素](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/kthSmallestElementInABst/title.md)
