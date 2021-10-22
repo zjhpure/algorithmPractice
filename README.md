@@ -452,6 +452,8 @@ GitHub：
 
 * [加一](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/plusOne/title.md)
 
+* [求众数II](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/majorityElement2/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -901,3 +903,5 @@ Gitee：
 * [二叉搜索树中第K小的元素](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/kthSmallestElementInABst/title.md)
 
 * [加一](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/plusOne/title.md)
+
+* [求众数II](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/majorityElement2/title.md)
