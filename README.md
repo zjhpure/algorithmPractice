@@ -456,6 +456,8 @@ GitHub：
 
 * [构造矩形](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/constructTheRectangle/title.md)
 
+* [最小操作次数使数组元素相等](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/minimumMovesToEqualArrayElements/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -909,3 +911,5 @@ Gitee：
 * [求众数II](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/majorityElement2/title.md)
 
 * [构造矩形](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/constructTheRectangle/title.md)
+
+* [最小操作次数使数组元素相等](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/minimumMovesToEqualArrayElements/title.md)
