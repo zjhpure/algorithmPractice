@@ -44,42 +44,73 @@ public class Main {
         System.out.println(result);
     }
 
+//    private static boolean searchMatrix(int[][] matrix, int target) {
+//        // 二分查找法
+//
+//        // 遍历所有行，找出符合条件的行
+//        for (int[] row : matrix) {
+//            if (row[0] == target) {
+//                // 若此行的第一列等于目标值，那么找到了
+//                return true;
+//            } else if (row[0] < target) {
+//                // 若此行的第一列小于目标值，那么此行可能存在目标值，对此行的每列进行二分查找
+//
+//                // 定义左指针，初始为最左侧
+//                int left = 1;
+//                // 定义右指针，初始为最右侧
+//                int right = row.length - 1;
+//
+//                // 开始二分查找
+//                while (left <= right) {
+//                    // 计算中间指针
+//                    int mid = (left + right) / 2;
+//
+//                    if (row[mid] == target) {
+//                        // 若此行此列等于目标值，那么找到了
+//                        return true;
+//                    } else if (row[mid] < target) {
+//                        // 若此行此列小于目标值，那么往右边区域继续寻找，即左指针等于中间指针加1
+//                        left = mid + 1;
+//                    } else {
+//                        // 若此行此列大于目标值，那么往左边区域继续寻找，即右指针等于中间指针减1
+//                        right = mid - 1;
+//                    }
+//                }
+//            }
+//        }
+//
+//        // 若查找结束还没有找到，返回false
+//        return false;
+//    }
+
     private static boolean searchMatrix(int[][] matrix, int target) {
-        // 二分查找法
+        // Z形查找法
 
-        // 遍历所有行，找出符合条件的行
-        for (int[] row : matrix) {
-            if (row[0] == target) {
-                // 若此行的第一列等于目标值，那么找到了
+        // 获取行数
+        int row = matrix.length;
+        // 获取列数
+        int col = matrix[0].length;
+
+        // 定义横坐标，初始为第一行
+        int x = 0;
+        // 定义纵坐标，初始为最后一列
+        int y = col - 1;
+
+        // Z形查找，初始坐标在矩阵的右上角，[0, col - 1]，横坐标不断往下移，纵坐标不断往右移
+        while (x <= row - 1 && y >= 0) {
+            if (matrix[x][y] == target) {
+                // 若找到目标值，返回true
                 return true;
-            } else if (row[0] < target) {
-                // 若此行的第一列小于目标值，那么此行可能存在目标值，对此行的每列进行二分查找
-
-                // 定义左指针，初始为最左侧
-                int left = 1;
-                // 定义右指针，初始为最右侧
-                int right = row.length - 1;
-
-                // 开始二分查找
-                while (left <= right) {
-                    // 计算中间指针
-                    int mid = (left + right) / 2;
-
-                    if (row[mid] == target) {
-                        // 若此行此列等于目标值，那么找到了
-                        return true;
-                    } else if (row[mid] < target) {
-                        // 若此行此列小于目标值，那么往右边区域继续寻找，即左指针等于中间指针加1
-                        left = mid + 1;
-                    } else {
-                        // 若此行此列大于目标值，那么往左边区域继续寻找，即右指针等于中间指针减1
-                        right = mid - 1;
-                    }
-                }
+            } else if (matrix[x][y] > target) {
+                // 若当前值大于目标值，那么纵坐标往右移
+                --y;
+            } else {
+                // 若当前值小于目标值，那么横坐标往下移
+                ++x;
             }
         }
 
-        // 若查找结束还没有找到，返回false
+        // 若找不到目标值，返回false
         return false;
     }
 

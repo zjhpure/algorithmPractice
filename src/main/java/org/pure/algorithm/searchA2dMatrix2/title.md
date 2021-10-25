@@ -83,3 +83,40 @@ class Solution {
 
 }
 ```
+
+```
+class Solution {
+
+    public boolean searchMatrix(int[][] matrix, int target) {
+        // Z形查找法
+
+        // 获取行数
+        int row = matrix.length;
+        // 获取列数
+        int col = matrix[0].length;
+
+        // 定义横坐标，初始为第一行
+        int x = 0;
+        // 定义纵坐标，初始为最后一列
+        int y = col - 1;
+
+        // Z形查找，初始坐标在矩阵的右上角，[0, col - 1]，横坐标不断往下移，纵坐标不断往右移
+        while (x <= row - 1 && y >= 0) {
+            if (matrix[x][y] == target) {
+                // 若找到目标值，返回true
+                return true;
+            } else if (matrix[x][y] > target) {
+                // 若当前值大于目标值，那么纵坐标往右移
+                --y;
+            } else {
+                 // 若当前值小于目标值，那么横坐标往下移
+                 ++x;
+            }
+        }
+
+        // 若找不到目标值，返回false
+        return false;
+    }
+
+}
+```
