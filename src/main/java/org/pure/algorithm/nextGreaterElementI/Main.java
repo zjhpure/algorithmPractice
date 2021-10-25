@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * @author zhangjianhua
  * @date 2021-04-27 20:56
- * @description 下一个更大元素I
+ * @description 下一个更大元素
  */
 public class Main {
 
@@ -38,8 +38,9 @@ public class Main {
         System.out.println(Arrays.toString(result));
     }
 
-
     private static int[] nextGreaterElement(int[] nums1, int[] nums2) {
+        // 暴力法
+
         // 定义结果数组results
         int[] results = new int[nums1.length];
 

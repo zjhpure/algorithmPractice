@@ -178,7 +178,7 @@ GitHub：
 
 * [最小差值I](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/smallestRangeI/title.md)
 
-* [下一个更大元素I](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/nextGreaterElementI/title.md)
+* [下一个更大元素I](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/nextGreaterElement/title.md)
 
 * [魔术索引](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/magicIndex/title.md)
 
@@ -636,9 +636,9 @@ Gitee：
 
 * [最小差值I](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/smallestRangeI/title.md)
 
-* [下一个更大元素I](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/nextGreaterElementI/title.md)
+* [下一个更大元素I](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm//title.md)
 
-* [魔术索引](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/magicIndex/title.md)
+* [魔术索引](https://gitee.com/zjhpure/algorithm-practice/tree/master/srnextGreaterElementc/main/java/org/pure/algorithm/magicIndex/title.md)
 
 * [消失的数字](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/missingNumberIcci/title.md)
 
