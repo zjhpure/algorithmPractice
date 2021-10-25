@@ -1,4 +1,4 @@
-package org.pure.algorithm.nextGreaterElementI;
+package org.pure.algorithm.nextGreaterElement;
 
 import java.util.Arrays;
 import java.util.Scanner;
