@@ -40,14 +40,13 @@ https://leetcode-cn.com/problems/hexspeak
 ```
 class Solution {
 
-    // 此方法错误，当num值大于整数范围时就会溢出，导致计算错误
     public String toHexspeak(String num) {
-        // 思路：字符串转为十进制数字，十进制数字转为十六进制魔术数字字符，结果是倒叙的，再把倒叙的十六进制魔术数字字符转为顺序的字符串
+        // 思路：模拟法，字符串转为十进制数字，十进制数字转为十六进制魔术数字字符，结果是倒叙的，再把倒叙的十六进制魔术数字字符转为顺序的字符串，注意十进制数的范围是1 <= N <= 10^12，所以使用long保存十进制数
 
         // 定义十进制数字，初始为0
-        int decimal = 0;
+        long decimal = 0;
         // 定义十进制的位，初始为10^0=1
-        int e = 1;
+        long e = 1;
 
         // 字符串转为十进制
         for (int i = num.length() - 1; i >= 0; --i) {
@@ -66,7 +65,7 @@ class Solution {
         // 使用取余法，十进制数字转为十六进制魔术数字字符，保存字符到栈中，结果是倒叙的
         while (decimal > 0) {
             // 每次取余
-            int rem = decimal % 16;
+            int rem = (int) (decimal % 16);
             if (rem >= 10) {
                 // 若余数在10-16之间，转为大写字母表示
                 stack.push(capitalLetters[rem - 10]);
