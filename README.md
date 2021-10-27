@@ -460,6 +460,8 @@ GitHub：
 
 * [搜索二维矩阵II](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/searchA2dMatrix2/title.md)
 
+* [十六进制魔术数字](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/hexspeak/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -917,3 +919,5 @@ Gitee：
 * [最小操作次数使数组元素相等](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/minimumMovesToEqualArrayElements/title.md)
 
 * [搜索二维矩阵II](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/searchA2dMatrix2/title.md)
+
+* [十六进制魔术数字](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/hexspeak/title.md)
