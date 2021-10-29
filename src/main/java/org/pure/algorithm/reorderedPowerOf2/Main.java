@@ -114,7 +114,7 @@ public class Main {
         // 定义哈希表，保存范围内所有2的幂中各种数字出现的次数，用字符串表示
         Set<String> countDigitSet = new HashSet<>();
 
-        // 从1遍历到10^9，找出范围所有2的幂，
+        // 从1遍历到10^9，找出范围所有2的幂
         for (int i = 1; i <= 1e9; i <<= 1) {
             // 从1开始，每次乘以2，也就是位向左移动1位，然后统计这个数字中各位的各种数字出现的次数，把结果转成字符串，保存到哈希表中
             countDigitSet.add(countDigit(i));
