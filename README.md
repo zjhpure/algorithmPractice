@@ -468,6 +468,8 @@ GitHub：
 
 * [键盘行](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/keyboardRow/title.md)
 
+* [分糖果](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/distributeCandies/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -933,3 +935,5 @@ Gitee：
 * [千位分隔数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/thousandSeparator/title.md)
 
 * [键盘行](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/keyboardRow/title.md)
+
+* [分糖果](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/distributeCandies/title.md)
