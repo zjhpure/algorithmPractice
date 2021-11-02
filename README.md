@@ -470,6 +470,8 @@ GitHub：
 
 * [分糖果](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/distributeCandies/title.md)
 
+* [中心对称数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/strobogrammaticNumber/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -937,3 +939,5 @@ Gitee：
 * [键盘行](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/keyboardRow/title.md)
 
 * [分糖果](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/distributeCandies/title.md)
+
+* [中心对称数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/strobogrammaticNumber/title.md)
