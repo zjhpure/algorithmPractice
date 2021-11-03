@@ -4,7 +4,7 @@
 
 ## 题目地址(数元素)
 
-https://leetcode-cn.com/problems/count-primes
+https://leetcode-cn.com/problems/counting-elements
 
 ## 题目描述
 
