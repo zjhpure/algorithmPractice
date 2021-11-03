@@ -472,6 +472,8 @@ GitHub：
 
 * [中心对称数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/strobogrammaticNumber/title.md)
 
+* [数元素](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/countingElements/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -941,3 +943,5 @@ Gitee：
 * [分糖果](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/distributeCandies/title.md)
 
 * [中心对称数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/strobogrammaticNumber/title.md)
+
+* [数元素](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/countingElements/title.md)
