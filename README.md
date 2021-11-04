@@ -474,6 +474,8 @@ GitHub：
 
 * [数元素](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/countingElements/title.md)
 
+* [有效的完全平方数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/validPerfectSquare/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -945,3 +947,5 @@ Gitee：
 * [中心对称数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/strobogrammaticNumber/title.md)
 
 * [数元素](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/countingElements/title.md)
+
+* [有效的完全平方数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/validPerfectSquare/title.md)
