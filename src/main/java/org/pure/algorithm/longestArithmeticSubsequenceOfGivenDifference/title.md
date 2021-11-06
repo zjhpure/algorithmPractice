@@ -79,3 +79,33 @@ class Solution {
 
 }
 ```
+
+```
+class Solution {
+
+    // 方法2，动态规划+哈希表法，推荐
+    public int longestSubsequence(int[] arr, int difference) {
+        // 动态规划+哈希表法
+
+        // 定义最长等差子序列的长度
+        int maxCount = 0;
+
+        // 定义集合，保存所有以数组中某个元素结束的等差子序列的长度
+        Map<Integer, Integer> map = new HashMap<>();
+
+        // 遍历数组，每次获取以当前元素结束的等差子序列的长度
+        for (int e : arr) {
+            // 当前元素作为集合的key，以当前元素结束的等差子序列的长度作为集合的value
+            // 每次获取以当前元素结束的等差子序列的长度时，都从这个等差子序列的上一个元素时的长度加1得到
+            map.put(e, map.getOrDefault(e - difference, 0) + 1);
+
+            // 更新最长等差子序列的长度
+            maxCount = Math.max(maxCount, map.get(e));
+        }
+
+        // 返回最长等差子序列的长度
+        return maxCount;
+    }
+
+}
+```
