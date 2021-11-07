@@ -10,3 +10,4 @@ src/test/
 /.project
 /.factorypath
 .DS_Store
+/out
