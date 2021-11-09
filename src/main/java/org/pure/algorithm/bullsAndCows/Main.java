@@ -21,7 +21,7 @@ public class Main {
         System.out.println(result);
     }
 
-    public static String getHint(String secret, String guess) {
+    private static String getHint(String secret, String guess) {
         // 模拟法
 
         // 定义公牛个数
