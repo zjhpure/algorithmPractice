@@ -482,6 +482,8 @@ GitHub：
 
 * [猜数字游戏](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/bullsAndCows/title.md)
 
+* [祖玛游戏](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/zumaGame/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -961,3 +963,5 @@ Gitee：
 * [范围求和II](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/rangeAddition2/title.md)
 
 * [猜数字游戏](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/bullsAndCows/title.md)
+
+* [祖玛游戏](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/zumaGame/title.md)
