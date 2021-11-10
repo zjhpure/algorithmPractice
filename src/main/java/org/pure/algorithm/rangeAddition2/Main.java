@@ -46,13 +46,20 @@ public class Main {
     }
 
     private static int maxCount(int m, int n, int[][] ops) {
-        int minX = m, minY = n;
+        // 定义最小x
+        int minX = m;
+        // 定义最小y
+        int minY = n;
 
+        // 遍历二维数组
         for (int[] op : ops) {
+            // 每次拿x和一维数组的第一个元素比较大小，取最小值
             minX = Math.min(minX, op[0]);
+            // 每次拿y和一维数组的第二个元素比较大小，取最小值
             minY = Math.min(minY, op[1]);
         }
 
+        // x乘以y等于矩阵中含有最大整数的元素个数
         return minX * minY;
     }
 
