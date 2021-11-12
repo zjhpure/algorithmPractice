@@ -486,6 +486,8 @@ GitHub：
 
 * [K个逆序对数组](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/kInversePairsArray/title.md)
 
+* [猜数字大小II](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/guessNumberHigherOrLower2/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -969,3 +971,5 @@ Gitee：
 * [祖玛游戏](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/zumaGame/title.md)
 
 * [K个逆序对数组](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/kInversePairsArray/title.md)
+
+* [猜数字大小II](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/guessNumberHigherOrLower2/title.md)

@@ -22,7 +22,7 @@ public class Main {
     }
 
     private static int kInversePairs(int n, int k) {
-        // 动态规划
+        // 动态规划，待理解原理
 
         // 定义模
         int mod = 1000000007;

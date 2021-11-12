@@ -46,6 +46,8 @@ public class Main {
     }
 
     private static int maxCount(int m, int n, int[][] ops) {
+        // 待理解原理
+
         // 定义最小x
         int minX = m;
         // 定义最小y
