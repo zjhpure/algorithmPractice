@@ -11,7 +11,7 @@ https://leetcode-cn.com/problems/map-sum-pairs
 ```
 实现一个MapSum类，支持两个方法，insert和sum：
 
-MapSum()初始化MapSum\对象
+MapSum()初始化MapSum对象
 void insert(String key, int val)插入key-val键值对，字符串表示键key，整数表示值val。如果键key已经存在，那么原来的键值对将被替代成新的键值对。
 int sum(string prefix)返回所有以该前缀prefix开头的键key的值的总和。
 
