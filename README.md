@@ -494,6 +494,8 @@ GitHub：
 
 * [完美矩形](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/perfectRectangle/title.md)
 
+* [最大单词长度乘积](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/maximumProductOfWordLengths/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -985,3 +987,5 @@ Gitee：
 * [灯泡开关](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/bulbSwitcher/title.md)
 
 * [完美矩形](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/perfectRectangle/title.md)
+
+* [最大单词长度乘积](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/maximumProductOfWordLengths/title.md)
