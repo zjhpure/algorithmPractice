@@ -496,6 +496,8 @@ GitHub：
 
 * [最大单词长度乘积](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/maximumProductOfWordLengths/title.md)
 
+* [二叉树的坡度](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/binaryTreeTilt/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -989,3 +991,5 @@ Gitee：
 * [完美矩形](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/perfectRectangle/title.md)
 
 * [最大单词长度乘积](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/maximumProductOfWordLengths/title.md)
+
+* [二叉树的坡度](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/binaryTreeTilt/title.md)
