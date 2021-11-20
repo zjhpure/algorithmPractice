@@ -500,6 +500,8 @@ GitHub：
 
 * [整数替换](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/integerReplacement/title.md)
 
+* [最长和谐子序列](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/longestHarmoniousSubsequence/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -997,3 +999,5 @@ Gitee：
 * [二叉树的坡度](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/binaryTreeTilt/title.md)
 
 * [整数替换](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/integerReplacement/title.md)
+
+* [最长和谐子序列](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/longestHarmoniousSubsequence/title.md)
