@@ -21,7 +21,7 @@ public class Main {
     }
 
     private static int getMoneyAmount(int n) {
-        // 动态规划
+        // 动态规划法，待理解原理
 
         int[][] f = new int[n + 1][n + 1];
 

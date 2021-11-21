@@ -69,7 +69,7 @@ https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii
 class Solution {
 
     public int getMoneyAmount(int n) {
-        // 动态规划
+        // 动态规划法，待理解原理
         
         int[][] f = new int[n + 1][n + 1];
 
