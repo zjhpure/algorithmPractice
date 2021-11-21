@@ -502,6 +502,8 @@ GitHub：
 
 * [最长和谐子序列](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/longestHarmoniousSubsequence/title.md)
 
+* [N叉树的最大深度](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/maximumDepthOfNAryTree/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -1001,3 +1003,5 @@ Gitee：
 * [整数替换](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/integerReplacement/title.md)
 
 * [最长和谐子序列](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/longestHarmoniousSubsequence/title.md)
+
+* [N叉树的最大深度](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/maximumDepthOfNAryTree/title.md)
