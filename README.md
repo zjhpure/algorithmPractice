@@ -508,6 +508,8 @@ GitHub：
 
 * [打乱数组](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/shuffleAnArray/title.md)
 
+* [亲密字符串](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/buddyStrings/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -1013,3 +1015,5 @@ Gitee：
 * [接雨水II](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/trappingRainWater2/title.md)
 
 * [打乱数组](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/shuffleAnArray/title.md)
+
+* [亲密字符串](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/buddyStrings/title.md)
