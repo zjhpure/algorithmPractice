@@ -512,6 +512,8 @@ GitHub：
 
 * [从英文中重建数字](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/reconstructOriginalDigitsFromEnglish/title.md)
 
+* [可怜的小猪](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/poorPigs/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -1021,3 +1023,5 @@ Gitee：
 * [亲密字符串](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/buddyStrings/title.md)
 
 * [从英文中重建数字](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/reconstructOriginalDigitsFromEnglish/title.md)
+
+* [可怜的小猪](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/poorPigs/title.md)
