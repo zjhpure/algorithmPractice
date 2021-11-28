@@ -518,6 +518,8 @@ GitHub：
 
 * [随机翻转矩阵](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/randomFlipMatrix/title.md)
 
+* [找到字符串中所有字母异位词](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/findAllAnagramsInAString/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -1033,3 +1035,5 @@ Gitee：
 * [二叉搜索树中的搜索](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/searchInABinarySearchTree/title.md)
 
 * [随机翻转矩阵](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/randomFlipMatrix/title.md)
+
+* [找到字符串中所有字母异位词](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/findAllAnagramsInAString/title.md)
