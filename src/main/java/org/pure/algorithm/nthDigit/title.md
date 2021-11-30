@@ -4,7 +4,7 @@
 
 ## 题目地址(第N位数字)
 
-https://leetcode-cn.com/problems/nth-digi
+https://leetcode-cn.com/problems/nth-digit
 
 ## 题目描述
 
