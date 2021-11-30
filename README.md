@@ -522,6 +522,8 @@ GitHub：
 
 * [第K个最小的素数分数](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/kThSmallestPrimeFraction/title.md)
 
+* [第N位数字](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/nthDigit/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -1041,4 +1043,6 @@ Gitee：
 * [找到字符串中所有字母异位词](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/findAllAnagramsInAString/title.md)
 
 * [第K个最小的素数分数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/kThSmallestPrimeFraction/title.md)
+
+* [第N位数字](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/nthDigit/title.md)
 
