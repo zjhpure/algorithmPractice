@@ -524,6 +524,8 @@ GitHub：
 
 * [第N位数字](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/nthDigit/title.md)
 
+* [相对名次](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/relativeRanks/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -1045,4 +1047,6 @@ Gitee：
 * [第K个最小的素数分数](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/kThSmallestPrimeFraction/title.md)
 
 * [第N位数字](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/nthDigit/title.md)
+
+* [相对名次](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/relativeRanks/title.md)
 
