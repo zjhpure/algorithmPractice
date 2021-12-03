@@ -526,6 +526,8 @@ GitHub：
 
 * [相对名次](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/relativeRanks/title.md)
 
+* [K次取反后最大化的数组和](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/maximizeSumOfArrayAfterKNegations/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -1049,4 +1051,6 @@ Gitee：
 * [第N位数字](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/nthDigit/title.md)
 
 * [相对名次](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/relativeRanks/title.md)
+
+* [K次取反后最大化的数组和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/maximizeSumOfArrayAfterKNegations/title.md)
 
