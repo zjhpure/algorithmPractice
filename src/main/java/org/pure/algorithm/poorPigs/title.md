@@ -49,7 +49,7 @@ https://leetcode-cn.com/problems/poor-pigs
 class Solution {
 
     public int poorPigs(int buckets, int minutesToDie, int minutesToTest) {
-        // 数学法
+        // 数学法，待理解原理
 
         int states = minutesToTest / minutesToDie + 1;
 
