@@ -534,6 +534,8 @@ GitHub：
 
 * [截断句子](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/truncateSentence/title.md)
 
+* [边界着色](https://github.com/zjhpure/algorithmPractice/tree/master/src/main/java/org/pure/algorithm/coloringABorder/title.md)
+
 Gitee：
 
 * [两数之和](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/twoSum/title.md)
@@ -1065,4 +1067,6 @@ Gitee：
 * [超级次方](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/superPow/title.md)
 
 * [截断句子](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/truncateSentence/title.md)
+
+* [边界着色](https://gitee.com/zjhpure/algorithm-practice/tree/master/src/main/java/org/pure/algorithm/coloringABorder/title.md)
 
