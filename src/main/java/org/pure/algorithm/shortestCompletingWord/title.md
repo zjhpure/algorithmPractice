@@ -49,7 +49,7 @@ https://leetcode-cn.com/problems/shortest-completing-word
 输入：licensePlate = "OgEu755", words = ["enough","these","play","wide","wonder","box","arrive","money","tax","thus"]
 输出："enough"
 
-示例 5：
+示例5：
 
 输入：licensePlate = "iMSlpe4", words = ["claim","consumer","student","camera","public","never","wonder","simple","thought","use"]
 输出："simple"
